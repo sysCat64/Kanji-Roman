@@ -68,7 +68,7 @@ class RadicalFilterTest(unittest.TestCase):
         jis_items = [
             {"char": "鰆", "jis": {"kuten": "82-54"}},
             {"char": "漁", "jis": {"kuten": "21-89"}},
-            {"char": chr(0x9BAD), "jis": {"kuten": "82-40"}},
+            {"char": chr(0x9BAD), "jis": {"kuten": "26-90"}},
             {"char": "木", "jis": {"kuten": "44-58"}},
         ]
         records = parse_krsunicode_text(SAMPLE_KRSUNICODE)
