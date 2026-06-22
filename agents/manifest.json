@@ -1,0 +1,58 @@
+{
+  "project": "Kanji-Roman",
+  "version": "0.1",
+  "sourcePlans": [
+    "docs/PLAN.md",
+    "tools/json-generator/docs/PLAN.md",
+    "docs/radical-kanji-json-tool-design.md"
+  ],
+  "agents": [
+    {
+      "id": "project-lead",
+      "file": "agents/project-lead.md",
+      "purpose": "Keep JSON generation, static site, and curation work scoped and sequenced."
+    },
+    {
+      "id": "json-generator-engineer",
+      "file": "agents/json-generator-engineer.md",
+      "purpose": "Design and implement deterministic radical JSON generation."
+    },
+    {
+      "id": "static-site-engineer",
+      "file": "agents/static-site-engineer.md",
+      "purpose": "Move the UI toward static HTML plus external JSON."
+    },
+    {
+      "id": "curation-editor",
+      "file": "agents/curation-editor.md",
+      "purpose": "Review readings, meanings, tags, notes, and status fields."
+    }
+  ],
+  "subagents": [
+    {
+      "id": "json-schema-reviewer",
+      "file": "subagents/json-schema-reviewer.md"
+    },
+    {
+      "id": "static-site-compat-reviewer",
+      "file": "subagents/static-site-compat-reviewer.md"
+    },
+    {
+      "id": "kanji-curation-reviewer",
+      "file": "subagents/kanji-curation-reviewer.md"
+    },
+    {
+      "id": "license-source-reviewer",
+      "file": "subagents/license-source-reviewer.md"
+    }
+  ],
+  "hooks": {
+    "preflight": "hooks/preflight.sh",
+    "validation": "hooks/validate-project.sh"
+  },
+  "skill": "skills/kanji-roman-data-development/SKILL.md",
+  "mcp": [
+    "mcp/kanji-roman-tools.json",
+    "mcp/local-filesystem.template.json"
+  ]
+}

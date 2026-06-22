@@ -1,0 +1,28 @@
+{
+  "name": "kanji-roman-tools",
+  "version": "0.1",
+  "description": "Project-local MCP tool catalog for Kanji-Roman development.",
+  "tools": [
+    {
+      "name": "validate_project",
+      "description": "Run local JSON, static path, and placeholder validation.",
+      "command": "hooks/validate-project.sh"
+    },
+    {
+      "name": "preflight",
+      "description": "Run validation and print the manual HTTP browser check.",
+      "command": "hooks/preflight.sh"
+    },
+    {
+      "name": "serve_static_site",
+      "description": "Serve the current directory for manual UI verification.",
+      "command": "python3 -m http.server 8000"
+    }
+  ],
+  "notes": [
+    "This catalog is intentionally local and does not start network services by itself.",
+    "Use data/... relative paths for public JSON compatibility.",
+    "Do not wire external datasets into an MCP server until source licenses are reviewed."
+  ]
+}
+

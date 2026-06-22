@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "kanji-roman-filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "."
+      ],
+      "description": "Template only: project-scoped filesystem access for agents that support MCP."
+    }
+  },
+  "usage": {
+    "status": "template",
+    "note": "Copy into the MCP client configuration only after confirming npx/network behavior and desired access scope."
+  }
+}

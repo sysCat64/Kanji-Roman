@@ -1,0 +1,28 @@
+{
+  "project": "Kanji-Roman",
+  "hooks": [
+    {
+      "id": "preflight",
+      "command": "hooks/preflight.sh",
+      "when": "before handoff or PR",
+      "checks": [
+        "JSON parses",
+        "site-index file references",
+        "relative public JSON paths",
+        "placeholder markers"
+      ]
+    },
+    {
+      "id": "validate-project",
+      "command": "hooks/validate-project.sh",
+      "when": "after JSON, docs, or static-site contract changes",
+      "checks": [
+        "required site index keys",
+        "duplicate radical ids",
+        "duplicate radical item chars",
+        "forbidden All source tag"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>漢字浪漫 - 魚へん一覧</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Kaisei+Tokumin:wght@400;500;700;800&family=Noto+Serif+JP:wght@400;500;700&display=swap" rel="stylesheet">
+        <style>
+            :root {
+                color-scheme: light;
+                --paper: #f3e9d7;
+                --paper-deep: #e6d7bb;
+                --surface: #fbf6ea;
+                --surface-soft: #f7efdf;
+                --surface-lift: #fffaf0;
+                --ink: #2b2520;
+                --muted: #7b6a58;
+                --line: #d8c7a9;
+                --line-deep: #bda982;
+                --indigo: #314f5a;
+                --benigara: #8e4b3f;
+                --old-gold: #b79855;
+                --fish: #5f8f98;
+                --grass: #748a5d;
+                --tree: #6f7752;
+                --thread: #846a7a;
+                --active-accent: #5f8f98;
+                --active-accent-rgb: 95, 143, 152;
+                --sidebar-bg: rgba(247, 239, 223, 0.72);
+                --panel-bg: rgba(251, 246, 234, 0.84);
+                --panel-bg-soft: rgba(251, 246, 234, 0.7);
+                --empty-bg: rgba(251, 246, 234, 0.68);
+                --grid-vertical: rgba(43, 37, 32, 0.024);
+                --grid-horizontal: rgba(255, 255, 255, 0.22);
+                --ornament-line: rgba(183, 152, 85, 0.18);
+                --divider-soft: rgba(216, 199, 169, 0.82);
+                --shadow: rgba(57, 45, 33, 0.13);
+                --shadow-soft: rgba(57, 45, 33, 0.09);
+                --tab-shadow: rgba(57, 45, 33, 0.11);
+                --slip-shadow: rgba(57, 45, 33, 0.14);
+                --detail-shadow: rgba(57, 45, 33, 0.12);
+                --drawer-shadow: rgba(43, 37, 32, 0.22);
+                --focus: rgba(49, 79, 90, 0.3);
+                --motion-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+                --motion-paper: cubic-bezier(0.18, 0.72, 0.2, 1);
+                --font-brand: "Kaisei Decol", "Yu Mincho", "Hiragino Mincho ProN", serif;
+                --font-kanji: "Kaisei Tokumin", "Yu Mincho", "Hiragino Mincho ProN", serif;
+                --font-body: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
+                --font-latin: Georgia, "Times New Roman", serif;
+            }
+
+            :root[data-theme="dark"] {
+                color-scheme: dark;
+                --paper: #211b16;
+                --paper-deep: #17120e;
+                --surface: #2b241d;
+                --surface-soft: #342b22;
+                --surface-lift: #3a2f25;
+                --ink: #f0e4cf;
+                --muted: #b8a58c;
+                --line: #5c4b38;
+                --line-deep: #8a704d;
+                --indigo: #86a8ad;
+                --benigara: #c47765;
+                --old-gold: #d1b36e;
+                --fish: #86b1b8;
+                --grass: #9daa7a;
+                --tree: #969b68;
+                --thread: #b290a4;
+                --active-accent: #86b1b8;
+                --active-accent-rgb: 134, 177, 184;
+                --sidebar-bg: rgba(23, 18, 14, 0.62);
+                --panel-bg: rgba(43, 36, 29, 0.86);
+                --panel-bg-soft: rgba(52, 43, 34, 0.72);
+                --empty-bg: rgba(52, 43, 34, 0.62);
+                --grid-vertical: rgba(240, 228, 207, 0.035);
+                --grid-horizontal: rgba(255, 255, 255, 0.035);
+                --ornament-line: rgba(209, 179, 110, 0.2);
+                --divider-soft: rgba(92, 75, 56, 0.82);
+                --shadow: rgba(0, 0, 0, 0.34);
+                --shadow-soft: rgba(0, 0, 0, 0.24);
+                --tab-shadow: rgba(0, 0, 0, 0.28);
+                --slip-shadow: rgba(0, 0, 0, 0.28);
+                --detail-shadow: rgba(0, 0, 0, 0.34);
+                --drawer-shadow: rgba(0, 0, 0, 0.42);
+                --focus: rgba(134, 177, 184, 0.34);
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                margin: 0;
+                min-height: 100vh;
+                color: var(--ink);
+                font-family: var(--font-body);
+                background-color: var(--paper);
+                background-image:
+                    repeating-linear-gradient(
+                        90deg,
+                        var(--grid-vertical) 0,
+                        var(--grid-vertical) 1px,
+                        transparent 1px,
+                        transparent 18px
+                    ),
+                    repeating-linear-gradient(
+                        0deg,
+                        var(--grid-horizontal) 0,
+                        var(--grid-horizontal) 1px,
+                        transparent 1px,
+                        transparent 32px
+                    );
+                transition: background-color 220ms var(--motion-ease), color 220ms var(--motion-ease);
+            }
+
+            button,
+            input {
+                font: inherit;
+            }
+
+            button {
+                cursor: pointer;
+            }
+
+            button:focus-visible,
+            input:focus-visible,
+            .kanji-card:focus-visible {
+                outline: 3px solid var(--focus);
+                outline-offset: 3px;
+            }
+
+            .app-shell {
+                display: grid;
+                grid-template-columns: 220px minmax(0, 1fr) 360px;
+                min-height: 100vh;
+            }
+
+            .sidebar {
+                border-right: 1px solid var(--line);
+                background: var(--sidebar-bg);
+                padding: 28px 20px;
+            }
+
+            .brand {
+                border-bottom: 3px double var(--line-deep);
+                padding-bottom: 22px;
+            }
+
+            .brand h1 {
+                margin: 0;
+                color: var(--ink);
+                font-family: var(--font-brand);
+                font-size: 3.1rem;
+                font-weight: 700;
+                line-height: 1;
+                letter-spacing: 0;
+            }
+
+            .brand-line {
+                display: block;
+            }
+
+            .brand p {
+                margin: 8px 0 0;
+                color: var(--muted);
+                font-family: var(--font-latin);
+                font-size: 0.84rem;
+                line-height: 1.5;
+            }
+
+            .theme-toggle {
+                width: 100%;
+                min-height: 38px;
+                border: 1px solid var(--line);
+                border-radius: 8px;
+                background: var(--surface);
+                color: var(--indigo);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 12px;
+                margin-top: 18px;
+                padding: 8px 10px;
+                text-align: left;
+                transition: border-color 180ms var(--motion-ease), box-shadow 180ms var(--motion-ease), transform 180ms var(--motion-ease), background 180ms var(--motion-ease), color 180ms var(--motion-ease);
+            }
+
+            .theme-toggle:hover {
+                border-color: var(--indigo);
+                background: var(--surface-lift);
+                box-shadow: 0 8px 18px var(--tab-shadow);
+                transform: translateY(-1px);
+            }
+
+            .theme-toggle-label {
+                color: var(--ink);
+                font-size: 0.82rem;
+                font-weight: 700;
+            }
+
+            .theme-toggle svg {
+                width: 18px;
+                height: 18px;
+                flex: 0 0 auto;
+            }
+
+            .theme-toggle .sun-icon {
+                display: none;
+            }
+
+            :root[data-theme="dark"] .theme-toggle .moon-icon {
+                display: none;
+            }
+
+            :root[data-theme="dark"] .theme-toggle .sun-icon {
+                display: block;
+            }
+
+            .radical-nav {
+                display: grid;
+                gap: 10px;
+                margin-top: 26px;
+            }
+
+            .radical-tab {
+                --accent: var(--fish);
+                width: 100%;
+                border: 1px solid var(--line);
+                border-left: 5px solid var(--accent);
+                border-radius: 8px;
+                background: var(--surface);
+                color: var(--ink);
+                display: grid;
+                grid-template-columns: auto 1fr;
+                gap: 10px;
+                align-items: center;
+                padding: 10px;
+                text-align: left;
+                transition: border-color 180ms var(--motion-ease), box-shadow 180ms var(--motion-ease), transform 180ms var(--motion-ease), background 180ms var(--motion-ease);
+            }
+
+            .radical-tab:hover,
+            .radical-tab[aria-pressed="true"] {
+                border-color: var(--accent);
+                box-shadow: 0 8px 18px var(--tab-shadow);
+                transform: translateY(-1px);
+            }
+
+            .radical-tab[aria-pressed="true"] {
+                background: var(--surface-lift);
+            }
+
+            .radical-glyph {
+                color: var(--accent);
+                font-family: var(--font-kanji);
+                font-size: 2.1rem;
+                line-height: 1;
+            }
+
+            .radical-name {
+                display: block;
+                font-size: 0.86rem;
+                font-weight: 700;
+                line-height: 1.25;
+            }
+
+            .radical-en {
+                display: block;
+                margin-top: 2px;
+                color: var(--muted);
+                font-family: var(--font-latin);
+                font-size: 0.74rem;
+            }
+
+            .main {
+                min-width: 0;
+                padding: 30px 28px 34px;
+            }
+
+            .collection-head {
+                display: grid;
+                grid-template-columns: auto minmax(0, 1fr);
+                gap: 20px;
+                align-items: end;
+                border-bottom: 3px double var(--line-deep);
+                padding-bottom: 22px;
+            }
+
+            .parent-radical {
+                color: var(--active-accent);
+                font-family: var(--font-kanji);
+                font-size: 7.2rem;
+                line-height: 0.88;
+            }
+
+            .collection-title h2 {
+                margin: 0;
+                color: var(--ink);
+                font-family: var(--font-latin);
+                font-size: 2rem;
+                font-weight: 700;
+                letter-spacing: 0;
+            }
+
+            .collection-title p {
+                max-width: 680px;
+                margin: 8px 0 0;
+                color: var(--muted);
+                font-size: 0.96rem;
+                line-height: 1.7;
+            }
+
+            .toolbar {
+                display: grid;
+                grid-template-columns: minmax(240px, 1fr) auto;
+                gap: 14px;
+                align-items: start;
+                margin: 22px 0 20px;
+            }
+
+            .search-field {
+                position: relative;
+            }
+
+            .search-field svg {
+                position: absolute;
+                top: 50%;
+                left: 14px;
+                width: 18px;
+                height: 18px;
+                color: var(--indigo);
+                transform: translateY(-50%);
+                pointer-events: none;
+            }
+
+            .search-field input {
+                width: 100%;
+                height: 44px;
+                border: 1px solid var(--line-deep);
+                border-radius: 8px;
+                background: var(--surface-lift);
+                color: var(--ink);
+                font-size: 0.95rem;
+                padding: 0 16px 0 42px;
+                box-shadow: inset 0 0 0 1px rgba(var(--active-accent-rgb), 0.12);
+            }
+
+            .result-count {
+                min-height: 44px;
+                border: 1px solid var(--line);
+                border-radius: 8px;
+                background: var(--panel-bg-soft);
+                color: var(--muted);
+                display: grid;
+                align-items: center;
+                padding: 0 14px;
+                font-family: var(--font-latin);
+                font-size: 0.88rem;
+                white-space: nowrap;
+            }
+
+            .tag-row {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+                margin-bottom: 22px;
+            }
+
+            .tag-button {
+                border: 1px solid var(--line-deep);
+                border-radius: 6px;
+                background: transparent;
+                color: var(--indigo);
+                display: inline-flex;
+                align-items: center;
+                min-height: 34px;
+                padding: 6px 11px;
+                font-size: 0.82rem;
+                transition: background 160ms var(--motion-ease), border-color 160ms var(--motion-ease), color 160ms var(--motion-ease);
+            }
+
+            .tag-button:hover,
+            .tag-button[aria-pressed="true"] {
+                border-color: var(--indigo);
+                background: var(--indigo);
+                color: var(--surface);
+            }
+
+            .kanji-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 14px;
+            }
+
+            .kanji-card {
+                position: relative;
+                min-height: 192px;
+                border: 1px solid var(--line);
+                border-radius: 8px;
+                background: var(--surface);
+                color: var(--ink);
+                display: grid;
+                align-content: center;
+                justify-items: center;
+                gap: 8px;
+                overflow: hidden;
+                padding: 18px 12px;
+                text-align: center;
+                will-change: transform;
+                transition: border-color 220ms var(--motion-paper), box-shadow 220ms var(--motion-paper), transform 220ms var(--motion-paper), background 220ms var(--motion-paper);
+            }
+
+            .kanji-card::before,
+            .kanji-card::after {
+                content: "";
+                position: absolute;
+                pointer-events: none;
+                border-radius: 5px;
+            }
+
+            .kanji-card::before {
+                inset: 6px;
+                border: 1px solid rgba(var(--active-accent-rgb), 0.3);
+            }
+
+            .kanji-card::after {
+                inset: 10px;
+                border: 1px solid var(--ornament-line);
+            }
+
+            .kanji-card:hover,
+            .kanji-card[aria-pressed="true"] {
+                border-color: var(--active-accent);
+                background: var(--surface-lift);
+                box-shadow: 0 14px 24px var(--shadow);
+                transform: translateY(-3px) rotate(-0.18deg);
+            }
+
+            .kanji-card[aria-pressed="true"] {
+                box-shadow: 0 0 0 2px rgba(var(--active-accent-rgb), 0.22), 0 16px 26px var(--shadow);
+                transform: translateY(-3px) rotate(0.12deg);
+            }
+
+            .kanji-char {
+                color: var(--ink);
+                font-family: var(--font-kanji);
+                font-size: 4.25rem;
+                font-weight: 700;
+                line-height: 1;
+            }
+
+            .kanji-reading {
+                color: var(--active-accent);
+                font-family: var(--font-latin);
+                font-size: 0.92rem;
+                font-style: italic;
+            }
+
+            .kanji-meaning {
+                color: var(--muted);
+                font-size: 0.74rem;
+                line-height: 1.45;
+                min-height: 2.1em;
+                max-width: 118px;
+            }
+
+            .hover-slip {
+                position: absolute;
+                inset-inline: 8px;
+                bottom: 8px;
+                border: 1px solid var(--line-deep);
+                border-radius: 6px;
+                background: var(--surface-lift);
+                padding: 10px;
+                box-shadow: 0 8px 16px var(--slip-shadow);
+                opacity: 0;
+                transform: translateY(calc(100% + 12px)) rotate(0.25deg);
+                transition: opacity 180ms var(--motion-paper), transform 220ms var(--motion-paper);
+            }
+
+            .kanji-card:hover .hover-slip,
+            .kanji-card:focus-visible .hover-slip {
+                opacity: 1;
+                transform: translateY(0) rotate(0deg);
+            }
+
+            .hover-slip strong {
+                display: block;
+                color: var(--benigara);
+                font-family: var(--font-latin);
+                font-size: 0.84rem;
+                line-height: 1.25;
+            }
+
+            .hover-slip span {
+                display: block;
+                margin-top: 4px;
+                color: var(--muted);
+                font-size: 0.68rem;
+                line-height: 1.35;
+            }
+
+            .empty-state {
+                border: 1px solid var(--line);
+                border-radius: 8px;
+                background: var(--empty-bg);
+                color: var(--muted);
+                padding: 22px;
+                line-height: 1.7;
+            }
+
+            .detail {
+                border-left: 1px solid var(--line);
+                background: var(--panel-bg);
+                min-width: 0;
+                padding: 28px 22px;
+            }
+
+            .detail-card {
+                position: sticky;
+                top: 24px;
+                border: 1px solid var(--line);
+                border-radius: 8px;
+                background: var(--surface);
+                box-shadow: 0 14px 28px var(--detail-shadow);
+                overflow: hidden;
+                transform-origin: 50% 24px;
+            }
+
+            .detail-card.is-refreshing {
+                animation: detail-paper-refresh 280ms var(--motion-paper);
+            }
+
+            @keyframes detail-paper-refresh {
+                0% {
+                    opacity: 0.62;
+                    transform: translateY(7px) rotate(-0.24deg);
+                    box-shadow: 0 8px 18px var(--shadow-soft);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translateY(0) rotate(0deg);
+                    box-shadow: 0 14px 28px var(--detail-shadow);
+                }
+            }
+
+            .detail-card::before {
+                content: "";
+                position: absolute;
+                inset: 7px;
+                border: 1px solid rgba(var(--active-accent-rgb), 0.26);
+                border-radius: 5px;
+                pointer-events: none;
+            }
+
+            .detail-top {
+                display: grid;
+                grid-template-columns: auto minmax(0, 1fr);
+                gap: 16px;
+                align-items: center;
+                border-bottom: 3px double var(--line);
+                padding: 24px 22px 18px;
+            }
+
+            .detail-char {
+                color: var(--active-accent);
+                font-family: var(--font-kanji);
+                font-size: 5.8rem;
+                font-weight: 700;
+                line-height: 0.9;
+            }
+
+            .detail-name h3 {
+                margin: 0;
+                color: var(--ink);
+                font-family: var(--font-latin);
+                font-size: 1.5rem;
+                letter-spacing: 0;
+            }
+
+            .detail-name p {
+                margin: 6px 0 0;
+                color: var(--muted);
+                font-size: 0.9rem;
+                line-height: 1.5;
+            }
+
+            .detail-body {
+                display: grid;
+                gap: 18px;
+                padding: 20px 22px 24px;
+            }
+
+            .detail-note {
+                margin: 0;
+                color: var(--ink);
+                font-size: 0.92rem;
+                line-height: 1.75;
+            }
+
+            .meta-list {
+                display: grid;
+                gap: 9px;
+                margin: 0;
+            }
+
+            .meta-row {
+                display: grid;
+                grid-template-columns: 92px minmax(0, 1fr);
+                gap: 12px;
+                border-bottom: 1px solid var(--divider-soft);
+                padding-bottom: 9px;
+                font-size: 0.86rem;
+            }
+
+            .meta-row dt {
+                color: var(--indigo);
+                font-family: var(--font-latin);
+                font-weight: 700;
+            }
+
+            .meta-row dd {
+                margin: 0;
+                color: var(--ink);
+                line-height: 1.45;
+            }
+
+            .tag-cloud {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 7px;
+            }
+
+            .tag-chip {
+                border: 1px solid rgba(var(--active-accent-rgb), 0.35);
+                border-radius: 6px;
+                background: rgba(var(--active-accent-rgb), 0.08);
+                color: var(--indigo);
+                padding: 5px 8px;
+                font-size: 0.74rem;
+            }
+
+            .drawer-close {
+                display: none;
+                width: 34px;
+                height: 34px;
+                border: 1px solid var(--line-deep);
+                border-radius: 6px;
+                background: transparent;
+                color: var(--indigo);
+                place-items: center;
+            }
+
+            .drawer-close svg {
+                width: 18px;
+                height: 18px;
+            }
+
+            @media (max-width: 1180px) {
+                .app-shell {
+                    grid-template-columns: 190px minmax(0, 1fr) 320px;
+                }
+
+                .main {
+                    padding-inline: 22px;
+                }
+            }
+
+            @media (max-width: 980px) {
+                .app-shell {
+                    display: block;
+                }
+
+                .sidebar {
+                    border-right: 0;
+                    border-bottom: 1px solid var(--line);
+                    padding: 20px;
+                }
+
+                .brand {
+                    display: flex;
+                    align-items: end;
+                    justify-content: space-between;
+                    gap: 18px;
+                }
+
+                .brand h1 {
+                    font-size: 2.8rem;
+                }
+
+                .brand-line {
+                    display: inline;
+                }
+
+                .brand p {
+                    max-width: 360px;
+                    text-align: right;
+                }
+
+                .radical-nav {
+                    grid-template-columns: repeat(4, minmax(0, 1fr));
+                    margin-top: 16px;
+                }
+
+                .detail {
+                    position: fixed;
+                    z-index: 20;
+                    inset: auto 16px 16px;
+                    max-height: 78vh;
+                    border: 1px solid var(--line-deep);
+                    border-radius: 8px;
+                    padding: 0;
+                    overflow: auto;
+                    box-shadow: 0 18px 40px var(--drawer-shadow);
+                    transform: translateY(calc(100% + 32px));
+                    transition: transform 220ms var(--motion-paper);
+                }
+
+                .detail.is-open {
+                    transform: translateY(0);
+                }
+
+                .detail-card {
+                    position: relative;
+                    top: 0;
+                    border: 0;
+                    border-radius: 8px;
+                    box-shadow: none;
+                }
+
+                .detail-top {
+                    grid-template-columns: auto minmax(0, 1fr) auto;
+                }
+
+                .drawer-close {
+                    display: grid;
+                }
+            }
+
+            @media (max-width: 700px) {
+                .main {
+                    padding: 24px 16px 120px;
+                }
+
+                .brand {
+                    display: grid;
+                    align-items: start;
+                }
+
+                .brand p {
+                    text-align: left;
+                }
+
+                .radical-nav {
+                    grid-template-columns: repeat(2, minmax(0, 1fr));
+                }
+
+                .collection-head {
+                    grid-template-columns: 1fr;
+                    gap: 8px;
+                }
+
+                .parent-radical {
+                    font-size: 5.5rem;
+                }
+
+                .collection-title h2 {
+                    font-size: 1.58rem;
+                }
+
+                .toolbar {
+                    grid-template-columns: 1fr;
+                }
+
+                .result-count {
+                    white-space: normal;
+                }
+
+                .kanji-grid {
+                    grid-template-columns: repeat(2, minmax(0, 1fr));
+                }
+
+                .detail-char {
+                    font-size: 4.8rem;
+                }
+
+                .meta-row {
+                    grid-template-columns: 82px minmax(0, 1fr);
+                }
+            }
+
+            @media (max-width: 430px) {
+                .radical-nav,
+                .kanji-grid {
+                    grid-template-columns: 1fr;
+                }
+
+                .kanji-card {
+                    min-height: 176px;
+                }
+
+                .detail-top {
+                    grid-template-columns: auto minmax(0, 1fr);
+                }
+
+                .drawer-close {
+                    grid-column: 1 / -1;
+                    justify-self: end;
+                }
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                *,
+                *::before,
+                *::after {
+                    scroll-behavior: auto !important;
+                    transition-duration: 0.01ms !important;
+                    animation-duration: 0.01ms !important;
+                    animation-iteration-count: 1 !important;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="app-shell">
+            <aside class="sidebar">
+                <div class="brand">
+                    <div>
+                        <h1><span class="brand-line">漢字</span><span class="brand-line">浪漫</span></h1>
+                        <p>Taisho Naturalist Field Guide</p>
+                    </div>
+                    <p>Radicals, readings, components, and small cultural notes.</p>
+                </div>
+
+                <button class="theme-toggle" type="button" id="themeToggle" aria-pressed="false" aria-label="Switch to dark theme">
+                    <span class="theme-toggle-label" id="themeToggleLabel">Dark</span>
+                    <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M20 15.2A7.8 7.8 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                    </svg>
+                    <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                        <path d="M12 2.8v2.1M12 19.1v2.1M4.9 4.9l1.5 1.5M17.6 17.6l1.5 1.5M2.8 12h2.1M19.1 12h2.1M4.9 19.1l1.5-1.5M17.6 6.4l1.5-1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                    </svg>
+                </button>
+
+                <nav class="radical-nav" aria-label="Radicals">
+                    <button class="radical-tab" type="button" data-radical="fish" aria-pressed="true" style="--accent: var(--fish);">
+                        <span class="radical-glyph">魚</span>
+                        <span><span class="radical-name">魚へん</span><span class="radical-en">Fish</span></span>
+                    </button>
+                    <button class="radical-tab" type="button" data-radical="grass" aria-pressed="false" style="--accent: var(--grass);">
+                        <span class="radical-glyph">艹</span>
+                        <span><span class="radical-name">草かんむり</span><span class="radical-en">Grass</span></span>
+                    </button>
+                    <button class="radical-tab" type="button" data-radical="tree" aria-pressed="false" style="--accent: var(--tree);">
+                        <span class="radical-glyph">木</span>
+                        <span><span class="radical-name">木へん</span><span class="radical-en">Tree</span></span>
+                    </button>
+                    <button class="radical-tab" type="button" data-radical="thread" aria-pressed="false" style="--accent: var(--thread);">
+                        <span class="radical-glyph">糸</span>
+                        <span><span class="radical-name">糸へん</span><span class="radical-en">Thread</span></span>
+                    </button>
+                </nav>
+            </aside>
+
+            <main class="main">
+                <header class="collection-head">
+                    <div class="parent-radical" id="radicalGlyph">魚</div>
+                    <div class="collection-title">
+                        <h2 id="collectionTitle">Fish Radical Collection</h2>
+                        <p id="collectionCopy">Kanji shaped by sea, seasons, food culture, and old naming habits.</p>
+                    </div>
+                </header>
+
+                <section class="toolbar" aria-label="Search and result summary">
+                    <label class="search-field">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="m20 20-4.8-4.8m2.1-5.2a7.3 7.3 0 1 1-14.6 0 7.3 7.3 0 0 1 14.6 0Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                        </svg>
+                        <input id="searchInput" type="search" autocomplete="off" placeholder="Kanji, reading, meaning">
+                    </label>
+                    <div class="result-count" id="resultCount" aria-live="polite">8 entries</div>
+                </section>
+
+                <section class="tag-row" aria-label="Tags" id="tagRow"></section>
+                <section class="kanji-grid" aria-label="Kanji list" id="kanjiGrid"></section>
+            </main>
+
+            <aside class="detail is-open" id="detailPanel" aria-label="Selected kanji detail">
+                <article class="detail-card">
+                    <div class="detail-top">
+                        <div class="detail-char" id="detailChar">鰆</div>
+                        <div class="detail-name">
+                            <h3 id="detailName">Sawara</h3>
+                            <p id="detailMeaning">Japanese Spanish mackerel</p>
+                        </div>
+                        <button class="drawer-close" type="button" id="closeDetail" aria-label="Close detail">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="detail-body">
+                        <p class="detail-note" id="detailNote">In Japan, sawara is often associated with spring and seasonal cooking.</p>
+                        <dl class="meta-list">
+                            <div class="meta-row">
+                                <dt>Reading</dt>
+                                <dd id="detailReading">さわら / サワラ / sawara</dd>
+                            </div>
+                            <div class="meta-row">
+                                <dt>Unicode</dt>
+                                <dd id="detailUnicode">U+9C06</dd>
+                            </div>
+                            <div class="meta-row">
+                                <dt>Parts</dt>
+                                <dd id="detailParts">魚 + 春 / Fish + Spring</dd>
+                            </div>
+                            <div class="meta-row">
+                                <dt>JIS</dt>
+                                <dd id="detailJis">Level 2 / 82-54</dd>
+                            </div>
+                        </dl>
+                        <div class="tag-cloud" id="detailTags"></div>
+                    </div>
+                </article>
+            </aside>
+        </div>
+
+        <script>
+            const collections = {
+                fish: {
+                    glyph: "魚",
+                    title: "Fish Radical Collection",
+                    copy: "Kanji shaped by sea, seasons, food culture, and old naming habits.",
+                    accent: "#5f8f98",
+                    accentRgb: "95, 143, 152",
+                    darkAccent: "#86b1b8",
+                    darkAccentRgb: "134, 177, 184",
+                    tags: ["All", "Season", "Sushi", "Nature", "Everyday", "Poetic"],
+                    items: [
+                        {
+                            char: "鰆",
+                            name: "Sawara",
+                            meaning: "Japanese Spanish mackerel",
+                            reading: ["さわら", "サワラ", "sawara"],
+                            unicode: "U+9C06",
+                            jis: "Level 2 / 82-54",
+                            partsJa: "魚 + 春",
+                            partsEn: "Fish + Spring",
+                            note: "In Japan, sawara is often associated with spring and seasonal cooking.",
+                            tags: ["Season", "Sushi", "Poetic"]
+                        },
+                        {
+                            char: "鱈",
+                            name: "Tara",
+                            meaning: "codfish",
+                            reading: ["たら", "タラ", "tara"],
+                            unicode: "U+9C48",
+                            jis: "Level 2 / 82-87",
+                            partsJa: "魚 + 雪",
+                            partsEn: "Fish + Snow",
+                            note: "A winter fish name whose written form carries a clean, snowy image.",
+                            tags: ["Season", "Everyday"]
+                        },
+                        {
+                            char: "鰯",
+                            name: "Iwashi",
+                            meaning: "sardine",
+                            reading: ["いわし", "イワシ", "iwashi"],
+                            unicode: "U+9C2F",
+                            jis: "Level 1 / 16-83",
+                            partsJa: "魚 + 弱",
+                            partsEn: "Fish + Weak",
+                            note: "The character hints at a small fish that spoils quickly and bruises easily.",
+                            tags: ["Everyday", "Sushi"]
+                        },
+                        {
+                            char: "鮃",
+                            name: "Hirame",
+                            meaning: "flounder",
+                            reading: ["ひらめ", "ヒラメ", "hirame"],
+                            unicode: "U+9B83",
+                            jis: "Level 2 / 82-39",
+                            partsJa: "魚 + 平",
+                            partsEn: "Fish + Flat",
+                            note: "The right side suggests flatness, matching the shape of the fish.",
+                            tags: ["Sushi", "Nature"]
+                        },
+                        {
+                            char: "鮎",
+                            name: "Ayu",
+                            meaning: "sweetfish",
+                            reading: ["あゆ", "アユ", "ayu"],
+                            unicode: "U+9B8E",
+                            jis: "Level 1 / 16-30",
+                            partsJa: "魚 + 占",
+                            partsEn: "Fish + Divination",
+                            note: "A river fish strongly tied to summer scenes and clear streams in Japan.",
+                            tags: ["Season", "Nature", "Poetic"]
+                        },
+                        {
+                            char: "鯛",
+                            name: "Tai",
+                            meaning: "sea bream",
+                            reading: ["たい", "タイ", "tai"],
+                            unicode: "U+9BDB",
+                            jis: "Level 1 / 34-66",
+                            partsJa: "魚 + 周",
+                            partsEn: "Fish + Around",
+                            note: "Associated with celebration through the sound overlap between tai and medetai.",
+                            tags: ["Sushi", "Poetic"]
+                        },
+                        {
+                            char: "鮪",
+                            name: "Maguro",
+                            meaning: "tuna",
+                            reading: ["まぐろ", "マグロ", "maguro"],
+                            unicode: "U+9BAA",
+                            jis: "Level 1 / 43-78",
+                            partsJa: "魚 + 有",
+                            partsEn: "Fish + Have",
+                            note: "One of the most recognizable fish names for sushi lovers around the world.",
+                            tags: ["Sushi", "Everyday"]
+                        },
+                        {
+                            char: "鱒",
+                            name: "Masu",
+                            meaning: "trout",
+                            reading: ["ます", "マス", "masu"],
+                            unicode: "U+9C52",
+                            jis: "Level 2 / 82-89",
+                            partsJa: "魚 + 尊",
+                            partsEn: "Fish + Revered",
+                            note: "A freshwater fish name with a dignified-looking component on the right.",
+                            tags: ["Nature", "Poetic"]
+                        }
+                    ]
+                },
+                grass: {
+                    glyph: "艹",
+                    title: "Grass Radical Collection",
+                    copy: "Plants, flowers, herbs, and cultivated words gathered under the grass crown.",
+                    accent: "#748a5d",
+                    accentRgb: "116, 138, 93",
+                    darkAccent: "#9daa7a",
+                    darkAccentRgb: "157, 170, 122",
+                    tags: ["All", "Flower", "Plant", "Food", "Poetic"],
+                    items: [
+                        {
+                            char: "菊",
+                            name: "Kiku",
+                            meaning: "chrysanthemum",
+                            reading: ["きく", "キク", "kiku"],
+                            unicode: "U+83CA",
+                            jis: "Level 1 / 21-38",
+                            partsJa: "艹 + 匊",
+                            partsEn: "Grass + Scoop",
+                            note: "A flower associated with autumn and long-standing cultural symbolism.",
+                            tags: ["Flower", "Poetic"]
+                        },
+                        {
+                            char: "茶",
+                            name: "Cha",
+                            meaning: "tea",
+                            reading: ["ちゃ", "チャ", "cha"],
+                            unicode: "U+8336",
+                            jis: "Level 1 / 35-67",
+                            partsJa: "艹 + 余",
+                            partsEn: "Grass + Remainder",
+                            note: "A compact character for tea, everyday life, and quiet ritual.",
+                            tags: ["Food", "Plant"]
+                        },
+                        {
+                            char: "菜",
+                            name: "Na",
+                            meaning: "greens",
+                            reading: ["な", "ナ", "na"],
+                            unicode: "U+83DC",
+                            jis: "Level 1 / 26-58",
+                            partsJa: "艹 + 采",
+                            partsEn: "Grass + Pick",
+                            note: "Often used in words for vegetables and edible greens.",
+                            tags: ["Food", "Plant"]
+                        },
+                        {
+                            char: "藤",
+                            name: "Fuji",
+                            meaning: "wisteria",
+                            reading: ["ふじ", "フジ", "fuji"],
+                            unicode: "U+85E4",
+                            jis: "Level 1 / 38-03",
+                            partsJa: "艹 + 滕",
+                            partsEn: "Grass + Rise",
+                            note: "A trailing flower name with a graceful old-fashioned resonance.",
+                            tags: ["Flower", "Poetic"]
+                        }
+                    ]
+                },
+                tree: {
+                    glyph: "木",
+                    title: "Tree Radical Collection",
+                    copy: "Wood, trees, materials, and landscape words built from the tree radical.",
+                    accent: "#6f7752",
+                    accentRgb: "111, 119, 82",
+                    darkAccent: "#969b68",
+                    darkAccentRgb: "150, 155, 104",
+                    tags: ["All", "Tree", "Material", "Season", "Poetic"],
+                    items: [
+                        {
+                            char: "桜",
+                            name: "Sakura",
+                            meaning: "cherry blossom",
+                            reading: ["さくら", "サクラ", "sakura"],
+                            unicode: "U+685C",
+                            jis: "Level 1 / 26-89",
+                            partsJa: "木 + つくり",
+                            partsEn: "Tree + Phonetic",
+                            note: "A spring flower and one of the most familiar Japanese cultural images.",
+                            tags: ["Tree", "Season", "Poetic"]
+                        },
+                        {
+                            char: "松",
+                            name: "Matsu",
+                            meaning: "pine",
+                            reading: ["まつ", "マツ", "matsu"],
+                            unicode: "U+677E",
+                            jis: "Level 1 / 30-30",
+                            partsJa: "木 + 公",
+                            partsEn: "Tree + Public",
+                            note: "An evergreen tree often linked with endurance and auspicious scenes.",
+                            tags: ["Tree", "Poetic"]
+                        },
+                        {
+                            char: "杉",
+                            name: "Sugi",
+                            meaning: "cedar",
+                            reading: ["すぎ", "スギ", "sugi"],
+                            unicode: "U+6749",
+                            jis: "Level 1 / 31-89",
+                            partsJa: "木 + 彡",
+                            partsEn: "Tree + Lines",
+                            note: "A tall conifer common in Japanese forests and building materials.",
+                            tags: ["Tree", "Material"]
+                        },
+                        {
+                            char: "机",
+                            name: "Tsukue",
+                            meaning: "desk",
+                            reading: ["つくえ", "ツクエ", "tsukue"],
+                            unicode: "U+673A",
+                            jis: "Level 1 / 20-01",
+                            partsJa: "木 + 几",
+                            partsEn: "Wood + Stand",
+                            note: "An everyday object whose character keeps the material visible.",
+                            tags: ["Material"]
+                        }
+                    ]
+                },
+                thread: {
+                    glyph: "糸",
+                    title: "Thread Radical Collection",
+                    copy: "Threads, ties, colors, woven meanings, and delicate abstract words.",
+                    accent: "#846a7a",
+                    accentRgb: "132, 106, 122",
+                    darkAccent: "#b290a4",
+                    darkAccentRgb: "178, 144, 164",
+                    tags: ["All", "Color", "Textile", "Abstract", "Poetic"],
+                    items: [
+                        {
+                            char: "紅",
+                            name: "Kurenai",
+                            meaning: "deep red",
+                            reading: ["くれない", "ベニ", "kurenai"],
+                            unicode: "U+7D05",
+                            jis: "Level 1 / 25-40",
+                            partsJa: "糸 + 工",
+                            partsEn: "Thread + Work",
+                            note: "A red color word that feels older and richer than plain aka.",
+                            tags: ["Color", "Poetic"]
+                        },
+                        {
+                            char: "絹",
+                            name: "Kinu",
+                            meaning: "silk",
+                            reading: ["きぬ", "キヌ", "kinu"],
+                            unicode: "U+7D79",
+                            jis: "Level 1 / 24-08",
+                            partsJa: "糸 + 肙",
+                            partsEn: "Thread + Phonetic",
+                            note: "A material word with a soft texture built directly from thread.",
+                            tags: ["Textile"]
+                        },
+                        {
+                            char: "結",
+                            name: "Musubu",
+                            meaning: "tie, bind",
+                            reading: ["むすぶ", "ユイ", "musubu"],
+                            unicode: "U+7D50",
+                            jis: "Level 1 / 23-75",
+                            partsJa: "糸 + 吉",
+                            partsEn: "Thread + Good Fortune",
+                            note: "A word for tying that also appears in names and relationships.",
+                            tags: ["Abstract", "Poetic"]
+                        },
+                        {
+                            char: "線",
+                            name: "Sen",
+                            meaning: "line",
+                            reading: ["せん", "セン", "sen"],
+                            unicode: "U+7DDA",
+                            jis: "Level 1 / 32-94",
+                            partsJa: "糸 + 泉",
+                            partsEn: "Thread + Spring",
+                            note: "A modern everyday character whose meaning still traces back to thread.",
+                            tags: ["Abstract"]
+                        }
+                    ]
+                }
+            };
+
+            const state = {
+                radical: "fish",
+                tag: "All",
+                search: "",
+                selectedChar: "鰆",
+                theme: getStoredTheme()
+            };
+
+            const root = document.documentElement;
+            const themeToggle = document.getElementById("themeToggle");
+            const themeToggleLabel = document.getElementById("themeToggleLabel");
+            const radicalGlyph = document.getElementById("radicalGlyph");
+            const collectionTitle = document.getElementById("collectionTitle");
+            const collectionCopy = document.getElementById("collectionCopy");
+            const searchInput = document.getElementById("searchInput");
+            const resultCount = document.getElementById("resultCount");
+            const tagRow = document.getElementById("tagRow");
+            const kanjiGrid = document.getElementById("kanjiGrid");
+            const detailPanel = document.getElementById("detailPanel");
+            const detailCard = document.querySelector(".detail-card");
+            const closeDetail = document.getElementById("closeDetail");
+
+            const detailFields = {
+                char: document.getElementById("detailChar"),
+                name: document.getElementById("detailName"),
+                meaning: document.getElementById("detailMeaning"),
+                note: document.getElementById("detailNote"),
+                reading: document.getElementById("detailReading"),
+                unicode: document.getElementById("detailUnicode"),
+                parts: document.getElementById("detailParts"),
+                jis: document.getElementById("detailJis"),
+                tags: document.getElementById("detailTags")
+            };
+
+            function getCollection() {
+                return collections[state.radical];
+            }
+
+            function getStoredTheme() {
+                try {
+                    return localStorage.getItem("kanjiRomanTheme") === "dark" ? "dark" : "light";
+                } catch {
+                    return "light";
+                }
+            }
+
+            function storeTheme() {
+                try {
+                    localStorage.setItem("kanjiRomanTheme", state.theme);
+                } catch {
+                    // The prototype still works when localStorage is unavailable.
+                }
+            }
+
+            function getAccent(collection) {
+                return state.theme === "dark" ? collection.darkAccent : collection.accent;
+            }
+
+            function getAccentRgb(collection) {
+                return state.theme === "dark" ? collection.darkAccentRgb : collection.accentRgb;
+            }
+
+            function applyActiveAccent(collection = getCollection()) {
+                root.style.setProperty("--active-accent", getAccent(collection));
+                root.style.setProperty("--active-accent-rgb", getAccentRgb(collection));
+            }
+
+            function applyTheme() {
+                root.dataset.theme = state.theme;
+                themeToggle.setAttribute("aria-pressed", String(state.theme === "dark"));
+                themeToggle.setAttribute("aria-label", state.theme === "dark" ? "Switch to light theme" : "Switch to dark theme");
+                themeToggleLabel.textContent = state.theme === "dark" ? "Light" : "Dark";
+                applyActiveAccent();
+            }
+
+            function matchesSearch(item) {
+                const query = state.search.trim().toLowerCase();
+                if (!query) return true;
+
+                const haystack = [
+                    item.char,
+                    item.name,
+                    item.meaning,
+                    item.reading.join(" "),
+                    item.partsJa,
+                    item.partsEn,
+                    item.note,
+                    item.tags.join(" ")
+                ].join(" ").toLowerCase();
+
+                return haystack.includes(query);
+            }
+
+            function getFilteredItems() {
+                return getCollection().items.filter((item) => {
+                    const tagMatch = state.tag === "All" || item.tags.includes(state.tag);
+                    return tagMatch && matchesSearch(item);
+                });
+            }
+
+            function setSelected(item) {
+                const changedSelection = state.selectedChar !== item.char;
+                state.selectedChar = item.char;
+                detailFields.char.textContent = item.char;
+                detailFields.name.textContent = item.name;
+                detailFields.meaning.textContent = item.meaning;
+                detailFields.note.textContent = item.note;
+                detailFields.reading.textContent = item.reading.join(" / ");
+                detailFields.unicode.textContent = item.unicode;
+                detailFields.parts.textContent = `${item.partsJa} / ${item.partsEn}`;
+                detailFields.jis.textContent = item.jis;
+                detailFields.tags.replaceChildren(...item.tags.map((tag) => {
+                    const chip = document.createElement("span");
+                    chip.className = "tag-chip";
+                    chip.textContent = tag;
+                    return chip;
+                }));
+
+                detailPanel.classList.add("is-open");
+
+                if (changedSelection) {
+                    detailCard.classList.remove("is-refreshing");
+                    void detailCard.offsetWidth;
+                    detailCard.classList.add("is-refreshing");
+                }
+            }
+
+            function renderTags() {
+                const collection = getCollection();
+                tagRow.replaceChildren(...collection.tags.map((tag) => {
+                    const button = document.createElement("button");
+                    button.className = "tag-button";
+                    button.type = "button";
+                    button.textContent = tag;
+                    button.setAttribute("aria-pressed", String(state.tag === tag));
+                    button.addEventListener("click", () => {
+                        state.tag = tag;
+                        render();
+                    });
+                    return button;
+                }));
+            }
+
+            function renderGrid() {
+                const items = getFilteredItems();
+
+                if (items.length === 0) {
+                    const empty = document.createElement("div");
+                    empty.className = "empty-state";
+                    empty.textContent = "No entries match this search.";
+                    kanjiGrid.replaceChildren(empty);
+                    resultCount.textContent = "0 entries";
+                    return;
+                }
+
+                if (!items.some((item) => item.char === state.selectedChar)) {
+                    setSelected(items[0]);
+                }
+
+                const cards = items.map((item) => {
+                    const card = document.createElement("button");
+                    card.className = "kanji-card";
+                    card.type = "button";
+                    card.setAttribute("aria-pressed", String(item.char === state.selectedChar));
+                    card.innerHTML = `
+                        <span class="kanji-char">${item.char}</span>
+                        <span class="kanji-reading">${item.reading[item.reading.length - 1]}</span>
+                        <span class="kanji-meaning">${item.meaning}</span>
+                        <span class="hover-slip" aria-hidden="true">
+                            <strong>${item.partsEn}</strong>
+                            <span>${item.unicode} / ${item.partsJa}</span>
+                        </span>
+                    `;
+                    card.addEventListener("click", () => {
+                        setSelected(item);
+                        renderGrid();
+                    });
+                    return card;
+                });
+
+                kanjiGrid.replaceChildren(...cards);
+                resultCount.textContent = `${items.length} ${items.length === 1 ? "entry" : "entries"}`;
+            }
+
+            function renderRadicals() {
+                document.querySelectorAll(".radical-tab").forEach((button) => {
+                    const active = button.dataset.radical === state.radical;
+                    button.setAttribute("aria-pressed", String(active));
+                });
+            }
+
+            function renderHeader() {
+                const collection = getCollection();
+                applyActiveAccent(collection);
+                radicalGlyph.textContent = collection.glyph;
+                collectionTitle.textContent = collection.title;
+                collectionCopy.textContent = collection.copy;
+            }
+
+            function render() {
+                renderHeader();
+                renderRadicals();
+                renderTags();
+                renderGrid();
+            }
+
+            document.querySelectorAll(".radical-tab").forEach((button) => {
+                button.addEventListener("click", () => {
+                    state.radical = button.dataset.radical;
+                    state.tag = "All";
+                    state.search = "";
+                    searchInput.value = "";
+                    setSelected(collections[state.radical].items[0]);
+                    render();
+                });
+            });
+
+            themeToggle.addEventListener("click", () => {
+                state.theme = state.theme === "dark" ? "light" : "dark";
+                storeTheme();
+                applyTheme();
+            });
+
+            searchInput.addEventListener("input", (event) => {
+                state.search = event.target.value;
+                renderGrid();
+            });
+
+            closeDetail.addEventListener("click", () => {
+                detailPanel.classList.remove("is-open");
+            });
+
+            detailCard.addEventListener("animationend", () => {
+                detailCard.classList.remove("is-refreshing");
+            });
+
+            setSelected(collections.fish.items[0]);
+            applyTheme();
+            render();
+        </script>
+    </body>
+</html>

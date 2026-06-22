@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>漢字浪漫 - Design Board v2</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Kaisei+Tokumin:wght@400;500;700;800&family=Noto+Serif+JP:wght@400;500;700&display=swap" rel="stylesheet">
+        <style>
+            :root {
+                --paper: #f3e9d7;
+                --paper-deep: #e6d7bb;
+                --surface: #fbf6ea;
+                --surface-soft: #f7efdf;
+                --ink: #2b2520;
+                --muted: #7b6a58;
+                --line: #d8c7a9;
+                --line-deep: #bda982;
+                --indigo: #314f5a;
+                --benigara: #8e4b3f;
+                --old-gold: #b79855;
+                --fish: #5f8f98;
+                --grass: #748a5d;
+                --tree: #6f7752;
+                --thread: #846a7a;
+                --metal: #b79855;
+                --insect: #a7653f;
+                --shadow: rgba(57, 45, 33, 0.13);
+                --font-brand: "Kaisei Decol", "Yu Mincho", "Hiragino Mincho ProN", serif;
+                --font-kanji: "Kaisei Tokumin", "Yu Mincho", "Hiragino Mincho ProN", serif;
+                --font-body: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
+                --font-latin: Georgia, "Times New Roman", serif;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                margin: 0;
+                color: var(--ink);
+                font-family: var(--font-body);
+                background-color: var(--paper);
+                background-image:
+                    repeating-linear-gradient(
+                        90deg,
+                        rgba(43, 37, 32, 0.024) 0,
+                        rgba(43, 37, 32, 0.024) 1px,
+                        transparent 1px,
+                        transparent 18px
+                    ),
+                    repeating-linear-gradient(
+                        0deg,
+                        rgba(255, 255, 255, 0.22) 0,
+                        rgba(255, 255, 255, 0.22) 1px,
+                        transparent 1px,
+                        transparent 32px
+                    );
+            }
+
+            .page-shell {
+                min-height: 100vh;
+            }
+
+            .hero {
+                border-bottom: 1px solid var(--line);
+                padding: 56px 24px 36px;
+            }
+
+            .hero-inner,
+            .band-inner {
+                width: min(1120px, 100%);
+                margin: 0 auto;
+            }
+
+            .brand-row {
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+                gap: 24px;
+                border-bottom: 3px double var(--line-deep);
+                padding-bottom: 22px;
+            }
+
+            .brand-mark {
+                display: grid;
+                gap: 8px;
+            }
+
+            .eyebrow {
+                color: var(--benigara);
+                font-family: var(--font-latin);
+                font-size: 0.78rem;
+                font-weight: 700;
+                letter-spacing: 0;
+                text-transform: uppercase;
+            }
+
+            h1 {
+                margin: 0;
+                color: var(--ink);
+                font-family: var(--font-brand);
+                font-size: 6.6rem;
+                font-weight: 700;
+                line-height: 0.98;
+                letter-spacing: 0;
+            }
+
+            .subtitle {
+                max-width: 480px;
+                margin: 0;
+                color: var(--muted);
+                font-family: var(--font-latin);
+                font-size: 1rem;
+                line-height: 1.7;
+            }
+
+            .band {
+                border-bottom: 1px solid var(--line);
+                padding: 34px 24px;
+            }
+
+            .band-title {
+                display: flex;
+                align-items: baseline;
+                justify-content: space-between;
+                gap: 16px;
+                margin-bottom: 18px;
+            }
+
+            h2 {
+                margin: 0;
+                color: var(--indigo);
+                font-family: var(--font-latin);
+                font-size: 1.05rem;
+                letter-spacing: 0;
+                text-transform: uppercase;
+            }
+
+            .note {
+                margin: 0;
+                color: var(--muted);
+                font-size: 0.88rem;
+                line-height: 1.7;
+            }
+
+            .palette-grid {
+                display: grid;
+                grid-template-columns: repeat(4, minmax(0, 1fr));
+                gap: 12px;
+            }
+
+            .swatch {
+                min-height: 120px;
+                border: 1px solid rgba(43, 37, 32, 0.16);
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                padding: 14px;
+                box-shadow: 0 8px 20px rgba(57, 45, 33, 0.08);
+            }
+
+            .swatch strong {
+                font-size: 0.92rem;
+                line-height: 1.35;
+            }
+
+            .swatch span {
+                display: block;
+                margin-top: 4px;
+                font-family: "SFMono-Regular", Consolas, monospace;
+                font-size: 0.75rem;
+                opacity: 0.82;
+            }
+
+            .radical-row {
+                display: grid;
+                grid-template-columns: repeat(6, minmax(0, 1fr));
+                gap: 12px;
+            }
+
+            .radical-chip {
+                border: 1px solid var(--line);
+                border-left: 5px solid var(--accent);
+                border-radius: 8px;
+                background: var(--surface);
+                padding: 14px 12px;
+                display: grid;
+                grid-template-columns: auto 1fr;
+                align-items: center;
+                gap: 10px;
+                min-height: 78px;
+            }
+
+            .radical-chip .glyph {
+                color: var(--accent);
+                font-family: var(--font-kanji);
+                font-size: 2.35rem;
+                font-weight: 700;
+                line-height: 1;
+            }
+
+            .radical-chip strong {
+                display: block;
+                font-size: 0.9rem;
+            }
+
+            .radical-chip span {
+                display: block;
+                margin-top: 3px;
+                color: var(--muted);
+                font-family: var(--font-latin);
+                font-size: 0.76rem;
+            }
+
+            .sample-ui {
+                display: grid;
+                grid-template-columns: 260px 1fr;
+                gap: 28px;
+                align-items: start;
+            }
+
+            .index-panel {
+                border-left: 4px solid var(--fish);
+                padding-left: 18px;
+            }
+
+            .parent-kanji {
+                color: var(--fish);
+                font-family: var(--font-kanji);
+                font-size: 7rem;
+                font-weight: 700;
+                line-height: 0.9;
+            }
+
+            .index-panel h3 {
+                margin: 14px 0 8px;
+                color: var(--ink);
+                font-family: var(--font-latin);
+                font-size: 1.35rem;
+                letter-spacing: 0;
+            }
+
+            .index-panel p {
+                margin: 0;
+                color: var(--muted);
+                font-size: 0.9rem;
+                line-height: 1.7;
+            }
+
+            .filter-strip {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+                margin-top: 18px;
+            }
+
+            .filter-strip button {
+                border: 1px solid var(--line-deep);
+                border-radius: 6px;
+                background: transparent;
+                color: var(--indigo);
+                cursor: pointer;
+                font: inherit;
+                font-size: 0.78rem;
+                padding: 7px 12px;
+            }
+
+            .filter-strip button.active {
+                background: var(--indigo);
+                border-color: var(--indigo);
+                color: var(--surface);
+            }
+
+            .kanji-grid {
+                display: grid;
+                grid-template-columns: repeat(4, minmax(0, 1fr));
+                gap: 14px;
+            }
+
+            .kanji-card {
+                position: relative;
+                min-height: 176px;
+                border: 1px solid var(--line);
+                border-radius: 8px;
+                background: var(--surface);
+                color: var(--ink);
+                cursor: pointer;
+                display: grid;
+                align-content: center;
+                justify-items: center;
+                gap: 10px;
+                overflow: hidden;
+                padding: 18px 12px;
+                transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+            }
+
+            .kanji-card::before {
+                content: "";
+                position: absolute;
+                inset: 6px;
+                border: 1px solid rgba(95, 143, 152, 0.34);
+                border-radius: 5px;
+                pointer-events: none;
+            }
+
+            .kanji-card:hover,
+            .kanji-card.featured {
+                border-color: var(--fish);
+                box-shadow: 0 14px 24px var(--shadow);
+                transform: translateY(-2px);
+            }
+
+            .kanji-char {
+                color: var(--ink);
+                font-family: var(--font-kanji);
+                font-size: 4rem;
+                font-weight: 700;
+                line-height: 1;
+            }
+
+            .kanji-reading {
+                color: var(--fish);
+                font-family: var(--font-latin);
+                font-size: 0.9rem;
+                font-style: italic;
+            }
+
+            .kanji-label {
+                color: var(--muted);
+                font-size: 0.75rem;
+            }
+
+            .info-slip {
+                position: absolute;
+                inset-inline: 8px;
+                bottom: 8px;
+                border: 1px solid var(--line-deep);
+                border-radius: 6px;
+                background: #fffaf0;
+                padding: 10px;
+                box-shadow: 0 8px 16px rgba(57, 45, 33, 0.14);
+                transform: translateY(calc(100% + 12px));
+                transition: transform 180ms ease;
+            }
+
+            .kanji-card:hover .info-slip,
+            .kanji-card.featured .info-slip {
+                transform: translateY(0);
+            }
+
+            .info-slip strong {
+                display: block;
+                color: var(--benigara);
+                font-family: var(--font-latin);
+                font-size: 0.86rem;
+                line-height: 1.25;
+            }
+
+            .info-slip span {
+                display: block;
+                margin-top: 4px;
+                color: var(--muted);
+                font-size: 0.7rem;
+                line-height: 1.4;
+            }
+
+            .detail-band {
+                background: rgba(251, 246, 234, 0.72);
+            }
+
+            .detail-layout {
+                display: grid;
+                grid-template-columns: 1fr 1.25fr;
+                gap: 26px;
+                align-items: start;
+            }
+
+            .specimen {
+                border: 1px solid var(--line);
+                border-radius: 8px;
+                background: var(--surface);
+                padding: 22px;
+                box-shadow: 0 12px 24px rgba(57, 45, 33, 0.1);
+            }
+
+            .specimen-main {
+                display: grid;
+                grid-template-columns: auto 1fr;
+                gap: 18px;
+                align-items: center;
+                border-bottom: 3px double var(--line);
+                padding-bottom: 18px;
+            }
+
+            .specimen-kanji {
+                color: var(--fish);
+                font-family: var(--font-kanji);
+                font-size: 6rem;
+                font-weight: 700;
+                line-height: 0.9;
+            }
+
+            .specimen h3 {
+                margin: 0 0 8px;
+                color: var(--ink);
+                font-family: var(--font-latin);
+                font-size: 1.3rem;
+            }
+
+            .specimen p {
+                margin: 0;
+                color: var(--muted);
+                line-height: 1.65;
+            }
+
+            .meta-list {
+                display: grid;
+                gap: 10px;
+                margin-top: 18px;
+            }
+
+            .meta-row {
+                display: grid;
+                grid-template-columns: 110px 1fr;
+                gap: 14px;
+                border-bottom: 1px solid rgba(216, 199, 169, 0.8);
+                padding-bottom: 9px;
+                font-size: 0.88rem;
+            }
+
+            .meta-row dt {
+                color: var(--indigo);
+                font-family: var(--font-latin);
+                font-weight: 700;
+            }
+
+            .meta-row dd {
+                margin: 0;
+                color: var(--ink);
+            }
+
+            .tone-notes {
+                display: grid;
+                gap: 14px;
+            }
+
+            .tone-note {
+                border-top: 1px solid var(--line);
+                padding-top: 14px;
+            }
+
+            .tone-note h3 {
+                margin: 0 0 6px;
+                color: var(--benigara);
+                font-family: var(--font-latin);
+                font-size: 1rem;
+            }
+
+            .tone-note p {
+                margin: 0;
+                color: var(--muted);
+                line-height: 1.7;
+            }
+
+            @media (max-width: 900px) {
+                .brand-row,
+                .sample-ui,
+                .detail-layout {
+                    grid-template-columns: 1fr;
+                    display: grid;
+                }
+
+                .palette-grid {
+                    grid-template-columns: repeat(2, minmax(0, 1fr));
+                }
+
+                .radical-row,
+                .kanji-grid {
+                    grid-template-columns: repeat(2, minmax(0, 1fr));
+                }
+
+                h1 {
+                    font-size: 4.8rem;
+                }
+            }
+
+            @media (max-width: 560px) {
+                .hero,
+                .band {
+                    padding-inline: 16px;
+                }
+
+                .brand-row {
+                    align-items: start;
+                }
+
+                .palette-grid,
+                .radical-row,
+                .kanji-grid {
+                    grid-template-columns: 1fr;
+                }
+
+                .parent-kanji {
+                    font-size: 5.5rem;
+                }
+
+                h1 {
+                    font-size: 3.5rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main class="page-shell">
+            <section class="hero">
+                <div class="hero-inner">
+                    <div class="brand-row">
+                        <div class="brand-mark">
+                            <div class="eyebrow">Taisho Naturalist Field Guide</div>
+                            <h1>漢字浪漫</h1>
+                        </div>
+                        <p class="subtitle">
+                            海外の漢字好きに向けた、部首ごとの小さな図鑑。紙、焦茶の活字、褪せた藍と紅殻で、和風すぎず、サイバーでもない日本の余韻を作る。
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="band">
+                <div class="band-inner">
+                    <div class="band-title">
+                        <h2>Core Palette</h2>
+                        <p class="note">紙と活字を主役にして、アクセントは低彩度に抑える。</p>
+                    </div>
+                    <div class="palette-grid">
+                        <div class="swatch" style="background: #f3e9d7; color: #2b2520;">
+                            <strong>褪せた紙</strong>
+                            <span>#F3E9D7</span>
+                        </div>
+                        <div class="swatch" style="background: #fbf6ea; color: #2b2520;">
+                            <strong>標本カード</strong>
+                            <span>#FBF6EA</span>
+                        </div>
+                        <div class="swatch" style="background: #2b2520; color: #fbf6ea;">
+                            <strong>古い活字</strong>
+                            <span>#2B2520</span>
+                        </div>
+                        <div class="swatch" style="background: #7b6a58; color: #fbf6ea;">
+                            <strong>褪せた説明文</strong>
+                            <span>#7B6A58</span>
+                        </div>
+                        <div class="swatch" style="background: #314f5a; color: #fbf6ea;">
+                            <strong>洋風の藍</strong>
+                            <span>#314F5A</span>
+                        </div>
+                        <div class="swatch" style="background: #8e4b3f; color: #fbf6ea;">
+                            <strong>紅殻</strong>
+                            <span>#8E4B3F</span>
+                        </div>
+                        <div class="swatch" style="background: #b79855; color: #2b2520;">
+                            <strong>古金</strong>
+                            <span>#B79855</span>
+                        </div>
+                        <div class="swatch" style="background: #5f8f98; color: #fbf6ea;">
+                            <strong>魚へんの青緑</strong>
+                            <span>#5F8F98</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="band">
+                <div class="band-inner">
+                    <div class="band-title">
+                        <h2>Radical Accents</h2>
+                        <p class="note">全体の世界観は固定し、部首ごとに見出し色だけ変える。</p>
+                    </div>
+                    <div class="radical-row">
+                        <div class="radical-chip" style="--accent: var(--fish);">
+                            <span class="glyph">魚</span>
+                            <div><strong>魚へん</strong><span>fish radical</span></div>
+                        </div>
+                        <div class="radical-chip" style="--accent: var(--grass);">
+                            <span class="glyph">艹</span>
+                            <div><strong>草かんむり</strong><span>grass radical</span></div>
+                        </div>
+                        <div class="radical-chip" style="--accent: var(--tree);">
+                            <span class="glyph">木</span>
+                            <div><strong>木へん</strong><span>tree radical</span></div>
+                        </div>
+                        <div class="radical-chip" style="--accent: var(--thread);">
+                            <span class="glyph">糸</span>
+                            <div><strong>糸へん</strong><span>thread radical</span></div>
+                        </div>
+                        <div class="radical-chip" style="--accent: var(--metal);">
+                            <span class="glyph">金</span>
+                            <div><strong>金へん</strong><span>metal radical</span></div>
+                        </div>
+                        <div class="radical-chip" style="--accent: var(--insect);">
+                            <span class="glyph">虫</span>
+                            <div><strong>虫へん</strong><span>insect radical</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="band">
+                <div class="band-inner">
+                    <div class="band-title">
+                        <h2>Sample Collection</h2>
+                        <p class="note">魚へんページの初期画面。カードは標本ラベルのように情報を抱える。</p>
+                    </div>
+                    <div class="sample-ui">
+                        <aside class="index-panel">
+                            <div class="parent-kanji">魚</div>
+                            <h3>Fish Radical Collection</h3>
+                            <p>Kanji shaped by sea, seasons, food culture, and old naming habits.</p>
+                            <div class="filter-strip">
+                                <button class="active">All</button>
+                                <button>Season</button>
+                                <button>Sushi</button>
+                                <button>Nature</button>
+                            </div>
+                        </aside>
+
+                        <div class="kanji-grid">
+                            <article class="kanji-card featured">
+                                <span class="kanji-char">鰆</span>
+                                <span class="kanji-reading">sawara</span>
+                                <span class="kanji-label">Japanese Spanish mackerel</span>
+                                <div class="info-slip">
+                                    <strong>Fish + Spring</strong>
+                                    <span>U+9C06 / 春を告げる魚として知られる。</span>
+                                </div>
+                            </article>
+                            <article class="kanji-card">
+                                <span class="kanji-char">鱈</span>
+                                <span class="kanji-reading">tara</span>
+                                <span class="kanji-label">codfish</span>
+                                <div class="info-slip">
+                                    <strong>Fish + Snow</strong>
+                                    <span>U+9C48 / 冬の食文化と相性がよい字。</span>
+                                </div>
+                            </article>
+                            <article class="kanji-card">
+                                <span class="kanji-char">鰯</span>
+                                <span class="kanji-reading">iwashi</span>
+                                <span class="kanji-label">sardine</span>
+                                <div class="info-slip">
+                                    <strong>Fish + Weak</strong>
+                                    <span>U+9C2F / 小さく傷みやすい魚名の字。</span>
+                                </div>
+                            </article>
+                            <article class="kanji-card">
+                                <span class="kanji-char">鮃</span>
+                                <span class="kanji-reading">hirame</span>
+                                <span class="kanji-label">flounder</span>
+                                <div class="info-slip">
+                                    <strong>Fish + Flat</strong>
+                                    <span>U+9B83 / 体の平たい魚を表す。</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="band detail-band">
+                <div class="band-inner">
+                    <div class="band-title">
+                        <h2>Information Card</h2>
+                        <p class="note">クリック後の詳細カードは、古い図鑑の本文欄として読む。</p>
+                    </div>
+                    <div class="detail-layout">
+                        <article class="specimen">
+                            <div class="specimen-main">
+                                <div class="specimen-kanji">鰆</div>
+                                <div>
+                                    <h3>Sawara</h3>
+                                    <p>Japanese Spanish mackerel. In Japan, sawara is often associated with spring and seasonal cooking.</p>
+                                </div>
+                            </div>
+                            <dl class="meta-list">
+                                <div class="meta-row">
+                                    <dt>Reading</dt>
+                                    <dd>さわら / サワラ / sawara</dd>
+                                </div>
+                                <div class="meta-row">
+                                    <dt>Unicode</dt>
+                                    <dd>U+9C06</dd>
+                                </div>
+                                <div class="meta-row">
+                                    <dt>Component</dt>
+                                    <dd>魚 + 春 / Fish + Spring</dd>
+                                </div>
+                                <div class="meta-row">
+                                    <dt>Tags</dt>
+                                    <dd>fish, spring, food culture</dd>
+                                </div>
+                            </dl>
+                        </article>
+
+                        <div class="tone-notes">
+                            <div class="tone-note">
+                                <h3>避けたい方向</h3>
+                                <p>ネオン、黒背景、強すぎる青紫、サイバーパンク風の発光は使わない。香港・上海風の近未来感より、手元で読む紙の温度を優先する。</p>
+                            </div>
+                            <div class="tone-note">
+                                <h3>残したい大正ロマン</h3>
+                                <p>英字セリフ、細い二重罫、古金の控えめな見出し、紅殻の小さな強調で、和洋折衷の感じだけを残す。</p>
+                            </div>
+                            <div class="tone-note">
+                                <h3>サイトらしさ</h3>
+                                <p>図鑑として読みやすいことを優先し、漢字そのものを大きく置く。文化説明は装飾ではなく、発見のある小さな読み物として扱う。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

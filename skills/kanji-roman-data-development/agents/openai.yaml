@@ -1,0 +1,5 @@
+interface:
+  display_name: "Kanji-Roman Data Development"
+  short_description: "Radical kanji JSON and static site workflow"
+  default_prompt: "Use $kanji-roman-data-development to plan or review Kanji-Roman JSON, static site, and curation changes."
+
