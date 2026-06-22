@@ -3,12 +3,87 @@ import unittest
 from kanji_roman_generator.site_json import (
     public_items_from_internal_group,
     public_radical_from_internal_group,
+    site_index_from_radical_definitions,
 )
 
 
 class SiteJsonCurationTest(unittest.TestCase):
+    def test_site_index_uses_relative_radical_files_from_selected_definitions(self):
+        radicals = [
+            {
+                "id": "fish",
+                "glyph": "魚",
+                "labelJa": "魚へん",
+                "labelEn": "Fish radical",
+                "theme": {
+                    "accent": "#0f766e",
+                    "accentRgb": "15 118 110",
+                    "darkAccent": "#5eead4",
+                    "darkAccentRgb": "94 234 212",
+                },
+            },
+            {
+                "id": "water",
+                "glyph": "水",
+                "labelJa": "水へん",
+                "labelEn": "Water radical",
+                "theme": {
+                    "accent": "#2563eb",
+                    "accentRgb": "37 99 235",
+                    "darkAccent": "#93c5fd",
+                    "darkAccentRgb": "147 197 253",
+                },
+            },
+        ]
+
+        index = site_index_from_radical_definitions(
+            [radicals[0]],
+            default_radical="fish",
+        )
+
+        self.assertEqual(
+            {
+                "schemaVersion": "0.1",
+                "defaultRadical": "fish",
+                "radicals": [
+                    {
+                        "id": "fish",
+                        "glyph": "魚",
+                        "labelJa": "魚へん",
+                        "labelEn": "Fish radical",
+                        "file": "radicals/fish.json",
+                        "theme": {
+                            "accent": "#0f766e",
+                            "accentRgb": "15 118 110",
+                            "darkAccent": "#5eead4",
+                            "darkAccentRgb": "94 234 212",
+                        },
+                    }
+                ],
+            },
+            index,
+        )
+        self.assertFalse(index["radicals"][0]["file"].startswith("/"))
+
+    def test_site_index_rejects_default_radical_outside_selection(self):
+        with self.assertRaisesRegex(ValueError, "defaultRadical"):
+            site_index_from_radical_definitions(
+                [
+                    {
+                        "id": "fish",
+                        "glyph": "魚",
+                        "labelJa": "魚へん",
+                        "labelEn": "Fish radical",
+                        "theme": {},
+                    }
+                ],
+                default_radical="water",
+            )
+
     def test_public_radical_json_reflects_merged_curation_fields(self):
         group = {
+            "generatedAt": "2026-06-23T00:00:00+09:00",
+            "source": {"unihan": {"sourceFile": "Unihan.zip"}},
             "group": {"id": "fish", "glyph": "魚"},
             "items": [
                 {
@@ -21,6 +96,7 @@ class SiteJsonCurationTest(unittest.TestCase):
                     "parts": {"ja": "魚 + 春", "en": "Fish + Spring"},
                     "note": "Draft wording.",
                     "tags": ["spring", "food"],
+                    "radical": {"kangxiRadicalNumber": 195},
                     "curationStatus": "draft",
                     "needsReview": True,
                 }
@@ -43,6 +119,9 @@ class SiteJsonCurationTest(unittest.TestCase):
             "Japanese Spanish mackerel",
             public_json["items"][0]["name"],
         )
+        self.assertNotIn("generatedAt", public_json)
+        self.assertNotIn("source", public_json)
+        self.assertNotIn("radical", public_json["items"][0])
         self.assertNotIn("needsReview", public_json["items"][0])
 
     def test_public_items_reflect_merged_curation_fields(self):

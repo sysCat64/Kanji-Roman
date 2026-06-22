@@ -372,11 +372,65 @@ class InternalJsonCliTest(unittest.TestCase):
                     encoding="utf-8"
                 )
             )
+            site_index = json.loads(
+                (site_data_dir / "site-index.json").read_text(encoding="utf-8")
+            )
 
         self.assertEqual(0, exit_code)
         self.assertEqual(["鮭", "鰆"], [item["char"] for item in internal_output["items"]])
+        self.assertEqual("fish", site_index["defaultRadical"])
+        self.assertEqual(["fish"], [radical["id"] for radical in site_index["radicals"]])
+        self.assertEqual("radicals/fish.json", site_index["radicals"][0]["file"])
         self.assertEqual(["鮭"], [item["char"] for item in public_output["items"]])
         self.assertNotIn("needsReview", public_output["items"][0])
+
+    def test_cli_all_writes_public_site_index_for_every_generated_radical(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            radicals_path = root / "radicals.json"
+            unihan_path = root / "Unihan.zip"
+            out_dir = root / "outputs"
+            site_data_dir = root / "data"
+            radicals_path.write_text(
+                json.dumps(RADICALS, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            with zipfile.ZipFile(unihan_path, "w") as archive:
+                archive.writestr(
+                    "Unihan_RadicalStrokeCounts.txt",
+                    SAMPLE_KRSUNICODE,
+                )
+
+            exit_code = main(
+                [
+                    "--all",
+                    "--radicals",
+                    str(radicals_path),
+                    "--unihan",
+                    str(unihan_path),
+                    "--out-dir",
+                    str(out_dir),
+                    "--site-data-dir",
+                    str(site_data_dir),
+                    "--default-radical",
+                    "water",
+                ]
+            )
+
+            site_index = json.loads(
+                (site_data_dir / "site-index.json").read_text(encoding="utf-8")
+            )
+            fish_public_exists = (site_data_dir / "radicals" / "fish.json").exists()
+            water_public_exists = (site_data_dir / "radicals" / "water.json").exists()
+
+        self.assertEqual(0, exit_code)
+        self.assertEqual("water", site_index["defaultRadical"])
+        self.assertEqual(
+            ["fish", "water"],
+            [radical["id"] for radical in site_index["radicals"]],
+        )
+        self.assertTrue(fish_public_exists)
+        self.assertTrue(water_public_exists)
 
     def test_cli_all_writes_every_radical_definition(self):
         with tempfile.TemporaryDirectory() as tmpdir:
