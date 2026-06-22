@@ -16,7 +16,9 @@ from kanji_roman_generator.radicals import (
 )
 from kanji_roman_generator.site_json import (
     public_radical_from_internal_group,
+    site_index_from_radical_definitions,
     write_public_radical,
+    write_site_index,
 )
 from kanji_roman_generator.unihan import load_krsunicode_from_zip
 
@@ -26,9 +28,19 @@ def main(argv: Sequence[str] | None = None) -> int:
     radical_definitions = load_radical_definitions(args.radicals)
     radical_numbers_by_char = load_krsunicode_from_zip(args.unihan)
     radical_ids = _target_radical_ids(args, radical_definitions)
+    target_radicals = [
+        find_radical_definition(radical_definitions, radical_id)
+        for radical_id in radical_ids
+    ]
+    site_index = None
+    if args.site_data_dir is not None:
+        site_index = site_index_from_radical_definitions(
+            target_radicals,
+            default_radical=args.default_radical,
+        )
 
     out_dir = Path(args.out_dir)
-    for radical_id in radical_ids:
+    for radical_id, radical in zip(radical_ids, target_radicals):
         curation_by_char = _load_curation_for_radical(args.curation_dir, radical_id)
         group = generate_internal_group(
             radical_id,
@@ -42,7 +54,6 @@ def main(argv: Sequence[str] | None = None) -> int:
             print(warning["message"], file=sys.stderr)
         write_internal_group(out_dir / f"{radical_id}.json", group)
         if args.site_data_dir is not None:
-            radical = find_radical_definition(radical_definitions, radical_id)
             public_radical = public_radical_from_internal_group(
                 group,
                 radical,
@@ -52,6 +63,8 @@ def main(argv: Sequence[str] | None = None) -> int:
                 Path(args.site_data_dir) / "radicals" / f"{radical_id}.json",
                 public_radical,
             )
+    if args.site_data_dir is not None:
+        write_site_index(Path(args.site_data_dir) / "site-index.json", site_index)
 
     return 0
 

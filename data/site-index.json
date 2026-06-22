@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "0.1",
+  "defaultRadical": "fish",
+  "radicals": [
+    {
+      "id": "fish",
+      "glyph": "魚",
+      "labelJa": "魚へん",
+      "labelEn": "Fish radical",
+      "file": "radicals/fish.json",
+      "theme": {
+        "accent": "#0f766e",
+        "accentRgb": "15 118 110",
+        "darkAccent": "#5eead4",
+        "darkAccentRgb": "94 234 212"
+      }
+    }
+  ]
+}
