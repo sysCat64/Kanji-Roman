@@ -1,3 +1,5 @@
+import contextlib
+import io
 import json
 import tempfile
 import unittest
@@ -151,6 +153,53 @@ class InternalJsonGenerationTest(unittest.TestCase):
 
         self.assertEqual(["鮭", "鰆"], [item["char"] for item in group["items"]])
 
+    def test_merges_curation_into_internal_group_and_reports_warnings(self):
+        group = generate_internal_group(
+            "fish",
+            RADICALS,
+            {"鰆": (195,), "漁": (85,), "鮭": (195, 85)},
+            jis_items=SAMPLE_JIS_ITEMS,
+            generated_at="2026-06-23T00:00:00+09:00",
+            unihan_source_file="test.zip",
+            curation_by_char={
+                "鰆": {
+                    "name": "Japanese Spanish mackerel",
+                    "meaning": "A spring-associated fish.",
+                    "readings": {
+                        "ja": ["さわら", "サワラ"],
+                        "romaji": ["sawara"],
+                    },
+                    "parts": {"ja": "魚 + 春", "en": "Fish + Spring"},
+                    "note": "Draft wording.",
+                    "tags": ["fish", "spring"],
+                    "curationStatus": "draft",
+                    "needsReview": True,
+                },
+                "鮪": {
+                    "name": "Tuna",
+                    "curationStatus": "reviewed",
+                },
+            },
+        )
+
+        salmon, sawara = group["items"]
+
+        self.assertEqual("unreviewed", salmon["curationStatus"])
+        self.assertEqual("Japanese Spanish mackerel", sawara["name"])
+        self.assertEqual(["さわら", "サワラ"], sawara["readings"]["ja"])
+        self.assertEqual("draft", sawara["curationStatus"])
+        self.assertTrue(sawara["needsReview"])
+        self.assertEqual(
+            [
+                {
+                    "type": "curation-out-of-scope",
+                    "char": "鮪",
+                    "message": "curation entry for 鮪 is not in generated items",
+                }
+            ],
+            group["warnings"],
+        )
+
 
 class InternalJsonCliTest(unittest.TestCase):
     def test_cli_writes_single_radical_internal_json(self):
@@ -193,6 +242,141 @@ class InternalJsonCliTest(unittest.TestCase):
         self.assertEqual(0, exit_code)
         self.assertEqual("fish", output["group"]["id"])
         self.assertEqual(["鮭", "鰆"], [item["char"] for item in output["items"]])
+
+    def test_cli_loads_curation_dir_for_internal_json(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            radicals_path = root / "radicals.json"
+            unihan_path = root / "Unihan.zip"
+            curation_dir = root / "curation"
+            out_dir = root / "outputs"
+            radicals_path.write_text(
+                json.dumps(RADICALS, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            curation_dir.mkdir()
+            (curation_dir / "fish.json").write_text(
+                json.dumps(
+                    {
+                        "鰆": {
+                            "name": "Japanese Spanish mackerel",
+                            "meaning": "A spring-associated fish.",
+                            "readings": {
+                                "ja": ["さわら", "サワラ"],
+                                "romaji": ["sawara"],
+                            },
+                            "parts": {"ja": "魚 + 春", "en": "Fish + Spring"},
+                            "note": "Draft wording.",
+                            "tags": ["fish", "spring"],
+                            "curationStatus": "draft",
+                            "needsReview": True,
+                        },
+                        "鮪": {
+                            "name": "Tuna",
+                            "curationStatus": "reviewed",
+                        },
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            with zipfile.ZipFile(unihan_path, "w") as archive:
+                archive.writestr(
+                    "Unihan_RadicalStrokeCounts.txt",
+                    SAMPLE_KRSUNICODE,
+                )
+
+            stderr = io.StringIO()
+            with contextlib.redirect_stderr(stderr):
+                exit_code = main(
+                    [
+                        "--radical",
+                        "fish",
+                        "--radicals",
+                        str(radicals_path),
+                        "--unihan",
+                        str(unihan_path),
+                        "--curation-dir",
+                        str(curation_dir),
+                        "--out-dir",
+                        str(out_dir),
+                    ]
+                )
+
+            output = json.loads((out_dir / "fish.json").read_text(encoding="utf-8"))
+
+        self.assertEqual(0, exit_code)
+        self.assertEqual("Japanese Spanish mackerel", output["items"][1]["name"])
+        self.assertEqual("draft", output["items"][1]["curationStatus"])
+        self.assertEqual("鮪", output["warnings"][0]["char"])
+        self.assertIn("curation entry for 鮪", stderr.getvalue())
+
+    def test_cli_writes_reviewed_only_public_radical_json(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            radicals_path = root / "radicals.json"
+            unihan_path = root / "Unihan.zip"
+            curation_dir = root / "curation"
+            out_dir = root / "outputs"
+            site_data_dir = root / "data"
+            radicals_path.write_text(
+                json.dumps(RADICALS, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            curation_dir.mkdir()
+            (curation_dir / "fish.json").write_text(
+                json.dumps(
+                    {
+                        "鮭": {
+                            "name": "Chum salmon",
+                            "curationStatus": "reviewed",
+                        },
+                        "鰆": {
+                            "name": "Japanese Spanish mackerel",
+                            "curationStatus": "draft",
+                        },
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            with zipfile.ZipFile(unihan_path, "w") as archive:
+                archive.writestr(
+                    "Unihan_RadicalStrokeCounts.txt",
+                    SAMPLE_KRSUNICODE,
+                )
+
+            exit_code = main(
+                [
+                    "--radical",
+                    "fish",
+                    "--radicals",
+                    str(radicals_path),
+                    "--unihan",
+                    str(unihan_path),
+                    "--curation-dir",
+                    str(curation_dir),
+                    "--out-dir",
+                    str(out_dir),
+                    "--site-data-dir",
+                    str(site_data_dir),
+                    "--reviewed-only",
+                ]
+            )
+
+            internal_output = json.loads(
+                (out_dir / "fish.json").read_text(encoding="utf-8")
+            )
+            public_output = json.loads(
+                (site_data_dir / "radicals" / "fish.json").read_text(
+                    encoding="utf-8"
+                )
+            )
+
+        self.assertEqual(0, exit_code)
+        self.assertEqual(["鮭", "鰆"], [item["char"] for item in internal_output["items"]])
+        self.assertEqual(["鮭"], [item["char"] for item in public_output["items"]])
+        self.assertNotIn("needsReview", public_output["items"][0])
 
     def test_cli_all_writes_every_radical_definition(self):
         with tempfile.TemporaryDirectory() as tmpdir:

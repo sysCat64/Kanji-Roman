@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Mapping, Sequence
 
+from kanji_roman_generator.curation import merge_curation
 from kanji_roman_generator.jis import enumerate_jis_x0208_kanji
 from kanji_roman_generator.radicals import (
     filter_jis_items_by_radical_id,
@@ -26,6 +27,7 @@ def generate_internal_group(
     sort_order: str = "jis",
     generated_at: str | None = None,
     unihan_source_file: str = "tools/json-generator/vendor/Unihan.zip",
+    curation_by_char: Mapping[str, Mapping[str, Any]] | None = None,
 ) -> dict[str, Any]:
     """Generate one internal radical group from JIS, Unihan, and config data."""
     radical = find_radical_definition(radical_definitions, radical_id)
@@ -42,6 +44,11 @@ def generate_internal_group(
         radical_id,
     )
     sorted_items = _sort_items(filtered_items, sort_order)
+    base_items = [
+        _internal_item(item, radical, kangxi_radical_number)
+        for item in sorted_items
+    ]
+    curation_result = merge_curation(base_items, curation_by_char or {})
 
     return {
         "schemaVersion": SCHEMA_VERSION,
@@ -61,10 +68,8 @@ def generate_internal_group(
             "labelEn": str(radical["labelEn"]),
             "kangxiRadicalNumber": kangxi_radical_number,
         },
-        "items": [
-            _internal_item(item, radical, kangxi_radical_number)
-            for item in sorted_items
-        ],
+        "items": curation_result.items,
+        "warnings": curation_result.warnings,
     }
 
 
