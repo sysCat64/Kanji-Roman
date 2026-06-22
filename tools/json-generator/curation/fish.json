@@ -1,0 +1,18 @@
+{
+  "鰆": {
+    "name": "Japanese Spanish mackerel",
+    "meaning": "A spring-associated fish commonly eaten in Japan.",
+    "readings": {
+      "ja": ["さわら", "サワラ"],
+      "romaji": ["sawara"]
+    },
+    "parts": {
+      "ja": "魚 + 春",
+      "en": "Fish + Spring"
+    },
+    "note": "Human-facing wording is draft until reviewed against a reliable source.",
+    "tags": ["fish", "spring", "food"],
+    "curationStatus": "draft",
+    "needsReview": true
+  }
+}
