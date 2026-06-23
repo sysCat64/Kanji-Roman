@@ -139,6 +139,12 @@ http://localhost:8000/design/radical-kanji-ui.html
 
 静的公開用JSON分離への移行後は、初期表示、部首切替、検索、タグ、詳細カード、テーマ切替を確認します。
 
+## GitHub Pages Publishing
+
+GitHub Pages で公開する場合は、リポジトリ設定の Pages source を GitHub Actions にします。
+
+`.github/workflows/pages.yml` は `main` への push または手動実行で動きます。workflow は `hooks/preflight.sh` で公開サイト用JSONとパスを検証し、`index.html`、`.nojekyll`、`data/site-index.json`、`data/radicals/`、`design/radical-kanji-ui.html` を `_site` にまとめます。その後、`.nojekyll` を含めるために hidden files を有効にした Pages artifact としてアップロードし、`github-pages` 環境へデプロイします。
+
 ## Validation
 
 設計と実装の確認では、次を重視します。
