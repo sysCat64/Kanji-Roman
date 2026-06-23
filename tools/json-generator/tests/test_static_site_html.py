@@ -37,6 +37,11 @@ class StaticSiteHtmlTest(unittest.TestCase):
         self.assertHtmlContains("function getPreferredItem(items)")
         self.assertHtmlContains('item.curationStatus !== "unreviewed"')
 
+    def test_ui_hides_tags_without_matching_items(self):
+        self.assertHtmlContains("function visibleTags(collection)")
+        self.assertHtmlContains("(item.tags || []).includes(tag)")
+        self.assertHtmlContains("const tags = visibleTags(collection)")
+
     def test_pages_entrypoint_links_to_design_ui_with_relative_path(self):
         entrypoint_path = Path("index.html")
 

@@ -210,5 +210,21 @@ class HookValidationTest(unittest.TestCase):
         self.assertIn("root-relative /data/ path found", result.stderr)
 
 
+class PublicDataFixtureTest(unittest.TestCase):
+    def test_public_site_data_contains_planned_radicals(self):
+        site_index = json.loads(
+            Path("data/site-index.json").read_text(encoding="utf-8")
+        )
+        radical_ids = [radical["id"] for radical in site_index["radicals"]]
+
+        self.assertEqual(["fish", "grass", "tree", "thread"], radical_ids)
+        for radical_id in radical_ids:
+            radical_path = Path("data") / "radicals" / f"{radical_id}.json"
+            self.assertTrue(
+                radical_path.exists(),
+                f"Expected public radical JSON at {radical_path}",
+            )
+
+
 if __name__ == "__main__":
     unittest.main()

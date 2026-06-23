@@ -1,0 +1,7490 @@
+{
+  "schemaVersion": "0.1",
+  "id": "tree",
+  "glyph": "木",
+  "title": "木へんの漢字",
+  "copy": "辞書上の部首が木に分類されるJIS第一・第二水準の漢字。",
+  "tags": [
+    "tree",
+    "wood",
+    "nature"
+  ],
+  "items": [
+    {
+      "char": "梓",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6893",
+      "jis": {
+        "level": 1,
+        "kuten": "16-20"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "案",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6848",
+      "jis": {
+        "level": 1,
+        "kuten": "16-38"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杏",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+674F",
+      "jis": {
+        "level": 1,
+        "kuten": "16-41"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椅",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6905",
+      "jis": {
+        "level": 1,
+        "kuten": "16-56"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "欝",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6B1D",
+      "jis": {
+        "level": 1,
+        "kuten": "17-21"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "栄",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6804",
+      "jis": {
+        "level": 1,
+        "kuten": "17-41"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榎",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+698E",
+      "jis": {
+        "level": 1,
+        "kuten": "17-61"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "横",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A2A",
+      "jis": {
+        "level": 1,
+        "kuten": "18-03"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桶",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6876",
+      "jis": {
+        "level": 1,
+        "kuten": "18-19"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "果",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+679C",
+      "jis": {
+        "level": 1,
+        "kuten": "18-44"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "架",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67B6",
+      "jis": {
+        "level": 1,
+        "kuten": "18-45"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "械",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68B0",
+      "jis": {
+        "level": 1,
+        "kuten": "19-03"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "概",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6982",
+      "jis": {
+        "level": 1,
+        "kuten": "19-21"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柿",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67FF",
+      "jis": {
+        "level": 1,
+        "kuten": "19-33"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "格",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+683C",
+      "jis": {
+        "level": 1,
+        "kuten": "19-42"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "核",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6838",
+      "jis": {
+        "level": 1,
+        "kuten": "19-43"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楽",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+697D",
+      "jis": {
+        "level": 1,
+        "kuten": "19-58"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樫",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A2B",
+      "jis": {
+        "level": 1,
+        "kuten": "19-63"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "橿",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A7F",
+      "jis": {
+        "level": 1,
+        "kuten": "19-64"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梶",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68B6",
+      "jis": {
+        "level": 1,
+        "kuten": "19-65"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椛",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+691B",
+      "jis": {
+        "level": 1,
+        "kuten": "19-81"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樺",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A3A",
+      "jis": {
+        "level": 1,
+        "kuten": "19-82"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "株",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+682A",
+      "jis": {
+        "level": 1,
+        "kuten": "19-84"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "栢",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6822",
+      "jis": {
+        "level": 1,
+        "kuten": "19-92"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柑",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67D1",
+      "jis": {
+        "level": 1,
+        "kuten": "20-27"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桓",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6853",
+      "jis": {
+        "level": 1,
+        "kuten": "20-28"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棺",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68FA",
+      "jis": {
+        "level": 1,
+        "kuten": "20-29"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "机",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+673A",
+      "jis": {
+        "level": 1,
+        "kuten": "20-89"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棋",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68CB",
+      "jis": {
+        "level": 1,
+        "kuten": "20-93"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棄",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68C4",
+      "jis": {
+        "level": 1,
+        "kuten": "20-94"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "機",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A5F",
+      "jis": {
+        "level": 1,
+        "kuten": "21-01"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桔",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6854",
+      "jis": {
+        "level": 1,
+        "kuten": "21-43"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "橘",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A58",
+      "jis": {
+        "level": 1,
+        "kuten": "21-44"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杵",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6775",
+      "jis": {
+        "level": 1,
+        "kuten": "21-47"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "朽",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+673D",
+      "jis": {
+        "level": 1,
+        "kuten": "21-64"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "渠",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6E20",
+      "jis": {
+        "level": 1,
+        "kuten": "21-84"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "橋",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A4B",
+      "jis": {
+        "level": 1,
+        "kuten": "22-22"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "業",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+696D",
+      "jis": {
+        "level": 1,
+        "kuten": "22-40"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "極",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6975",
+      "jis": {
+        "level": 1,
+        "kuten": "22-43"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桐",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6850",
+      "jis": {
+        "level": 1,
+        "kuten": "22-45"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "櫛",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6ADB",
+      "jis": {
+        "level": 1,
+        "kuten": "22-91"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "栗",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6817",
+      "jis": {
+        "level": 1,
+        "kuten": "23-10"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桑",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6851",
+      "jis": {
+        "level": 1,
+        "kuten": "23-12"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桂",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6842",
+      "jis": {
+        "level": 1,
+        "kuten": "23-43"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桁",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6841",
+      "jis": {
+        "level": 1,
+        "kuten": "23-69"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "検",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+691C",
+      "jis": {
+        "level": 1,
+        "kuten": "24-01"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "権",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A29",
+      "jis": {
+        "level": 1,
+        "kuten": "24-02"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枯",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67AF",
+      "jis": {
+        "level": 1,
+        "kuten": "24-47"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梧",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68A7",
+      "jis": {
+        "level": 1,
+        "kuten": "24-72"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檎",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A8E",
+      "jis": {
+        "level": 1,
+        "kuten": "24-73"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杭",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+676D",
+      "jis": {
+        "level": 1,
+        "kuten": "25-26"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "校",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6821",
+      "jis": {
+        "level": 1,
+        "kuten": "25-27"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梗",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6897",
+      "jis": {
+        "level": 1,
+        "kuten": "25-28"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "構",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69CB",
+      "jis": {
+        "level": 1,
+        "kuten": "25-29"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "根",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6839",
+      "jis": {
+        "level": 1,
+        "kuten": "26-12"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梱",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68B1",
+      "jis": {
+        "level": 1,
+        "kuten": "26-13"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "査",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67FB",
+      "jis": {
+        "level": 1,
+        "kuten": "26-26"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "栽",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+683D",
+      "jis": {
+        "level": 1,
+        "kuten": "26-47"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "材",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6750",
+      "jis": {
+        "level": 1,
+        "kuten": "26-64"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榊",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+698A",
+      "jis": {
+        "level": 1,
+        "kuten": "26-71"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柵",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67F5",
+      "jis": {
+        "level": 1,
+        "kuten": "26-84"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桜",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+685C",
+      "jis": {
+        "level": 1,
+        "kuten": "26-89"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "札",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+672D",
+      "jis": {
+        "level": 1,
+        "kuten": "27-05"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桟",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+685F",
+      "jis": {
+        "level": 1,
+        "kuten": "27-23"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枝",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+679D",
+      "jis": {
+        "level": 1,
+        "kuten": "27-62"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柴",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67F4",
+      "jis": {
+        "level": 1,
+        "kuten": "28-38"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杓",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6753",
+      "jis": {
+        "level": 1,
+        "kuten": "28-61"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "朱",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6731",
+      "jis": {
+        "level": 1,
+        "kuten": "28-75"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樹",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A39",
+      "jis": {
+        "level": 1,
+        "kuten": "28-89"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柔",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67D4",
+      "jis": {
+        "level": 1,
+        "kuten": "29-32"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楯",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+696F",
+      "jis": {
+        "level": 1,
+        "kuten": "29-61"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "松",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+677E",
+      "jis": {
+        "level": 1,
+        "kuten": "30-30"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梢",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68A2",
+      "jis": {
+        "level": 1,
+        "kuten": "30-31"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樟",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A1F",
+      "jis": {
+        "level": 1,
+        "kuten": "30-32"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樵",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A35",
+      "jis": {
+        "level": 1,
+        "kuten": "30-33"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "条",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6761",
+      "jis": {
+        "level": 1,
+        "kuten": "30-82"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杖",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6756",
+      "jis": {
+        "level": 1,
+        "kuten": "30-83"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "植",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+690D",
+      "jis": {
+        "level": 1,
+        "kuten": "31-02"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "森",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68EE",
+      "jis": {
+        "level": 1,
+        "kuten": "31-25"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榛",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+699B",
+      "jis": {
+        "level": 1,
+        "kuten": "31-26"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枢",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67A2",
+      "jis": {
+        "level": 1,
+        "kuten": "31-85"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杉",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6749",
+      "jis": {
+        "level": 1,
+        "kuten": "31-89"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椙",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6919",
+      "jis": {
+        "level": 1,
+        "kuten": "31-90"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棲",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68F2",
+      "jis": {
+        "level": 1,
+        "kuten": "32-19"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "栖",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6816",
+      "jis": {
+        "level": 1,
+        "kuten": "32-20"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "析",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6790",
+      "jis": {
+        "level": 1,
+        "kuten": "32-47"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "栓",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6813",
+      "jis": {
+        "level": 1,
+        "kuten": "32-82"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "栴",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6834",
+      "jis": {
+        "level": 1,
+        "kuten": "32-83"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "染",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67D3",
+      "jis": {
+        "level": 1,
+        "kuten": "32-87"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楚",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+695A",
+      "jis": {
+        "level": 1,
+        "kuten": "33-31"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槍",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69CD",
+      "jis": {
+        "level": 1,
+        "kuten": "33-68"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槽",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69FD",
+      "jis": {
+        "level": 1,
+        "kuten": "33-69"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "束",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+675F",
+      "jis": {
+        "level": 1,
+        "kuten": "34-11"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "村",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6751",
+      "jis": {
+        "level": 1,
+        "kuten": "34-28"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柁",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67C1",
+      "jis": {
+        "level": 1,
+        "kuten": "34-40"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楕",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6955",
+      "jis": {
+        "level": 1,
+        "kuten": "34-42"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棚",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68DA",
+      "jis": {
+        "level": 1,
+        "kuten": "35-10"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樽",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A3D",
+      "jis": {
+        "level": 1,
+        "kuten": "35-14"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檀",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A80",
+      "jis": {
+        "level": 1,
+        "kuten": "35-41"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柱",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67F1",
+      "jis": {
+        "level": 1,
+        "kuten": "35-76"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樗",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A17",
+      "jis": {
+        "level": 1,
+        "kuten": "35-84"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椎",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+690E",
+      "jis": {
+        "level": 1,
+        "kuten": "36-39"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槌",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69CC",
+      "jis": {
+        "level": 1,
+        "kuten": "36-40"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "栂",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6802",
+      "jis": {
+        "level": 1,
+        "kuten": "36-46"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槻",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69FB",
+      "jis": {
+        "level": 1,
+        "kuten": "36-48"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柘",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67D8",
+      "jis": {
+        "level": 1,
+        "kuten": "36-51"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椿",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+693F",
+      "jis": {
+        "level": 1,
+        "kuten": "36-56"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梯",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68AF",
+      "jis": {
+        "level": 1,
+        "kuten": "36-84"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杜",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+675C",
+      "jis": {
+        "level": 1,
+        "kuten": "37-46"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "東",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6771",
+      "jis": {
+        "level": 1,
+        "kuten": "37-76"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桃",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6843",
+      "jis": {
+        "level": 1,
+        "kuten": "37-77"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梼",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68BC",
+      "jis": {
+        "level": 1,
+        "kuten": "37-78"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棟",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68DF",
+      "jis": {
+        "level": 1,
+        "kuten": "37-79"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "栃",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6803",
+      "jis": {
+        "level": 1,
+        "kuten": "38-42"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "橡",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A61",
+      "jis": {
+        "level": 1,
+        "kuten": "38-43"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椴",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6934",
+      "jis": {
+        "level": 1,
+        "kuten": "38-46"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楢",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6962",
+      "jis": {
+        "level": 1,
+        "kuten": "38-74"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楠",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6960",
+      "jis": {
+        "level": 1,
+        "kuten": "38-79"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杷",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6777",
+      "jis": {
+        "level": 1,
+        "kuten": "39-39"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杯",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+676F",
+      "jis": {
+        "level": 1,
+        "kuten": "39-53"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梅",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6885",
+      "jis": {
+        "level": 1,
+        "kuten": "39-63"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楳",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6973",
+      "jis": {
+        "level": 1,
+        "kuten": "39-64"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柏",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67CF",
+      "jis": {
+        "level": 1,
+        "kuten": "39-80"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "櫨",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AE8",
+      "jis": {
+        "level": 1,
+        "kuten": "40-07"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "板",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+677F",
+      "jis": {
+        "level": 1,
+        "kuten": "40-36"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樋",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A0B",
+      "jis": {
+        "level": 1,
+        "kuten": "40-85"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枇",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6787",
+      "jis": {
+        "level": 1,
+        "kuten": "40-90"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柊",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67CA",
+      "jis": {
+        "level": 1,
+        "kuten": "41-02"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桧",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6867",
+      "jis": {
+        "level": 1,
+        "kuten": "41-16"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "標",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A19",
+      "jis": {
+        "level": 1,
+        "kuten": "41-24"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楓",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6953",
+      "jis": {
+        "level": 1,
+        "kuten": "41-86"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柄",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67C4",
+      "jis": {
+        "level": 1,
+        "kuten": "42-33"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "某",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67D0",
+      "jis": {
+        "level": 1,
+        "kuten": "43-31"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棒",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68D2",
+      "jis": {
+        "level": 1,
+        "kuten": "43-32"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "朴",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6734",
+      "jis": {
+        "level": 1,
+        "kuten": "43-49"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "本",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+672C",
+      "jis": {
+        "level": 1,
+        "kuten": "43-60"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枚",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+679A",
+      "jis": {
+        "level": 1,
+        "kuten": "43-71"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槙",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69D9",
+      "jis": {
+        "level": 1,
+        "kuten": "43-74"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枕",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6795",
+      "jis": {
+        "level": 1,
+        "kuten": "43-77"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柾",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67FE",
+      "jis": {
+        "level": 1,
+        "kuten": "43-79"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桝",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+685D",
+      "jis": {
+        "level": 1,
+        "kuten": "43-81"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "末",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+672B",
+      "jis": {
+        "level": 1,
+        "kuten": "43-86"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "未",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+672A",
+      "jis": {
+        "level": 1,
+        "kuten": "44-04"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椋",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+690B",
+      "jis": {
+        "level": 1,
+        "kuten": "44-26"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棉",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68C9",
+      "jis": {
+        "level": 1,
+        "kuten": "44-41"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "模",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A21",
+      "jis": {
+        "level": 1,
+        "kuten": "44-47"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "木",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6728",
+      "jis": {
+        "level": 1,
+        "kuten": "44-58"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杢",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6762",
+      "jis": {
+        "level": 1,
+        "kuten": "44-61"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柳",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67F3",
+      "jis": {
+        "level": 1,
+        "kuten": "44-88"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柚",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67DA",
+      "jis": {
+        "level": 1,
+        "kuten": "45-14"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楊",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+694A",
+      "jis": {
+        "level": 1,
+        "kuten": "45-44"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "様",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69D8",
+      "jis": {
+        "level": 1,
+        "kuten": "45-45"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "来",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6765",
+      "jis": {
+        "level": 1,
+        "kuten": "45-72"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "欄",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6B04",
+      "jis": {
+        "level": 1,
+        "kuten": "45-83"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "李",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+674E",
+      "jis": {
+        "level": 1,
+        "kuten": "45-91"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梨",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68A8",
+      "jis": {
+        "level": 1,
+        "kuten": "45-92"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梁",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6881",
+      "jis": {
+        "level": 1,
+        "kuten": "46-34"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "林",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6797",
+      "jis": {
+        "level": 1,
+        "kuten": "46-51"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "櫓",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AD3",
+      "jis": {
+        "level": 1,
+        "kuten": "47-06"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楼",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+697C",
+      "jis": {
+        "level": 1,
+        "kuten": "47-16"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榔",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6994",
+      "jis": {
+        "level": 1,
+        "kuten": "47-17"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枠",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67A0",
+      "jis": {
+        "level": 1,
+        "kuten": "47-40"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椀",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6900",
+      "jis": {
+        "level": 1,
+        "kuten": "47-48"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梦",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68A6",
+      "jis": {
+        "level": 2,
+        "kuten": "52-77"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杲",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6772",
+      "jis": {
+        "level": 2,
+        "kuten": "58-62"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杳",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6773",
+      "jis": {
+        "level": 2,
+        "kuten": "58-66"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "朮",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+672E",
+      "jis": {
+        "level": 2,
+        "kuten": "59-18"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "朿",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+673F",
+      "jis": {
+        "level": 2,
+        "kuten": "59-19"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "朶",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6736",
+      "jis": {
+        "level": 2,
+        "kuten": "59-20"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杁",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6741",
+      "jis": {
+        "level": 2,
+        "kuten": "59-21"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "朸",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6738",
+      "jis": {
+        "level": 2,
+        "kuten": "59-22"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "朷",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6737",
+      "jis": {
+        "level": 2,
+        "kuten": "59-23"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杆",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6746",
+      "jis": {
+        "level": 2,
+        "kuten": "59-24"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杞",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+675E",
+      "jis": {
+        "level": 2,
+        "kuten": "59-25"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杠",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6760",
+      "jis": {
+        "level": 2,
+        "kuten": "59-26"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杙",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6759",
+      "jis": {
+        "level": 2,
+        "kuten": "59-27"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杣",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6763",
+      "jis": {
+        "level": 2,
+        "kuten": "59-28"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杤",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6764",
+      "jis": {
+        "level": 2,
+        "kuten": "59-29"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枉",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6789",
+      "jis": {
+        "level": 2,
+        "kuten": "59-30"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杰",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6770",
+      "jis": {
+        "level": 2,
+        "kuten": "59-31"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枩",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67A9",
+      "jis": {
+        "level": 2,
+        "kuten": "59-32"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杼",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+677C",
+      "jis": {
+        "level": 2,
+        "kuten": "59-33"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "杪",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+676A",
+      "jis": {
+        "level": 2,
+        "kuten": "59-34"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枌",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+678C",
+      "jis": {
+        "level": 2,
+        "kuten": "59-35"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枋",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+678B",
+      "jis": {
+        "level": 2,
+        "kuten": "59-36"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枦",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67A6",
+      "jis": {
+        "level": 2,
+        "kuten": "59-37"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枡",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67A1",
+      "jis": {
+        "level": 2,
+        "kuten": "59-38"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枅",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6785",
+      "jis": {
+        "level": 2,
+        "kuten": "59-39"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枷",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67B7",
+      "jis": {
+        "level": 2,
+        "kuten": "59-40"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柯",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67EF",
+      "jis": {
+        "level": 2,
+        "kuten": "59-41"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枴",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67B4",
+      "jis": {
+        "level": 2,
+        "kuten": "59-42"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柬",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67EC",
+      "jis": {
+        "level": 2,
+        "kuten": "59-43"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枳",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67B3",
+      "jis": {
+        "level": 2,
+        "kuten": "59-44"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柩",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67E9",
+      "jis": {
+        "level": 2,
+        "kuten": "59-45"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枸",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67B8",
+      "jis": {
+        "level": 2,
+        "kuten": "59-46"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柤",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67E4",
+      "jis": {
+        "level": 2,
+        "kuten": "59-47"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柞",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67DE",
+      "jis": {
+        "level": 2,
+        "kuten": "59-48"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柝",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67DD",
+      "jis": {
+        "level": 2,
+        "kuten": "59-49"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柢",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67E2",
+      "jis": {
+        "level": 2,
+        "kuten": "59-50"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柮",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67EE",
+      "jis": {
+        "level": 2,
+        "kuten": "59-51"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "枹",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67B9",
+      "jis": {
+        "level": 2,
+        "kuten": "59-52"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柎",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67CE",
+      "jis": {
+        "level": 2,
+        "kuten": "59-53"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柆",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67C6",
+      "jis": {
+        "level": 2,
+        "kuten": "59-54"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "柧",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+67E7",
+      "jis": {
+        "level": 2,
+        "kuten": "59-55"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檜",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A9C",
+      "jis": {
+        "level": 2,
+        "kuten": "59-56"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "栞",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+681E",
+      "jis": {
+        "level": 2,
+        "kuten": "59-57"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "框",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6846",
+      "jis": {
+        "level": 2,
+        "kuten": "59-58"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "栩",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6829",
+      "jis": {
+        "level": 2,
+        "kuten": "59-59"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桀",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6840",
+      "jis": {
+        "level": 2,
+        "kuten": "59-60"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桍",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+684D",
+      "jis": {
+        "level": 2,
+        "kuten": "59-61"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "栲",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6832",
+      "jis": {
+        "level": 2,
+        "kuten": "59-62"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桎",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+684E",
+      "jis": {
+        "level": 2,
+        "kuten": "59-63"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梳",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68B3",
+      "jis": {
+        "level": 2,
+        "kuten": "59-64"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "栫",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+682B",
+      "jis": {
+        "level": 2,
+        "kuten": "59-65"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桙",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6859",
+      "jis": {
+        "level": 2,
+        "kuten": "59-66"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "档",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6863",
+      "jis": {
+        "level": 2,
+        "kuten": "59-67"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桷",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6877",
+      "jis": {
+        "level": 2,
+        "kuten": "59-68"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桿",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+687F",
+      "jis": {
+        "level": 2,
+        "kuten": "59-69"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梟",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+689F",
+      "jis": {
+        "level": 2,
+        "kuten": "59-70"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梏",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+688F",
+      "jis": {
+        "level": 2,
+        "kuten": "59-71"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梭",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68AD",
+      "jis": {
+        "level": 2,
+        "kuten": "59-72"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梔",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6894",
+      "jis": {
+        "level": 2,
+        "kuten": "59-73"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "條",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+689D",
+      "jis": {
+        "level": 2,
+        "kuten": "59-74"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梛",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+689B",
+      "jis": {
+        "level": 2,
+        "kuten": "59-75"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梃",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6883",
+      "jis": {
+        "level": 2,
+        "kuten": "59-76"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檮",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AAE",
+      "jis": {
+        "level": 2,
+        "kuten": "59-77"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梹",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68B9",
+      "jis": {
+        "level": 2,
+        "kuten": "59-78"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桴",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6874",
+      "jis": {
+        "level": 2,
+        "kuten": "59-79"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梵",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68B5",
+      "jis": {
+        "level": 2,
+        "kuten": "59-80"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梠",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68A0",
+      "jis": {
+        "level": 2,
+        "kuten": "59-81"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梺",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68BA",
+      "jis": {
+        "level": 2,
+        "kuten": "59-82"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椏",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+690F",
+      "jis": {
+        "level": 2,
+        "kuten": "59-83"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "梍",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+688D",
+      "jis": {
+        "level": 2,
+        "kuten": "59-84"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "桾",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+687E",
+      "jis": {
+        "level": 2,
+        "kuten": "59-85"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椁",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6901",
+      "jis": {
+        "level": 2,
+        "kuten": "59-86"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棊",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68CA",
+      "jis": {
+        "level": 2,
+        "kuten": "59-87"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椈",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6908",
+      "jis": {
+        "level": 2,
+        "kuten": "59-88"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棘",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68D8",
+      "jis": {
+        "level": 2,
+        "kuten": "59-89"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椢",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6922",
+      "jis": {
+        "level": 2,
+        "kuten": "59-90"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椦",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6926",
+      "jis": {
+        "level": 2,
+        "kuten": "59-91"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棡",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68E1",
+      "jis": {
+        "level": 2,
+        "kuten": "59-92"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椌",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+690C",
+      "jis": {
+        "level": 2,
+        "kuten": "59-93"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棍",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68CD",
+      "jis": {
+        "level": 2,
+        "kuten": "59-94"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棔",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68D4",
+      "jis": {
+        "level": 2,
+        "kuten": "60-01"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棧",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68E7",
+      "jis": {
+        "level": 2,
+        "kuten": "60-02"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棕",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68D5",
+      "jis": {
+        "level": 2,
+        "kuten": "60-03"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椶",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6936",
+      "jis": {
+        "level": 2,
+        "kuten": "60-04"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椒",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6912",
+      "jis": {
+        "level": 2,
+        "kuten": "60-05"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椄",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6904",
+      "jis": {
+        "level": 2,
+        "kuten": "60-06"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棗",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68D7",
+      "jis": {
+        "level": 2,
+        "kuten": "60-07"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棣",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68E3",
+      "jis": {
+        "level": 2,
+        "kuten": "60-08"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椥",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6925",
+      "jis": {
+        "level": 2,
+        "kuten": "60-09"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棹",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68F9",
+      "jis": {
+        "level": 2,
+        "kuten": "60-10"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棠",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68E0",
+      "jis": {
+        "level": 2,
+        "kuten": "60-11"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棯",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68EF",
+      "jis": {
+        "level": 2,
+        "kuten": "60-12"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椨",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6928",
+      "jis": {
+        "level": 2,
+        "kuten": "60-13"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椪",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+692A",
+      "jis": {
+        "level": 2,
+        "kuten": "60-14"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椚",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+691A",
+      "jis": {
+        "level": 2,
+        "kuten": "60-15"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椣",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6923",
+      "jis": {
+        "level": 2,
+        "kuten": "60-16"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椡",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6921",
+      "jis": {
+        "level": 2,
+        "kuten": "60-17"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "棆",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+68C6",
+      "jis": {
+        "level": 2,
+        "kuten": "60-18"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楹",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6979",
+      "jis": {
+        "level": 2,
+        "kuten": "60-19"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楷",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6977",
+      "jis": {
+        "level": 2,
+        "kuten": "60-20"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楜",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+695C",
+      "jis": {
+        "level": 2,
+        "kuten": "60-21"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楸",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6978",
+      "jis": {
+        "level": 2,
+        "kuten": "60-22"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楫",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+696B",
+      "jis": {
+        "level": 2,
+        "kuten": "60-23"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楔",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6954",
+      "jis": {
+        "level": 2,
+        "kuten": "60-24"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楾",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+697E",
+      "jis": {
+        "level": 2,
+        "kuten": "60-25"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楮",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+696E",
+      "jis": {
+        "level": 2,
+        "kuten": "60-26"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椹",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6939",
+      "jis": {
+        "level": 2,
+        "kuten": "60-27"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楴",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6974",
+      "jis": {
+        "level": 2,
+        "kuten": "60-28"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椽",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+693D",
+      "jis": {
+        "level": 2,
+        "kuten": "60-29"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楙",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6959",
+      "jis": {
+        "level": 2,
+        "kuten": "60-30"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "椰",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6930",
+      "jis": {
+        "level": 2,
+        "kuten": "60-31"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楡",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6961",
+      "jis": {
+        "level": 2,
+        "kuten": "60-32"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楞",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+695E",
+      "jis": {
+        "level": 2,
+        "kuten": "60-33"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楝",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+695D",
+      "jis": {
+        "level": 2,
+        "kuten": "60-34"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榁",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6981",
+      "jis": {
+        "level": 2,
+        "kuten": "60-35"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "楪",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+696A",
+      "jis": {
+        "level": 2,
+        "kuten": "60-36"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榲",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69B2",
+      "jis": {
+        "level": 2,
+        "kuten": "60-37"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榮",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69AE",
+      "jis": {
+        "level": 2,
+        "kuten": "60-38"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槐",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69D0",
+      "jis": {
+        "level": 2,
+        "kuten": "60-39"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榿",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69BF",
+      "jis": {
+        "level": 2,
+        "kuten": "60-40"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槁",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69C1",
+      "jis": {
+        "level": 2,
+        "kuten": "60-41"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槓",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69D3",
+      "jis": {
+        "level": 2,
+        "kuten": "60-42"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榾",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69BE",
+      "jis": {
+        "level": 2,
+        "kuten": "60-43"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槎",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69CE",
+      "jis": {
+        "level": 2,
+        "kuten": "60-44"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槊",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69CA",
+      "jis": {
+        "level": 2,
+        "kuten": "60-46"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槝",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69DD",
+      "jis": {
+        "level": 2,
+        "kuten": "60-47"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榻",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69BB",
+      "jis": {
+        "level": 2,
+        "kuten": "60-48"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槃",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69C3",
+      "jis": {
+        "level": 2,
+        "kuten": "60-49"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榧",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69A7",
+      "jis": {
+        "level": 2,
+        "kuten": "60-50"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樮",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A2E",
+      "jis": {
+        "level": 2,
+        "kuten": "60-51"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榑",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6991",
+      "jis": {
+        "level": 2,
+        "kuten": "60-52"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榠",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69A0",
+      "jis": {
+        "level": 2,
+        "kuten": "60-53"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榜",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+699C",
+      "jis": {
+        "level": 2,
+        "kuten": "60-54"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榕",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6995",
+      "jis": {
+        "level": 2,
+        "kuten": "60-55"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榴",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69B4",
+      "jis": {
+        "level": 2,
+        "kuten": "60-56"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槞",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69DE",
+      "jis": {
+        "level": 2,
+        "kuten": "60-57"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槨",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69E8",
+      "jis": {
+        "level": 2,
+        "kuten": "60-58"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樂",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A02",
+      "jis": {
+        "level": 2,
+        "kuten": "60-59"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樛",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A1B",
+      "jis": {
+        "level": 2,
+        "kuten": "60-60"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槿",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69FF",
+      "jis": {
+        "level": 2,
+        "kuten": "60-61"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "權",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6B0A",
+      "jis": {
+        "level": 2,
+        "kuten": "60-62"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槹",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69F9",
+      "jis": {
+        "level": 2,
+        "kuten": "60-63"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槲",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69F2",
+      "jis": {
+        "level": 2,
+        "kuten": "60-64"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槧",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69E7",
+      "jis": {
+        "level": 2,
+        "kuten": "60-65"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樅",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A05",
+      "jis": {
+        "level": 2,
+        "kuten": "60-66"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "榱",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69B1",
+      "jis": {
+        "level": 2,
+        "kuten": "60-67"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樞",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A1E",
+      "jis": {
+        "level": 2,
+        "kuten": "60-68"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槭",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69ED",
+      "jis": {
+        "level": 2,
+        "kuten": "60-69"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樔",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A14",
+      "jis": {
+        "level": 2,
+        "kuten": "60-70"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槫",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69EB",
+      "jis": {
+        "level": 2,
+        "kuten": "60-71"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樊",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A0A",
+      "jis": {
+        "level": 2,
+        "kuten": "60-72"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樒",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A12",
+      "jis": {
+        "level": 2,
+        "kuten": "60-73"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "櫁",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AC1",
+      "jis": {
+        "level": 2,
+        "kuten": "60-74"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樣",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A23",
+      "jis": {
+        "level": 2,
+        "kuten": "60-75"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樓",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A13",
+      "jis": {
+        "level": 2,
+        "kuten": "60-76"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "橄",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A44",
+      "jis": {
+        "level": 2,
+        "kuten": "60-77"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樌",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A0C",
+      "jis": {
+        "level": 2,
+        "kuten": "60-78"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "橲",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A72",
+      "jis": {
+        "level": 2,
+        "kuten": "60-79"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樶",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A36",
+      "jis": {
+        "level": 2,
+        "kuten": "60-80"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "橸",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A78",
+      "jis": {
+        "level": 2,
+        "kuten": "60-81"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "橇",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A47",
+      "jis": {
+        "level": 2,
+        "kuten": "60-82"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "橢",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A62",
+      "jis": {
+        "level": 2,
+        "kuten": "60-83"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "橙",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A59",
+      "jis": {
+        "level": 2,
+        "kuten": "60-84"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "橦",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A66",
+      "jis": {
+        "level": 2,
+        "kuten": "60-85"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "橈",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A48",
+      "jis": {
+        "level": 2,
+        "kuten": "60-86"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樸",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A38",
+      "jis": {
+        "level": 2,
+        "kuten": "60-87"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "樢",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A22",
+      "jis": {
+        "level": 2,
+        "kuten": "60-88"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檐",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A90",
+      "jis": {
+        "level": 2,
+        "kuten": "60-89"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檍",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A8D",
+      "jis": {
+        "level": 2,
+        "kuten": "60-90"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檠",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AA0",
+      "jis": {
+        "level": 2,
+        "kuten": "60-91"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檄",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A84",
+      "jis": {
+        "level": 2,
+        "kuten": "60-92"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檢",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AA2",
+      "jis": {
+        "level": 2,
+        "kuten": "60-93"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檣",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AA3",
+      "jis": {
+        "level": 2,
+        "kuten": "60-94"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檗",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6A97",
+      "jis": {
+        "level": 2,
+        "kuten": "61-01"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檻",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6ABB",
+      "jis": {
+        "level": 2,
+        "kuten": "61-03"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "櫃",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AC3",
+      "jis": {
+        "level": 2,
+        "kuten": "61-04"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "櫂",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AC2",
+      "jis": {
+        "level": 2,
+        "kuten": "61-05"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檸",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AB8",
+      "jis": {
+        "level": 2,
+        "kuten": "61-06"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檳",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AB3",
+      "jis": {
+        "level": 2,
+        "kuten": "61-07"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檬",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AAC",
+      "jis": {
+        "level": 2,
+        "kuten": "61-08"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "櫞",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6ADE",
+      "jis": {
+        "level": 2,
+        "kuten": "61-09"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "櫑",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AD1",
+      "jis": {
+        "level": 2,
+        "kuten": "61-10"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "櫟",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6ADF",
+      "jis": {
+        "level": 2,
+        "kuten": "61-11"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "檪",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AAA",
+      "jis": {
+        "level": 2,
+        "kuten": "61-12"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "櫚",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6ADA",
+      "jis": {
+        "level": 2,
+        "kuten": "61-13"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "櫪",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AEA",
+      "jis": {
+        "level": 2,
+        "kuten": "61-14"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "櫻",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AFB",
+      "jis": {
+        "level": 2,
+        "kuten": "61-15"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "欅",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6B05",
+      "jis": {
+        "level": 2,
+        "kuten": "61-16"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "櫺",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6AFA",
+      "jis": {
+        "level": 2,
+        "kuten": "61-18"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "欒",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6B12",
+      "jis": {
+        "level": 2,
+        "kuten": "61-19"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "欖",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6B16",
+      "jis": {
+        "level": 2,
+        "kuten": "61-20"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "欟",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+6B1F",
+      "jis": {
+        "level": 2,
+        "kuten": "61-22"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    },
+    {
+      "char": "槇",
+      "name": "",
+      "meaning": "",
+      "readings": {
+        "ja": [],
+        "romaji": []
+      },
+      "unicode": "U+69C7",
+      "jis": {
+        "level": 2,
+        "kuten": "84-02"
+      },
+      "parts": {
+        "ja": "",
+        "en": ""
+      },
+      "note": "",
+      "tags": [],
+      "curationStatus": "unreviewed"
+    }
+  ]
+}

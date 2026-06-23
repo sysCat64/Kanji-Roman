@@ -14,6 +14,45 @@
         "darkAccent": "#5eead4",
         "darkAccentRgb": "94 234 212"
       }
+    },
+    {
+      "id": "grass",
+      "glyph": "艹",
+      "labelJa": "草かんむり",
+      "labelEn": "Grass radical",
+      "file": "radicals/grass.json",
+      "theme": {
+        "accent": "#6b8f5f",
+        "accentRgb": "107 143 95",
+        "darkAccent": "#9fca8f",
+        "darkAccentRgb": "159 202 143"
+      }
+    },
+    {
+      "id": "tree",
+      "glyph": "木",
+      "labelJa": "木へん",
+      "labelEn": "Tree radical",
+      "file": "radicals/tree.json",
+      "theme": {
+        "accent": "#8f6f5f",
+        "accentRgb": "143 111 95",
+        "darkAccent": "#c49b85",
+        "darkAccentRgb": "196 155 133"
+      }
+    },
+    {
+      "id": "thread",
+      "glyph": "糸",
+      "labelJa": "糸へん",
+      "labelEn": "Thread radical",
+      "file": "radicals/thread.json",
+      "theme": {
+        "accent": "#8f5f84",
+        "accentRgb": "143 95 132",
+        "darkAccent": "#c58eb7",
+        "darkAccentRgb": "197 142 183"
+      }
     }
   ]
 }
