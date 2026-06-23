@@ -92,7 +92,7 @@
         "seafood",
         "food"
       ],
-      "curationStatus": "draft"
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰻",
@@ -121,7 +121,7 @@
         "fish",
         "food"
       ],
-      "curationStatus": "draft"
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰍",
@@ -172,7 +172,7 @@
         "seafood",
         "food"
       ],
-      "curationStatus": "draft"
+      "curationStatus": "reviewed"
     },
     {
       "char": "魚",
@@ -309,7 +309,7 @@
         "seafood",
         "food"
       ],
-      "curationStatus": "draft"
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮫",
@@ -381,7 +381,7 @@
         "seafood",
         "food"
       ],
-      "curationStatus": "draft"
+      "curationStatus": "reviewed"
     },
     {
       "char": "鱈",
@@ -411,7 +411,7 @@
         "seafood",
         "food"
       ],
-      "curationStatus": "draft"
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰭",
