@@ -1375,11 +1375,14 @@
                 const previousTag = state.tag;
                 const previousSearch = state.search;
                 const previousSelectedChar = state.selectedChar;
+                const hasCachedCollection = Boolean(state.collections[radicalId]);
 
-                state.loading = true;
+                state.loading = !hasCachedCollection;
                 state.error = "";
-                resultCount.textContent = "Loading...";
-                if (!getCollection()) renderGrid();
+                if (!hasCachedCollection) {
+                    resultCount.textContent = "Loading...";
+                    if (!getCollection()) renderGrid();
+                }
 
                 try {
                     const collection = await loadRadical(radicalId);
