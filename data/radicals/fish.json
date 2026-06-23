@@ -41,7 +41,7 @@
         "seafood",
         "food"
       ],
-      "curationStatus": "draft"
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮎",
@@ -1060,7 +1060,7 @@
         "seafood",
         "food"
       ],
-      "curationStatus": "draft"
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯲",
@@ -1252,13 +1252,13 @@
         "ja": "魚 + 春",
         "en": "Fish + Spring"
       },
-      "note": "Human-facing wording is draft until reviewed against a reliable source.",
+      "note": "Often written in katakana as サワラ in biological contexts.",
       "tags": [
         "fish",
         "spring",
         "food"
       ],
-      "curationStatus": "draft"
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰈",
