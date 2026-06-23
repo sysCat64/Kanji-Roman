@@ -116,6 +116,10 @@ The UI should show a quiet loading state while fetching JSON. If the index or a 
 
 `"All"` is a UI state only. It must not be stored in `data/site-index.json`, top-level radical `tags`, or item `tags`.
 
+## Curation Status
+
+The UI surfaces `items[].curationStatus` as a compact status chip on the detail panel and each kanji card. Entries with `unreviewed` status use neutral generated-entry wording and curation-pending fallback text so missing human-facing copy is not presented as reviewed meaning.
+
 ## Validation
 
 The repository validation hook checks public JSON syntax, site-index references, duplicate ids, duplicate item characters, Unicode consistency, JIS level values, forbidden `"All"` tags, and relative file paths.

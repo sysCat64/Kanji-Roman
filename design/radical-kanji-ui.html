@@ -467,6 +467,16 @@
                 max-width: 118px;
             }
 
+            .kanji-status {
+                border: 1px solid rgba(var(--active-accent-rgb), 0.35);
+                border-radius: 999px;
+                background: rgba(var(--active-accent-rgb), 0.08);
+                color: var(--indigo);
+                padding: 3px 8px;
+                font-size: 0.66rem;
+                line-height: 1.2;
+            }
+
             .hover-slip {
                 position: absolute;
                 inset-inline: 8px;
@@ -642,6 +652,16 @@
                 color: var(--indigo);
                 padding: 5px 8px;
                 font-size: 0.74rem;
+            }
+
+            .status-chip {
+                border-color: var(--old-gold);
+                background: rgba(183, 152, 85, 0.08);
+                color: var(--old-gold);
+            }
+
+            :root[data-theme="dark"] .status-chip {
+                background: rgba(209, 179, 110, 0.12);
             }
 
             .drawer-close {
@@ -1085,6 +1105,40 @@
                 return ja || en || "Parts pending";
             }
 
+            const STATUS_LABELS = {
+                reviewed: "Reviewed",
+                draft: "Draft note",
+                unreviewed: "Generated entry"
+            };
+
+            const STATUS_NOTES = {
+                reviewed: "Reviewed against source material.",
+                draft: "Human-facing wording is draft until reviewed against a reliable source.",
+                unreviewed: "Generated from JIS and radical data. Reading and notes are pending curation."
+            };
+
+            function itemStatusKey(item) {
+                return Object.prototype.hasOwnProperty.call(STATUS_LABELS, item.curationStatus)
+                    ? item.curationStatus
+                    : "unreviewed";
+            }
+
+            function itemStatusText(item) {
+                return STATUS_LABELS[itemStatusKey(item)];
+            }
+
+            function itemMeaningText(item) {
+                return item.meaning || (itemStatusKey(item) === "unreviewed" ? "Curation pending" : "Meaning pending");
+            }
+
+            function itemNoteText(item) {
+                return item.note || STATUS_NOTES[itemStatusKey(item)];
+            }
+
+            function getPreferredItem(items) {
+                return items.find((item) => item.curationStatus !== "unreviewed") || items[0];
+            }
+
             function itemJisText(item) {
                 if (!item.jis) return "JIS pending";
                 return `Level ${item.jis.level} / ${item.jis.kuten}`;
@@ -1102,6 +1156,7 @@
                     item.parts?.ja,
                     item.parts?.en,
                     item.note,
+                    itemStatusText(item),
                     ...(item.tags || [])
                 ].join(" ").toLowerCase();
 
@@ -1128,18 +1183,22 @@
                 state.selectedChar = item.char;
                 detailFields.char.textContent = item.char;
                 detailFields.name.textContent = item.name || item.char;
-                detailFields.meaning.textContent = item.meaning || "Meaning pending";
-                detailFields.note.textContent = item.note || "Curation pending.";
+                detailFields.meaning.textContent = itemMeaningText(item);
+                detailFields.note.textContent = itemNoteText(item);
                 detailFields.reading.textContent = itemReadingText(item);
                 detailFields.unicode.textContent = item.unicode;
                 detailFields.parts.textContent = itemPartsText(item);
                 detailFields.jis.textContent = itemJisText(item);
-                detailFields.tags.replaceChildren(...(item.tags || []).map((tag) => {
+                const statusChip = document.createElement("span");
+                statusChip.className = "tag-chip status-chip";
+                statusChip.textContent = itemStatusText(item);
+                const tagChips = (item.tags || []).map((tag) => {
                     const chip = document.createElement("span");
                     chip.className = "tag-chip";
                     chip.textContent = tag;
                     return chip;
-                }));
+                });
+                detailFields.tags.replaceChildren(statusChip, ...tagChips);
 
                 detailPanel.classList.add("is-open");
 
@@ -1202,7 +1261,7 @@
                 }
 
                 if (!items.some((item) => item.char === state.selectedChar)) {
-                    setSelected(items[0]);
+                    setSelected(getPreferredItem(items));
                 }
 
                 const cards = items.map((item) => {
@@ -1210,6 +1269,7 @@
                     const char = document.createElement("span");
                     const reading = document.createElement("span");
                     const meaning = document.createElement("span");
+                    const status = document.createElement("span");
                     const slip = document.createElement("span");
                     const slipStrong = document.createElement("strong");
                     const slipMeta = document.createElement("span");
@@ -1223,14 +1283,16 @@
                     reading.className = "kanji-reading";
                     reading.textContent = itemCardReading(item);
                     meaning.className = "kanji-meaning";
-                    meaning.textContent = item.meaning || "Meaning pending";
+                    meaning.textContent = itemMeaningText(item);
+                    status.className = "kanji-status";
+                    status.textContent = itemStatusText(item);
                     slip.className = "hover-slip";
                     slip.setAttribute("aria-hidden", "true");
                     slipStrong.textContent = item.parts?.en || item.parts?.ja || "Parts pending";
                     slipMeta.textContent = `${item.unicode} / ${item.parts?.ja || "Parts pending"}`;
 
                     slip.append(slipStrong, slipMeta);
-                    card.append(char, reading, meaning, slip);
+                    card.append(char, reading, meaning, status, slip);
                     card.addEventListener("click", () => {
                         setSelected(item);
                         renderGrid();
@@ -1313,7 +1375,7 @@
                     state.search = "";
                     state.loading = false;
                     searchInput.value = "";
-                    setSelected(collection.items[0]);
+                    setSelected(getPreferredItem(collection.items));
                     render();
                 } catch (error) {
                     state.loading = false;

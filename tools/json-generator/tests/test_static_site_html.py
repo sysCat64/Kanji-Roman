@@ -6,6 +6,9 @@ class StaticSiteHtmlTest(unittest.TestCase):
     def setUp(self):
         self.html = Path("design/radical-kanji-ui.html").read_text(encoding="utf-8")
 
+    def assertHtmlContains(self, snippet):
+        self.assertTrue(snippet in self.html, f"Expected HTML to contain {snippet!r}")
+
     def test_ui_loads_public_json_instead_of_inline_collections(self):
         self.assertNotIn("const collections = {", self.html)
         self.assertIn("../data/site-index.json", self.html)
@@ -22,6 +25,17 @@ class StaticSiteHtmlTest(unittest.TestCase):
         self.assertNotIn("partsJa", self.html)
         self.assertNotIn("partsEn", self.html)
         self.assertNotIn("item.reading.join", self.html)
+
+    def test_ui_surfaces_curation_status(self):
+        self.assertHtmlContains("item.curationStatus")
+        self.assertHtmlContains("itemStatusText")
+        self.assertHtmlContains("status-chip")
+        self.assertHtmlContains("kanji-status")
+        self.assertHtmlContains("Generated entry")
+
+    def test_ui_prefers_curated_item_for_initial_detail(self):
+        self.assertHtmlContains("function getPreferredItem(items)")
+        self.assertHtmlContains('item.curationStatus !== "unreviewed"')
 
     def test_pages_entrypoint_links_to_design_ui_with_relative_path(self):
         entrypoint_path = Path("index.html")
