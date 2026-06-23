@@ -163,6 +163,52 @@ class HookValidationTest(unittest.TestCase):
         self.assertNotEqual(0, result.returncode)
         self.assertIn("unicode mismatch", result.stderr)
 
+    def test_preflight_allows_relative_data_paths_from_design_html(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            write_json(root / "data" / "site-index.json", valid_site_index())
+            write_json(root / "data" / "radicals" / "fish.json", valid_fish_json())
+            html_path = root / "design" / "radical-kanji-ui.html"
+            html_path.parent.mkdir(parents=True)
+            html_path.write_text(
+                '<script>const indexUrl = "../data/site-index.json";</script>',
+                encoding="utf-8",
+            )
+
+            result = subprocess.run(
+                ["bash", str(Path.cwd() / "hooks" / "validate-project.sh"), str(root)],
+                text=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                check=False,
+            )
+
+        self.assertEqual("", result.stderr)
+        self.assertEqual(0, result.returncode)
+
+    def test_preflight_rejects_root_relative_data_paths(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            write_json(root / "data" / "site-index.json", valid_site_index())
+            write_json(root / "data" / "radicals" / "fish.json", valid_fish_json())
+            html_path = root / "design" / "radical-kanji-ui.html"
+            html_path.parent.mkdir(parents=True)
+            html_path.write_text(
+                '<script>const indexUrl = "/data/site-index.json";</script>',
+                encoding="utf-8",
+            )
+
+            result = subprocess.run(
+                ["bash", str(Path.cwd() / "hooks" / "validate-project.sh"), str(root)],
+                text=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                check=False,
+            )
+
+        self.assertNotEqual(0, result.returncode)
+        self.assertIn("root-relative /data/ path found", result.stderr)
+
 
 if __name__ == "__main__":
     unittest.main()

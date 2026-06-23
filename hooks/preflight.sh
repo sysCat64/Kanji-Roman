@@ -9,5 +9,4 @@ echo
 echo "[kanji-roman] optional local browser check:"
 echo "  cd '$ROOT'"
 echo "  python3 -m http.server 8000"
-echo "  open http://127.0.0.1:8000/radical-kanji-ui.html"
-
+echo "  open http://127.0.0.1:8000/design/radical-kanji-ui.html"
