@@ -10,7 +10,7 @@ PYTHONPATH="$SCRIPT_ROOT/tools/json-generator/src${PYTHONPATH:+:$PYTHONPATH}" \
   python3 -m kanji_roman_generator.validation "$ROOT"
 
 if command -v rg >/dev/null 2>&1; then
-  if rg -n '/data/' "$ROOT" \
+  if rg -n '(^|[^.])/data/' "$ROOT" \
     --glob '*.html' \
     --glob '*.js' \
     --glob '*.css' \

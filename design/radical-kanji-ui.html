@@ -847,24 +847,7 @@
                     </svg>
                 </button>
 
-                <nav class="radical-nav" aria-label="Radicals">
-                    <button class="radical-tab" type="button" data-radical="fish" aria-pressed="true" style="--accent: var(--fish);">
-                        <span class="radical-glyph">魚</span>
-                        <span><span class="radical-name">魚へん</span><span class="radical-en">Fish</span></span>
-                    </button>
-                    <button class="radical-tab" type="button" data-radical="grass" aria-pressed="false" style="--accent: var(--grass);">
-                        <span class="radical-glyph">艹</span>
-                        <span><span class="radical-name">草かんむり</span><span class="radical-en">Grass</span></span>
-                    </button>
-                    <button class="radical-tab" type="button" data-radical="tree" aria-pressed="false" style="--accent: var(--tree);">
-                        <span class="radical-glyph">木</span>
-                        <span><span class="radical-name">木へん</span><span class="radical-en">Tree</span></span>
-                    </button>
-                    <button class="radical-tab" type="button" data-radical="thread" aria-pressed="false" style="--accent: var(--thread);">
-                        <span class="radical-glyph">糸</span>
-                        <span><span class="radical-name">糸へん</span><span class="radical-en">Thread</span></span>
-                    </button>
-                </nav>
+                <nav class="radical-nav" id="radicalNav" aria-label="Radicals"></nav>
             </aside>
 
             <main class="main">
@@ -931,308 +914,25 @@
         </div>
 
         <script>
-            const collections = {
-                fish: {
-                    glyph: "魚",
-                    title: "Fish Radical Collection",
-                    copy: "Kanji shaped by sea, seasons, food culture, and old naming habits.",
-                    accent: "#5f8f98",
-                    accentRgb: "95, 143, 152",
-                    darkAccent: "#86b1b8",
-                    darkAccentRgb: "134, 177, 184",
-                    tags: ["All", "Season", "Sushi", "Nature", "Everyday", "Poetic"],
-                    items: [
-                        {
-                            char: "鰆",
-                            name: "Sawara",
-                            meaning: "Japanese Spanish mackerel",
-                            reading: ["さわら", "サワラ", "sawara"],
-                            unicode: "U+9C06",
-                            jis: "Level 2 / 82-54",
-                            partsJa: "魚 + 春",
-                            partsEn: "Fish + Spring",
-                            note: "In Japan, sawara is often associated with spring and seasonal cooking.",
-                            tags: ["Season", "Sushi", "Poetic"]
-                        },
-                        {
-                            char: "鱈",
-                            name: "Tara",
-                            meaning: "codfish",
-                            reading: ["たら", "タラ", "tara"],
-                            unicode: "U+9C48",
-                            jis: "Level 2 / 82-87",
-                            partsJa: "魚 + 雪",
-                            partsEn: "Fish + Snow",
-                            note: "A winter fish name whose written form carries a clean, snowy image.",
-                            tags: ["Season", "Everyday"]
-                        },
-                        {
-                            char: "鰯",
-                            name: "Iwashi",
-                            meaning: "sardine",
-                            reading: ["いわし", "イワシ", "iwashi"],
-                            unicode: "U+9C2F",
-                            jis: "Level 1 / 16-83",
-                            partsJa: "魚 + 弱",
-                            partsEn: "Fish + Weak",
-                            note: "The character hints at a small fish that spoils quickly and bruises easily.",
-                            tags: ["Everyday", "Sushi"]
-                        },
-                        {
-                            char: "鮃",
-                            name: "Hirame",
-                            meaning: "flounder",
-                            reading: ["ひらめ", "ヒラメ", "hirame"],
-                            unicode: "U+9B83",
-                            jis: "Level 2 / 82-39",
-                            partsJa: "魚 + 平",
-                            partsEn: "Fish + Flat",
-                            note: "The right side suggests flatness, matching the shape of the fish.",
-                            tags: ["Sushi", "Nature"]
-                        },
-                        {
-                            char: "鮎",
-                            name: "Ayu",
-                            meaning: "sweetfish",
-                            reading: ["あゆ", "アユ", "ayu"],
-                            unicode: "U+9B8E",
-                            jis: "Level 1 / 16-30",
-                            partsJa: "魚 + 占",
-                            partsEn: "Fish + Divination",
-                            note: "A river fish strongly tied to summer scenes and clear streams in Japan.",
-                            tags: ["Season", "Nature", "Poetic"]
-                        },
-                        {
-                            char: "鯛",
-                            name: "Tai",
-                            meaning: "sea bream",
-                            reading: ["たい", "タイ", "tai"],
-                            unicode: "U+9BDB",
-                            jis: "Level 1 / 34-66",
-                            partsJa: "魚 + 周",
-                            partsEn: "Fish + Around",
-                            note: "Associated with celebration through the sound overlap between tai and medetai.",
-                            tags: ["Sushi", "Poetic"]
-                        },
-                        {
-                            char: "鮪",
-                            name: "Maguro",
-                            meaning: "tuna",
-                            reading: ["まぐろ", "マグロ", "maguro"],
-                            unicode: "U+9BAA",
-                            jis: "Level 1 / 43-78",
-                            partsJa: "魚 + 有",
-                            partsEn: "Fish + Have",
-                            note: "One of the most recognizable fish names for sushi lovers around the world.",
-                            tags: ["Sushi", "Everyday"]
-                        },
-                        {
-                            char: "鱒",
-                            name: "Masu",
-                            meaning: "trout",
-                            reading: ["ます", "マス", "masu"],
-                            unicode: "U+9C52",
-                            jis: "Level 2 / 82-89",
-                            partsJa: "魚 + 尊",
-                            partsEn: "Fish + Revered",
-                            note: "A freshwater fish name with a dignified-looking component on the right.",
-                            tags: ["Nature", "Poetic"]
-                        }
-                    ]
-                },
-                grass: {
-                    glyph: "艹",
-                    title: "Grass Radical Collection",
-                    copy: "Plants, flowers, herbs, and cultivated words gathered under the grass crown.",
-                    accent: "#748a5d",
-                    accentRgb: "116, 138, 93",
-                    darkAccent: "#9daa7a",
-                    darkAccentRgb: "157, 170, 122",
-                    tags: ["All", "Flower", "Plant", "Food", "Poetic"],
-                    items: [
-                        {
-                            char: "菊",
-                            name: "Kiku",
-                            meaning: "chrysanthemum",
-                            reading: ["きく", "キク", "kiku"],
-                            unicode: "U+83CA",
-                            jis: "Level 1 / 21-38",
-                            partsJa: "艹 + 匊",
-                            partsEn: "Grass + Scoop",
-                            note: "A flower associated with autumn and long-standing cultural symbolism.",
-                            tags: ["Flower", "Poetic"]
-                        },
-                        {
-                            char: "茶",
-                            name: "Cha",
-                            meaning: "tea",
-                            reading: ["ちゃ", "チャ", "cha"],
-                            unicode: "U+8336",
-                            jis: "Level 1 / 35-67",
-                            partsJa: "艹 + 余",
-                            partsEn: "Grass + Remainder",
-                            note: "A compact character for tea, everyday life, and quiet ritual.",
-                            tags: ["Food", "Plant"]
-                        },
-                        {
-                            char: "菜",
-                            name: "Na",
-                            meaning: "greens",
-                            reading: ["な", "ナ", "na"],
-                            unicode: "U+83DC",
-                            jis: "Level 1 / 26-58",
-                            partsJa: "艹 + 采",
-                            partsEn: "Grass + Pick",
-                            note: "Often used in words for vegetables and edible greens.",
-                            tags: ["Food", "Plant"]
-                        },
-                        {
-                            char: "藤",
-                            name: "Fuji",
-                            meaning: "wisteria",
-                            reading: ["ふじ", "フジ", "fuji"],
-                            unicode: "U+85E4",
-                            jis: "Level 1 / 38-03",
-                            partsJa: "艹 + 滕",
-                            partsEn: "Grass + Rise",
-                            note: "A trailing flower name with a graceful old-fashioned resonance.",
-                            tags: ["Flower", "Poetic"]
-                        }
-                    ]
-                },
-                tree: {
-                    glyph: "木",
-                    title: "Tree Radical Collection",
-                    copy: "Wood, trees, materials, and landscape words built from the tree radical.",
-                    accent: "#6f7752",
-                    accentRgb: "111, 119, 82",
-                    darkAccent: "#969b68",
-                    darkAccentRgb: "150, 155, 104",
-                    tags: ["All", "Tree", "Material", "Season", "Poetic"],
-                    items: [
-                        {
-                            char: "桜",
-                            name: "Sakura",
-                            meaning: "cherry blossom",
-                            reading: ["さくら", "サクラ", "sakura"],
-                            unicode: "U+685C",
-                            jis: "Level 1 / 26-89",
-                            partsJa: "木 + つくり",
-                            partsEn: "Tree + Phonetic",
-                            note: "A spring flower and one of the most familiar Japanese cultural images.",
-                            tags: ["Tree", "Season", "Poetic"]
-                        },
-                        {
-                            char: "松",
-                            name: "Matsu",
-                            meaning: "pine",
-                            reading: ["まつ", "マツ", "matsu"],
-                            unicode: "U+677E",
-                            jis: "Level 1 / 30-30",
-                            partsJa: "木 + 公",
-                            partsEn: "Tree + Public",
-                            note: "An evergreen tree often linked with endurance and auspicious scenes.",
-                            tags: ["Tree", "Poetic"]
-                        },
-                        {
-                            char: "杉",
-                            name: "Sugi",
-                            meaning: "cedar",
-                            reading: ["すぎ", "スギ", "sugi"],
-                            unicode: "U+6749",
-                            jis: "Level 1 / 31-89",
-                            partsJa: "木 + 彡",
-                            partsEn: "Tree + Lines",
-                            note: "A tall conifer common in Japanese forests and building materials.",
-                            tags: ["Tree", "Material"]
-                        },
-                        {
-                            char: "机",
-                            name: "Tsukue",
-                            meaning: "desk",
-                            reading: ["つくえ", "ツクエ", "tsukue"],
-                            unicode: "U+673A",
-                            jis: "Level 1 / 20-01",
-                            partsJa: "木 + 几",
-                            partsEn: "Wood + Stand",
-                            note: "An everyday object whose character keeps the material visible.",
-                            tags: ["Material"]
-                        }
-                    ]
-                },
-                thread: {
-                    glyph: "糸",
-                    title: "Thread Radical Collection",
-                    copy: "Threads, ties, colors, woven meanings, and delicate abstract words.",
-                    accent: "#846a7a",
-                    accentRgb: "132, 106, 122",
-                    darkAccent: "#b290a4",
-                    darkAccentRgb: "178, 144, 164",
-                    tags: ["All", "Color", "Textile", "Abstract", "Poetic"],
-                    items: [
-                        {
-                            char: "紅",
-                            name: "Kurenai",
-                            meaning: "deep red",
-                            reading: ["くれない", "ベニ", "kurenai"],
-                            unicode: "U+7D05",
-                            jis: "Level 1 / 25-40",
-                            partsJa: "糸 + 工",
-                            partsEn: "Thread + Work",
-                            note: "A red color word that feels older and richer than plain aka.",
-                            tags: ["Color", "Poetic"]
-                        },
-                        {
-                            char: "絹",
-                            name: "Kinu",
-                            meaning: "silk",
-                            reading: ["きぬ", "キヌ", "kinu"],
-                            unicode: "U+7D79",
-                            jis: "Level 1 / 24-08",
-                            partsJa: "糸 + 肙",
-                            partsEn: "Thread + Phonetic",
-                            note: "A material word with a soft texture built directly from thread.",
-                            tags: ["Textile"]
-                        },
-                        {
-                            char: "結",
-                            name: "Musubu",
-                            meaning: "tie, bind",
-                            reading: ["むすぶ", "ユイ", "musubu"],
-                            unicode: "U+7D50",
-                            jis: "Level 1 / 23-75",
-                            partsJa: "糸 + 吉",
-                            partsEn: "Thread + Good Fortune",
-                            note: "A word for tying that also appears in names and relationships.",
-                            tags: ["Abstract", "Poetic"]
-                        },
-                        {
-                            char: "線",
-                            name: "Sen",
-                            meaning: "line",
-                            reading: ["せん", "セン", "sen"],
-                            unicode: "U+7DDA",
-                            jis: "Level 1 / 32-94",
-                            partsJa: "糸 + 泉",
-                            partsEn: "Thread + Spring",
-                            note: "A modern everyday character whose meaning still traces back to thread.",
-                            tags: ["Abstract"]
-                        }
-                    ]
-                }
-            };
+            const INDEX_URL = new URL("../data/site-index.json", window.location.href);
+            const ALL_TAG = "All";
 
             const state = {
-                radical: "fish",
-                tag: "All",
+                radical: "",
+                tag: ALL_TAG,
                 search: "",
-                selectedChar: "鰆",
-                theme: getStoredTheme()
+                selectedChar: "",
+                theme: getStoredTheme(),
+                siteIndex: null,
+                collections: {},
+                loading: false,
+                error: ""
             };
 
             const root = document.documentElement;
             const themeToggle = document.getElementById("themeToggle");
             const themeToggleLabel = document.getElementById("themeToggleLabel");
+            const radicalNav = document.getElementById("radicalNav");
             const radicalGlyph = document.getElementById("radicalGlyph");
             const collectionTitle = document.getElementById("collectionTitle");
             const collectionCopy = document.getElementById("collectionCopy");
@@ -1257,7 +957,7 @@
             };
 
             function getCollection() {
-                return collections[state.radical];
+                return state.collections[state.radical];
             }
 
             function getStoredTheme() {
@@ -1272,15 +972,21 @@
                 try {
                     localStorage.setItem("kanjiRomanTheme", state.theme);
                 } catch {
-                    // The prototype still works when localStorage is unavailable.
+                    // The site still works when localStorage is unavailable.
                 }
             }
 
+            function normalizeRgb(value) {
+                return String(value || "95 143 152").trim().split(/[\s,]+/).join(", ");
+            }
+
             function getAccent(collection) {
+                if (!collection) return state.theme === "dark" ? "#86b1b8" : "#5f8f98";
                 return state.theme === "dark" ? collection.darkAccent : collection.accent;
             }
 
             function getAccentRgb(collection) {
+                if (!collection) return state.theme === "dark" ? "134, 177, 184" : "95, 143, 152";
                 return state.theme === "dark" ? collection.darkAccentRgb : collection.accentRgb;
             }
 
@@ -1297,6 +1003,87 @@
                 applyActiveAccent();
             }
 
+            async function fetchJson(url) {
+                const response = await fetch(url, { cache: "no-cache" });
+                if (!response.ok) {
+                    throw new Error(`Could not load ${url.pathname}`);
+                }
+                return response.json();
+            }
+
+            async function loadSiteIndex() {
+                state.siteIndex = await fetchJson(INDEX_URL);
+                return state.siteIndex;
+            }
+
+            function resolveRadicalUrl(file) {
+                return new URL(file, INDEX_URL);
+            }
+
+            async function loadRadical(radicalId) {
+                if (state.collections[radicalId]) {
+                    return state.collections[radicalId];
+                }
+
+                const indexEntry = state.siteIndex?.radicals?.find((entry) => entry.id === radicalId);
+                if (!indexEntry) {
+                    throw new Error(`Unknown radical: ${radicalId}`);
+                }
+
+                const radicalData = await fetchJson(resolveRadicalUrl(indexEntry.file));
+                const collection = normalizeRadical(indexEntry, radicalData);
+                state.collections[radicalId] = collection;
+                return collection;
+            }
+
+            function normalizeRadical(indexEntry, radicalData) {
+                const theme = indexEntry.theme || {};
+                return {
+                    id: radicalData.id || indexEntry.id,
+                    glyph: radicalData.glyph || indexEntry.glyph,
+                    labelJa: indexEntry.labelJa || radicalData.title || indexEntry.id,
+                    labelEn: indexEntry.labelEn || indexEntry.id,
+                    title: radicalData.title || indexEntry.labelEn || indexEntry.id,
+                    copy: radicalData.copy || "",
+                    accent: theme.accent || "#5f8f98",
+                    accentRgb: normalizeRgb(theme.accentRgb),
+                    darkAccent: theme.darkAccent || theme.accent || "#86b1b8",
+                    darkAccentRgb: normalizeRgb(theme.darkAccentRgb || theme.accentRgb),
+                    tags: [ALL_TAG, ...(radicalData.tags || [])],
+                    items: radicalData.items || []
+                };
+            }
+
+            function itemReadings(item) {
+                return [
+                    ...(item.readings?.ja || []),
+                    ...(item.readings?.romaji || [])
+                ].filter(Boolean);
+            }
+
+            function itemReadingText(item) {
+                const readings = itemReadings(item);
+                return readings.length ? readings.join(" / ") : "Reading pending";
+            }
+
+            function itemCardReading(item) {
+                const romaji = item.readings?.romaji || [];
+                const ja = item.readings?.ja || [];
+                return romaji[romaji.length - 1] || ja[0] || item.char;
+            }
+
+            function itemPartsText(item) {
+                const ja = item.parts?.ja || "";
+                const en = item.parts?.en || "";
+                if (ja && en) return `${ja} / ${en}`;
+                return ja || en || "Parts pending";
+            }
+
+            function itemJisText(item) {
+                if (!item.jis) return "JIS pending";
+                return `Level ${item.jis.level} / ${item.jis.kuten}`;
+            }
+
             function matchesSearch(item) {
                 const query = state.search.trim().toLowerCase();
                 if (!query) return true;
@@ -1305,35 +1092,43 @@
                     item.char,
                     item.name,
                     item.meaning,
-                    item.reading.join(" "),
-                    item.partsJa,
-                    item.partsEn,
+                    itemReadingText(item),
+                    item.parts?.ja,
+                    item.parts?.en,
                     item.note,
-                    item.tags.join(" ")
+                    ...(item.tags || [])
                 ].join(" ").toLowerCase();
 
                 return haystack.includes(query);
             }
 
             function getFilteredItems() {
-                return getCollection().items.filter((item) => {
-                    const tagMatch = state.tag === "All" || item.tags.includes(state.tag);
+                const collection = getCollection();
+                if (!collection) return [];
+                return collection.items.filter((item) => {
+                    const tagMatch = state.tag === ALL_TAG || (item.tags || []).includes(state.tag);
                     return tagMatch && matchesSearch(item);
                 });
             }
 
             function setSelected(item) {
+                if (!item) {
+                    detailPanel.classList.remove("is-open");
+                    state.selectedChar = "";
+                    return;
+                }
+
                 const changedSelection = state.selectedChar !== item.char;
                 state.selectedChar = item.char;
                 detailFields.char.textContent = item.char;
-                detailFields.name.textContent = item.name;
-                detailFields.meaning.textContent = item.meaning;
-                detailFields.note.textContent = item.note;
-                detailFields.reading.textContent = item.reading.join(" / ");
+                detailFields.name.textContent = item.name || item.char;
+                detailFields.meaning.textContent = item.meaning || "Meaning pending";
+                detailFields.note.textContent = item.note || "Curation pending.";
+                detailFields.reading.textContent = itemReadingText(item);
                 detailFields.unicode.textContent = item.unicode;
-                detailFields.parts.textContent = `${item.partsJa} / ${item.partsEn}`;
-                detailFields.jis.textContent = item.jis;
-                detailFields.tags.replaceChildren(...item.tags.map((tag) => {
+                detailFields.parts.textContent = itemPartsText(item);
+                detailFields.jis.textContent = itemJisText(item);
+                detailFields.tags.replaceChildren(...(item.tags || []).map((tag) => {
                     const chip = document.createElement("span");
                     chip.className = "tag-chip";
                     chip.textContent = tag;
@@ -1351,6 +1146,11 @@
 
             function renderTags() {
                 const collection = getCollection();
+                if (!collection) {
+                    tagRow.replaceChildren();
+                    return;
+                }
+
                 tagRow.replaceChildren(...collection.tags.map((tag) => {
                     const button = document.createElement("button");
                     button.className = "tag-button";
@@ -1365,15 +1165,33 @@
                 }));
             }
 
+            function showGridMessage(message, role = "status") {
+                const messageBox = document.createElement("div");
+                messageBox.className = "empty-state";
+                messageBox.setAttribute("role", role);
+                messageBox.textContent = message;
+                kanjiGrid.replaceChildren(messageBox);
+            }
+
             function renderGrid() {
+                if (state.loading && !getCollection()) {
+                    showGridMessage("Loading kanji data...");
+                    resultCount.textContent = "Loading...";
+                    return;
+                }
+
+                if (state.error && !getCollection()) {
+                    showGridMessage(state.error, "alert");
+                    resultCount.textContent = "Data unavailable";
+                    return;
+                }
+
                 const items = getFilteredItems();
 
                 if (items.length === 0) {
-                    const empty = document.createElement("div");
-                    empty.className = "empty-state";
-                    empty.textContent = "No entries match this search.";
-                    kanjiGrid.replaceChildren(empty);
+                    showGridMessage("No entries match this search.");
                     resultCount.textContent = "0 entries";
+                    setSelected(null);
                     return;
                 }
 
@@ -1383,18 +1201,30 @@
 
                 const cards = items.map((item) => {
                     const card = document.createElement("button");
+                    const char = document.createElement("span");
+                    const reading = document.createElement("span");
+                    const meaning = document.createElement("span");
+                    const slip = document.createElement("span");
+                    const slipStrong = document.createElement("strong");
+                    const slipMeta = document.createElement("span");
+
                     card.className = "kanji-card";
                     card.type = "button";
                     card.setAttribute("aria-pressed", String(item.char === state.selectedChar));
-                    card.innerHTML = `
-                        <span class="kanji-char">${item.char}</span>
-                        <span class="kanji-reading">${item.reading[item.reading.length - 1]}</span>
-                        <span class="kanji-meaning">${item.meaning}</span>
-                        <span class="hover-slip" aria-hidden="true">
-                            <strong>${item.partsEn}</strong>
-                            <span>${item.unicode} / ${item.partsJa}</span>
-                        </span>
-                    `;
+
+                    char.className = "kanji-char";
+                    char.textContent = item.char;
+                    reading.className = "kanji-reading";
+                    reading.textContent = itemCardReading(item);
+                    meaning.className = "kanji-meaning";
+                    meaning.textContent = item.meaning || "Meaning pending";
+                    slip.className = "hover-slip";
+                    slip.setAttribute("aria-hidden", "true");
+                    slipStrong.textContent = item.parts?.en || item.parts?.ja || "Parts pending";
+                    slipMeta.textContent = `${item.unicode} / ${item.parts?.ja || "Parts pending"}`;
+
+                    slip.append(slipStrong, slipMeta);
+                    card.append(char, reading, meaning, slip);
                     card.addEventListener("click", () => {
                         setSelected(item);
                         renderGrid();
@@ -1407,14 +1237,46 @@
             }
 
             function renderRadicals() {
-                document.querySelectorAll(".radical-tab").forEach((button) => {
-                    const active = button.dataset.radical === state.radical;
-                    button.setAttribute("aria-pressed", String(active));
+                if (!state.siteIndex) {
+                    radicalNav.replaceChildren();
+                    return;
+                }
+
+                const buttons = state.siteIndex.radicals.map((entry) => {
+                    const button = document.createElement("button");
+                    const glyph = document.createElement("span");
+                    const labels = document.createElement("span");
+                    const name = document.createElement("span");
+                    const labelEn = document.createElement("span");
+
+                    button.className = "radical-tab";
+                    button.type = "button";
+                    button.dataset.radical = entry.id;
+                    button.style.setProperty("--accent", entry.theme?.accent || "var(--fish)");
+                    button.setAttribute("aria-pressed", String(entry.id === state.radical));
+
+                    glyph.className = "radical-glyph";
+                    glyph.textContent = entry.glyph;
+                    name.className = "radical-name";
+                    name.textContent = entry.labelJa;
+                    labelEn.className = "radical-en";
+                    labelEn.textContent = entry.labelEn;
+
+                    labels.append(name, labelEn);
+                    button.append(glyph, labels);
+                    button.addEventListener("click", () => {
+                        void selectRadical(entry.id);
+                    });
+                    return button;
                 });
+
+                radicalNav.replaceChildren(...buttons);
             }
 
             function renderHeader() {
                 const collection = getCollection();
+                if (!collection) return;
+
                 applyActiveAccent(collection);
                 radicalGlyph.textContent = collection.glyph;
                 collectionTitle.textContent = collection.title;
@@ -1428,16 +1290,64 @@
                 renderGrid();
             }
 
-            document.querySelectorAll(".radical-tab").forEach((button) => {
-                button.addEventListener("click", () => {
-                    state.radical = button.dataset.radical;
-                    state.tag = "All";
+            async function selectRadical(radicalId) {
+                const previousRadical = state.radical;
+                const previousTag = state.tag;
+                const previousSearch = state.search;
+                const previousSelectedChar = state.selectedChar;
+
+                state.loading = true;
+                state.error = "";
+                if (!getCollection()) renderGrid();
+
+                try {
+                    const collection = await loadRadical(radicalId);
+                    state.radical = radicalId;
+                    state.tag = ALL_TAG;
                     state.search = "";
+                    state.loading = false;
                     searchInput.value = "";
-                    setSelected(collections[state.radical].items[0]);
+                    setSelected(collection.items[0]);
                     render();
-                });
-            });
+                } catch (error) {
+                    state.loading = false;
+                    state.error = "Could not load this radical JSON. Check the local HTTP server and data files.";
+
+                    if (previousRadical && state.collections[previousRadical]) {
+                        state.radical = previousRadical;
+                        state.tag = previousTag;
+                        state.search = previousSearch;
+                        state.selectedChar = previousSelectedChar;
+                        searchInput.value = previousSearch;
+                        render();
+                        resultCount.textContent = "Could not load radical";
+                    } else {
+                        render();
+                    }
+                }
+            }
+
+            async function init() {
+                applyTheme();
+                state.loading = true;
+                detailPanel.classList.remove("is-open");
+                renderGrid();
+
+                try {
+                    const siteIndex = await loadSiteIndex();
+                    renderRadicals();
+                    const defaultRadical = siteIndex.defaultRadical || siteIndex.radicals?.[0]?.id;
+                    if (!defaultRadical) {
+                        throw new Error("site index does not define radicals");
+                    }
+                    await selectRadical(defaultRadical);
+                } catch (error) {
+                    state.loading = false;
+                    state.error = "Could not load kanji data. Start a local HTTP server and try again.";
+                    render();
+                    detailPanel.classList.remove("is-open");
+                }
+            }
 
             themeToggle.addEventListener("click", () => {
                 state.theme = state.theme === "dark" ? "light" : "dark";
@@ -1458,9 +1368,7 @@
                 detailCard.classList.remove("is-refreshing");
             });
 
-            setSelected(collections.fish.items[0]);
-            applyTheme();
-            render();
+            void init();
         </script>
     </body>
 </html>
