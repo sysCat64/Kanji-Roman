@@ -42,6 +42,15 @@ class StaticSiteHtmlTest(unittest.TestCase):
         self.assertHtmlContains("(item.tags || []).includes(tag)")
         self.assertHtmlContains("const tags = visibleTags(collection)")
 
+    def test_error_messages_do_not_expose_implementation_details(self):
+        self.assertNotIn("radical JSON", self.html)
+        self.assertNotIn("local HTTP server", self.html)
+        self.assertNotIn("data files", self.html)
+
+    def test_page_declares_noop_favicon(self):
+        self.assertHtmlContains('rel="icon"')
+        self.assertHtmlContains('href="data:,"')
+
     def test_pages_entrypoint_links_to_design_ui_with_relative_path(self):
         entrypoint_path = Path("index.html")
 
