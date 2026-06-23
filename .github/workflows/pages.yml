@@ -32,7 +32,8 @@ jobs:
         run: |
           rm -rf _site
           mkdir -p _site/data _site/design
-          cp index.html .nojekyll _site/
+          cp .nojekyll _site/
+          cp design/radical-kanji-ui.html _site/index.html
           cp data/site-index.json _site/data/
           cp -R data/radicals _site/data/
           cp design/radical-kanji-ui.html _site/design/

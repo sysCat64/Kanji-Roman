@@ -914,7 +914,13 @@
         </div>
 
         <script>
-            const INDEX_URL = new URL("../data/site-index.json", window.location.href);
+            function getSiteIndexPath() {
+                return window.location.pathname.includes("/design/")
+                    ? "../data/site-index.json"
+                    : "data/site-index.json";
+            }
+
+            const INDEX_URL = new URL(getSiteIndexPath(), window.location.href);
             const ALL_TAG = "All";
 
             const state = {
