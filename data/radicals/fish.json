@@ -14,8 +14,12 @@
     "sea",
     "mammal",
     "freshwater",
+    "fresh",
+    "color",
     "anatomy",
+    "history",
     "reptile",
+    "mollusk",
     "spring"
   ],
   "items": [
@@ -140,11 +144,21 @@
     },
     {
       "char": "鰍",
-      "name": "",
-      "meaning": "",
+      "name": "Loach or bullhead",
+      "meaning": "A fish kanji with Japanese readings for loach, young yellowtail, and bullhead.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "どじょう",
+          "いなだ",
+          "かじか",
+          "シュウ"
+        ],
+        "romaji": [
+          "dojo",
+          "inada",
+          "kajika",
+          "shu"
+        ]
       },
       "unicode": "U+9C0D",
       "jis": {
@@ -155,9 +169,11 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The Japanese readings point to different fish names, so the public gloss stays broad.",
+      "tags": [
+        "fish"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰹",
@@ -372,11 +388,19 @@
     },
     {
       "char": "鮮",
-      "name": "",
-      "meaning": "",
+      "name": "Fresh or vivid",
+      "meaning": "Fresh, vivid, clear, or brilliant; a common non-fish meaning under the fish radical.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "セン",
+          "あざやか",
+          "あたらしい"
+        ],
+        "romaji": [
+          "sen",
+          "azayaka",
+          "atarashii"
+        ]
       },
       "unicode": "U+9BAE",
       "jis": {
@@ -387,9 +411,12 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Common Japanese use is adjectival, as in fresh or vivid, rather than a fish name.",
+      "tags": [
+        "fresh",
+        "color"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯛",
@@ -602,11 +629,19 @@
     },
     {
       "char": "魯",
-      "name": "",
-      "meaning": "",
+      "name": "Lu or foolish",
+      "meaning": "Lu as a historical proper name, and foolish or dull in older usage.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "ロ",
+          "ル",
+          "おろか"
+        ],
+        "romaji": [
+          "ro",
+          "ru",
+          "oroka"
+        ]
       },
       "unicode": "U+9B6F",
       "jis": {
@@ -617,9 +652,11 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "This fish-radical character is not a fish name in common Japanese use.",
+      "tags": [
+        "history"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰐",
@@ -651,11 +688,21 @@
     },
     {
       "char": "魴",
-      "name": "",
-      "meaning": "",
+      "name": "Bream or John Dory",
+      "meaning": "A fish kanji associated with bream or John Dory; Japanese readings include kagamidai and oshikiuo.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "かがみだい",
+          "おしきうお",
+          "ホウ",
+          "ボウ"
+        ],
+        "romaji": [
+          "kagamidai",
+          "oshikiuo",
+          "ho",
+          "bo"
+        ]
       },
       "unicode": "U+9B74",
       "jis": {
@@ -666,17 +713,27 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The Japanese entry lists readings but leaves the definition unfilled, so the English gloss follows the fish glosses on the same source page.",
+      "tags": [
+        "fish"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮓",
-      "name": "",
-      "meaning": "",
+      "name": "Sushi",
+      "meaning": "Sushi; an older or variant kanji spelling for vinegared rice served with fish, vegetables, or other toppings.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "すし",
+          "シャ",
+          "サ"
+        ],
+        "romaji": [
+          "sushi",
+          "sha",
+          "sa"
+        ]
       },
       "unicode": "U+9B93",
       "jis": {
@@ -687,17 +744,29 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Used as an alternative spelling of sushi and closely related to 鮨.",
+      "tags": [
+        "food",
+        "sushi"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮃",
-      "name": "",
-      "meaning": "",
+      "name": "Olive flounder",
+      "meaning": "Olive flounder; a flatfish known as hirame in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "ひらめ",
+          "ヒラメ",
+          "ヘイ",
+          "ヒョウ"
+        ],
+        "romaji": [
+          "hirame",
+          "hei",
+          "hyo"
+        ]
       },
       "unicode": "U+9B83",
       "jis": {
@@ -708,17 +777,32 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Alternative spellings include 平目 and 比目魚.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮑",
-      "name": "",
-      "meaning": "",
+      "name": "Abalone",
+      "meaning": "Abalone; an edible marine mollusk known as awabi in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "あわび",
+          "アワビ",
+          "しおうお",
+          "ホウ",
+          "ビョウ"
+        ],
+        "romaji": [
+          "awabi",
+          "shiouo",
+          "ho",
+          "byo"
+        ]
       },
       "unicode": "U+9B91",
       "jis": {
@@ -729,9 +813,13 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Although written with the fish radical, abalone is a mollusk.",
+      "tags": [
+        "seafood",
+        "food",
+        "mollusk"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮖",
@@ -756,11 +844,18 @@
     },
     {
       "char": "鮗",
-      "name": "",
-      "meaning": "",
+      "name": "Dotted gizzard shad",
+      "meaning": "Dotted gizzard shad; a fish known as konoshiro in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "このしろ",
+          "コノシロ",
+          "ひいらぎ"
+        ],
+        "romaji": [
+          "konoshiro",
+          "hiiragi"
+        ]
       },
       "unicode": "U+9B97",
       "jis": {
@@ -771,17 +866,26 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "This kokuji is mainly tied to konoshiro, with a rarer irregular hiiragi use also listed.",
+      "tags": [
+        "fish",
+        "seafood"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮟",
-      "name": "",
-      "meaning": "",
+      "name": "Anglerfish or monkfish",
+      "meaning": "Anglerfish or monkfish; used in compounds such as 鮟鱇 for anko.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "アン",
+          "あんこう"
+        ],
+        "romaji": [
+          "an",
+          "anko"
+        ]
       },
       "unicode": "U+9B9F",
       "jis": {
@@ -792,17 +896,29 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Only found in compounds; the familiar fish name is 鮟鱇.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮠",
-      "name": "",
-      "meaning": "",
+      "name": "Dace",
+      "meaning": "Dace; a freshwater carp-family fish read haya or hae in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "はや",
+          "はえ",
+          "ガイ"
+        ],
+        "romaji": [
+          "haya",
+          "hae",
+          "gai"
+        ]
       },
       "unicode": "U+9BA0",
       "jis": {
@@ -813,17 +929,30 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Chinese and Korean senses point to catfish, but the Japanese entry gives dace.",
+      "tags": [
+        "fish",
+        "freshwater"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮨",
-      "name": "",
-      "meaning": "",
+      "name": "Sushi",
+      "meaning": "Sushi; a kanji spelling for vinegared rice served with fish, vegetables, or other toppings.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "すし",
+          "シ",
+          "ギ",
+          "キ"
+        ],
+        "romaji": [
+          "sushi",
+          "shi",
+          "gi",
+          "ki"
+        ]
       },
       "unicode": "U+9BA8",
       "jis": {
@@ -834,9 +963,12 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Listed as an alternative spelling of the same sushi entry as 鮓.",
+      "tags": [
+        "food",
+        "sushi"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮴",

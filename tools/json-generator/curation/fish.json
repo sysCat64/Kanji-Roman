@@ -418,5 +418,225 @@
     "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%90",
     "sourceCheckedAt": "2026-06-24",
     "reviewNote": "Checked wani, crocodile or alligator gloss, and older shark or large dangerous fish usage note against the Japanese entry."
+  },
+  "鰍": {
+    "name": "Loach or bullhead",
+    "meaning": "A fish kanji with Japanese readings for loach, young yellowtail, and bullhead.",
+    "readings": {
+      "ja": ["どじょう", "いなだ", "かじか", "シュウ"],
+      "romaji": ["dojo", "inada", "kajika", "shu"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "The Japanese readings point to different fish names, so the public gloss stays broad.",
+    "tags": ["fish"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%8D",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked dojo, inada, kajika, shu, and the loach, young yellowtail, and bullhead glosses against the Japanese entry."
+  },
+  "鮮": {
+    "name": "Fresh or vivid",
+    "meaning": "Fresh, vivid, clear, or brilliant; a common non-fish meaning under the fish radical.",
+    "readings": {
+      "ja": ["セン", "あざやか", "あたらしい"],
+      "romaji": ["sen", "azayaka", "atarashii"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Common Japanese use is adjectival, as in fresh or vivid, rather than a fish name.",
+    "tags": ["fresh", "color"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AE%AE",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked sen, azayaka, atarashii, and the fresh or vivid glosses against the Japanese entry."
+  },
+  "魯": {
+    "name": "Lu or foolish",
+    "meaning": "Lu as a historical proper name, and foolish or dull in older usage.",
+    "readings": {
+      "ja": ["ロ", "ル", "おろか"],
+      "romaji": ["ro", "ru", "oroka"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "This fish-radical character is not a fish name in common Japanese use.",
+    "tags": ["history"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AD%AF",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked ro, ru, oroka, the Lu historical use, and non-fish meaning against the Japanese entry."
+  },
+  "魴": {
+    "name": "Bream or John Dory",
+    "meaning": "A fish kanji associated with bream or John Dory; Japanese readings include kagamidai and oshikiuo.",
+    "readings": {
+      "ja": ["かがみだい", "おしきうお", "ホウ", "ボウ"],
+      "romaji": ["kagamidai", "oshikiuo", "ho", "bo"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "The Japanese entry lists readings but leaves the definition unfilled, so the English gloss follows the fish glosses on the same source page.",
+    "tags": ["fish"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AD%B4",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked kagamidai, oshikiuo, ho, bo, plus the bream and John Dory fish glosses on the source page."
+  },
+  "鮓": {
+    "name": "Sushi",
+    "meaning": "Sushi; an older or variant kanji spelling for vinegared rice served with fish, vegetables, or other toppings.",
+    "readings": {
+      "ja": ["すし", "シャ", "サ"],
+      "romaji": ["sushi", "sha", "sa"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Used as an alternative spelling of sushi and closely related to 鮨.",
+    "tags": ["food", "sushi"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AE%93",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked sushi, sha, sa, alternative-spelling note, and the sushi gloss against the Japanese entry."
+  },
+  "鮃": {
+    "name": "Olive flounder",
+    "meaning": "Olive flounder; a flatfish known as hirame in Japanese.",
+    "readings": {
+      "ja": ["ひらめ", "ヒラメ", "ヘイ", "ヒョウ"],
+      "romaji": ["hirame", "hei", "hyo"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Alternative spellings include 平目 and 比目魚.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AE%83",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked hirame, katakana usage, hei, hyo, alternative spellings, and olive flounder gloss against the Japanese entry."
+  },
+  "鮑": {
+    "name": "Abalone",
+    "meaning": "Abalone; an edible marine mollusk known as awabi in Japanese.",
+    "readings": {
+      "ja": ["あわび", "アワビ", "しおうお", "ホウ", "ビョウ"],
+      "romaji": ["awabi", "shiouo", "ho", "byo"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Although written with the fish radical, abalone is a mollusk.",
+    "tags": ["seafood", "food", "mollusk"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AE%91",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked awabi, shiouo, ho, byo, and abalone gloss against the Japanese entry."
+  },
+  "鮗": {
+    "name": "Dotted gizzard shad",
+    "meaning": "Dotted gizzard shad; a fish known as konoshiro in Japanese.",
+    "readings": {
+      "ja": ["このしろ", "コノシロ", "ひいらぎ"],
+      "romaji": ["konoshiro", "hiiragi"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "This kokuji is mainly tied to konoshiro, with a rarer irregular hiiragi use also listed.",
+    "tags": ["fish", "seafood"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AE%97",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked kokuji status, konoshiro, the dotted gizzard shad gloss, and the irregular hiiragi listing against the Japanese entry."
+  },
+  "鮟": {
+    "name": "Anglerfish or monkfish",
+    "meaning": "Anglerfish or monkfish; used in compounds such as 鮟鱇 for anko.",
+    "readings": {
+      "ja": ["アン", "あんこう"],
+      "romaji": ["an", "anko"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Only found in compounds; the familiar fish name is 鮟鱇.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AE%9F",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked an reading, anglerfish or monkfish gloss, 鮟鱇 compound, and only-in-compounds usage note against the Japanese entry."
+  },
+  "鮠": {
+    "name": "Dace",
+    "meaning": "Dace; a freshwater carp-family fish read haya or hae in Japanese.",
+    "readings": {
+      "ja": ["はや", "はえ", "ガイ"],
+      "romaji": ["haya", "hae", "gai"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Chinese and Korean senses point to catfish, but the Japanese entry gives dace.",
+    "tags": ["fish", "freshwater"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AE%A0",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked haya, hae, gai, Japanese dace gloss, and cross-language catfish distinction against the source page."
+  },
+  "鮨": {
+    "name": "Sushi",
+    "meaning": "Sushi; a kanji spelling for vinegared rice served with fish, vegetables, or other toppings.",
+    "readings": {
+      "ja": ["すし", "シ", "ギ", "キ"],
+      "romaji": ["sushi", "shi", "gi", "ki"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Listed as an alternative spelling of the same sushi entry as 鮓.",
+    "tags": ["food", "sushi"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AE%A8",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked sushi, shi, gi, ki, the sushi gloss, and the alternative-spelling relationship with 鮓 against the Japanese entry."
   }
 }
