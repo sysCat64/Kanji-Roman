@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>漢字浪漫 - 魚へん一覧</title>
+        <link rel="icon" href="data:,">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Kaisei+Tokumin:wght@400;500;700;800&family=Noto+Serif+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -1390,7 +1391,7 @@
                     render();
                 } catch (error) {
                     state.loading = false;
-                    state.error = "Could not load this radical JSON. Check the local HTTP server and data files.";
+                    state.error = "Could not load this radical data. The previous list is still available.";
 
                     if (previousRadical && state.collections[previousRadical]) {
                         state.radical = previousRadical;
@@ -1422,7 +1423,7 @@
                     await selectRadical(defaultRadical);
                 } catch (error) {
                     state.loading = false;
-                    state.error = "Could not load kanji data. Start a local HTTP server and try again.";
+                    state.error = "Could not load kanji data. Refresh the page or try again later.";
                     render();
                     detailPanel.classList.remove("is-open");
                 }
