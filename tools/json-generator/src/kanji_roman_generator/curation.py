@@ -94,6 +94,7 @@ def _normalize_entry(
     }
     for field in PROVENANCE_FIELDS:
         normalized[field] = _string_field(char, entry, field)
+    _validate_reviewed_metadata(char, normalized)
     return normalized
 
 
@@ -175,6 +176,22 @@ def _bool_field(
     if not isinstance(value, bool):
         raise ValueError(f"curation entry for {char} {field} must be a boolean")
     return value
+
+
+def _validate_reviewed_metadata(char: str, entry: Mapping[str, Any]) -> None:
+    if entry["curationStatus"] != "reviewed":
+        return
+
+    missing = [
+        field
+        for field in ("sourceLabel", "sourceCheckedAt")
+        if not str(entry[field]).strip()
+    ]
+    if missing:
+        raise ValueError(
+            f"reviewed curation entry for {char} missing review metadata: "
+            + ", ".join(missing)
+        )
 
 
 def _string_list(char: str, field: str, value: Any) -> list[str]:

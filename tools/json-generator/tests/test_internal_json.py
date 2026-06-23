@@ -273,7 +273,7 @@ class InternalJsonCliTest(unittest.TestCase):
                         },
                         "鮪": {
                             "name": "Tuna",
-                            "curationStatus": "reviewed",
+                            "curationStatus": "draft",
                         },
                     },
                     ensure_ascii=False,
@@ -330,6 +330,9 @@ class InternalJsonCliTest(unittest.TestCase):
                         "鮭": {
                             "name": "Chum salmon",
                             "curationStatus": "reviewed",
+                            "needsReview": False,
+                            "sourceLabel": "Example dictionary",
+                            "sourceCheckedAt": "2026-06-23",
                         },
                         "鰆": {
                             "name": "Japanese Spanish mackerel",

@@ -76,8 +76,12 @@
     },
     "note": "",
     "tags": ["fish", "basic"],
-    "curationStatus": "draft",
-    "needsReview": true
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AD%9A",
+    "sourceCheckedAt": "2026-06-23",
+    "reviewNote": "Checked public readings sakana, uo, and gyo against the Japanese entry and fish gloss."
   },
   "鮭": {
     "name": "Salmon",
@@ -92,8 +96,12 @@
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
-    "curationStatus": "draft",
-    "needsReview": true
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AE%AD",
+    "sourceCheckedAt": "2026-06-23",
+    "reviewNote": "Checked sake, shake, katakana usage, and salmon gloss against the Japanese entry."
   },
   "鯖": {
     "name": "Mackerel",
@@ -156,8 +164,12 @@
     },
     "note": "",
     "tags": ["fish", "seafood", "sushi", "food"],
-    "curationStatus": "draft",
-    "needsReview": true
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AE%AA",
+    "sourceCheckedAt": "2026-06-23",
+    "reviewNote": "Checked maguro, katakana usage, and tuna gloss against the Japanese entry."
   },
   "鰺": {
     "name": "Horse mackerel",

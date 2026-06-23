@@ -204,7 +204,7 @@
         "fish",
         "basic"
       ],
-      "curationStatus": "draft"
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯨",
@@ -279,7 +279,7 @@
         "seafood",
         "food"
       ],
-      "curationStatus": "draft"
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯖",
@@ -484,7 +484,7 @@
         "sushi",
         "food"
       ],
-      "curationStatus": "draft"
+      "curationStatus": "reviewed"
     },
     {
       "char": "鱒",
