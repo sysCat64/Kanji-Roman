@@ -124,6 +124,29 @@ class CurationLoadTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "one kanji character"):
                 load_curation(path)
 
+    def test_rejects_reviewed_entry_without_source_metadata(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            path = Path(tmpdir) / "fish.json"
+            path.write_text(
+                json.dumps(
+                    {
+                        "鮭": {
+                            "name": "Salmon",
+                            "curationStatus": "reviewed",
+                            "needsReview": False,
+                        }
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+
+            with self.assertRaisesRegex(
+                ValueError,
+                "reviewed.*sourceLabel.*sourceCheckedAt",
+            ):
+                load_curation(path)
+
 
 class CurationMergeTest(unittest.TestCase):
     def test_merges_curation_fields_and_keeps_unreviewed_defaults(self):
