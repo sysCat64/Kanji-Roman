@@ -86,6 +86,12 @@ python3 -m http.server 8000
 
 Direct `file://` opening is not a supported preview mode.
 
+## GitHub Pages Publishing
+
+The repository uses `.github/workflows/pages.yml` to publish the static site. The workflow validates the project with `hooks/preflight.sh`, copies `index.html`, `.nojekyll`, `data/site-index.json`, `data/radicals/`, and `design/radical-kanji-ui.html` into `_site`, uploads `_site` as a Pages artifact with hidden files enabled for `.nojekyll`, and deploys that artifact to the `github-pages` environment.
+
+In the GitHub repository settings, Pages source should be set to GitHub Actions. Branch publishing is not required for this project because the workflow owns deployment.
+
 ## UI State
 
 The browser keeps:
