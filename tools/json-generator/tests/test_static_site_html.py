@@ -21,6 +21,15 @@ class StaticSiteHtmlTest(unittest.TestCase):
         self.assertNotIn("partsEn", self.html)
         self.assertNotIn("item.reading.join", self.html)
 
+    def test_pages_entrypoint_links_to_design_ui_with_relative_path(self):
+        entrypoint_path = Path("index.html")
+
+        self.assertTrue(entrypoint_path.exists())
+        entrypoint = entrypoint_path.read_text(encoding="utf-8")
+
+        self.assertIn("design/radical-kanji-ui.html", entrypoint)
+        self.assertNotIn("/design/radical-kanji-ui.html", entrypoint)
+
 
 if __name__ == "__main__":
     unittest.main()

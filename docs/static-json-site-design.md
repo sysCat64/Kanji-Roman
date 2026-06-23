@@ -69,6 +69,8 @@ The public JSON does not expose generator-only fields such as `generatedAt`, `so
 
 ## Browser Loading Flow
 
+The published entrypoint is the repository root `index.html`, which links to `design/radical-kanji-ui.html` with a relative path. This keeps the GitHub Pages project-site URL usable without duplicating the prototype UI while the UI is still being refined.
+
 1. Fetch `../data/site-index.json` from `design/radical-kanji-ui.html`.
 2. Build radical navigation from `siteIndex.radicals`.
 3. Load `siteIndex.defaultRadical`.
