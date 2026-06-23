@@ -20,6 +20,9 @@
     "history",
     "reptile",
     "mollusk",
+    "mythology",
+    "squid",
+    "amphibian",
     "spring"
   ],
   "items": [
@@ -972,11 +975,22 @@
     },
     {
       "char": "鮴",
-      "name": "",
-      "meaning": "",
+      "name": "Rockfish, sculpin, or goby",
+      "meaning": "A fish kanji with Japanese readings for rockfish, sculpin or bullhead, freshwater goby, and a rare shellfish sense.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "めばる",
+          "メバル",
+          "ごり",
+          "こち",
+          "まて"
+        ],
+        "romaji": [
+          "mebaru",
+          "gori",
+          "kochi",
+          "mate"
+        ]
       },
       "unicode": "U+9BB4",
       "jis": {
@@ -987,17 +1001,25 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The gori reading is listed as probably the most common, while kochi and mate are rare uses.",
+      "tags": [
+        "fish",
+        "sea",
+        "freshwater"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯀",
-      "name": "",
-      "meaning": "",
+      "name": "Gun or giant fish",
+      "meaning": "Gun, a figure in Chinese mythology; historical dictionaries also gloss the character as a giant fish.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "コン"
+        ],
+        "romaji": [
+          "kon"
+        ]
       },
       "unicode": "U+9BC0",
       "jis": {
@@ -1008,17 +1030,32 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The Japanese entry lists only the on reading, so the public meaning follows the sourced Chinese definitions.",
+      "tags": [
+        "fish",
+        "history",
+        "mythology"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯊",
-      "name": "",
-      "meaning": "",
+      "name": "Goby or shark",
+      "meaning": "Goby in Japanese usage, with same also listed as a shark reading and shark as the Chinese gloss.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "はぜ",
+          "ハゼ",
+          "さめ",
+          "シャ",
+          "サ"
+        ],
+        "romaji": [
+          "haze",
+          "same",
+          "sha",
+          "sa"
+        ]
       },
       "unicode": "U+9BCA",
       "jis": {
@@ -1029,9 +1066,12 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The Japanese noun section documents haze as goby, while Chinese usage documents shark.",
+      "tags": [
+        "fish",
+        "sea"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮹",
@@ -1056,11 +1096,22 @@
     },
     {
       "char": "鯆",
-      "name": "",
-      "meaning": "",
+      "name": "Ray or dolphin",
+      "meaning": "Ray or skate in Chinese; a rare Japanese spelling for dolphin or porpoise read iruka.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "いるか",
+          "イルカ",
+          "さば",
+          "フ",
+          "ホ"
+        ],
+        "romaji": [
+          "iruka",
+          "saba",
+          "fu",
+          "ho"
+        ]
       },
       "unicode": "U+9BC6",
       "jis": {
@@ -1071,17 +1122,28 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The Japanese iruka use is rare, and dolphins and porpoises are mammals despite the fish radical.",
+      "tags": [
+        "fish",
+        "sea",
+        "mammal"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯏",
-      "name": "",
-      "meaning": "",
+      "name": "Japanese littleneck clam",
+      "meaning": "Japanese littleneck clam or Manila clam; a shellfish read asari in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "あさり",
+          "アサリ",
+          "うぐい"
+        ],
+        "romaji": [
+          "asari",
+          "ugui"
+        ]
       },
       "unicode": "U+9BCF",
       "jis": {
@@ -1092,17 +1154,25 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Although written with the fish radical, the main Japanese gloss is a clam.",
+      "tags": [
+        "seafood",
+        "food",
+        "mollusk"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯑",
-      "name": "",
-      "meaning": "",
+      "name": "Herring roe",
+      "meaning": "Herring roe; fish eggs known as kazunoko in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "かずのこ"
+        ],
+        "romaji": [
+          "kazunoko"
+        ]
       },
       "unicode": "U+9BD1",
       "jis": {
@@ -1114,16 +1184,25 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯒",
-      "name": "",
-      "meaning": "",
+      "name": "Flathead",
+      "meaning": "Flathead; a fish known as kochi in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "こち",
+          "コチ"
+        ],
+        "romaji": [
+          "kochi"
+        ]
       },
       "unicode": "U+9BD2",
       "jis": {
@@ -1134,17 +1213,30 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "鮴 is listed as an alternative spelling for this kochi sense.",
+      "tags": [
+        "fish",
+        "seafood",
+        "sea"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯣",
-      "name": "",
-      "meaning": "",
+      "name": "Dried squid",
+      "meaning": "Dried squid or cuttlefish; a seafood foodstuff known as surume in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "するめ",
+          "スルメ",
+          "エキ",
+          "ヤク"
+        ],
+        "romaji": [
+          "surume",
+          "eki",
+          "yaku"
+        ]
       },
       "unicode": "U+9BE3",
       "jis": {
@@ -1155,17 +1247,32 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The dried squid sense is now most common; older usage can also refer to Japanese flying squid.",
+      "tags": [
+        "seafood",
+        "food",
+        "squid"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯢",
-      "name": "",
-      "meaning": "",
+      "name": "Salamander",
+      "meaning": "Salamander; also a kanji sense for female whale and small fish.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "さんしょううお",
+          "サンショウウオ",
+          "めくじら",
+          "ゲ",
+          "ゲイ"
+        ],
+        "romaji": [
+          "sanshouo",
+          "mekujira",
+          "ge",
+          "gei"
+        ]
       },
       "unicode": "U+9BE2",
       "jis": {
@@ -1176,17 +1283,25 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Although written with the fish radical, the main Japanese noun sense is a salamander.",
+      "tags": [
+        "amphibian",
+        "mammal",
+        "fish"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯤",
-      "name": "",
-      "meaning": "",
+      "name": "Mythical giant fish",
+      "meaning": "A giant fish from Chinese mythology, known in Japanese with the on reading kon.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "コン"
+        ],
+        "romaji": [
+          "kon"
+        ]
       },
       "unicode": "U+9BE4",
       "jis": {
@@ -1197,17 +1312,35 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The Japanese noun entry describes a northern-sea giant fish from Chinese mythology.",
+      "tags": [
+        "fish",
+        "mythology"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯔",
-      "name": "",
-      "meaning": "",
+      "name": "Flathead mullet",
+      "meaning": "Flathead mullet; a coastal fish known as bora in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "ぼら",
+          "ボラ",
+          "とど",
+          "トド",
+          "いな",
+          "イナ",
+          "なよし",
+          "シ"
+        ],
+        "romaji": [
+          "bora",
+          "todo",
+          "ina",
+          "nayoshi",
+          "shi"
+        ]
       },
       "unicode": "U+9BD4",
       "jis": {
@@ -1218,17 +1351,32 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The fish has size- and region-dependent names: todo for large adults, ina for juveniles, and nayoshi as an archaic name.",
+      "tags": [
+        "fish",
+        "seafood",
+        "sea"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯡",
-      "name": "",
-      "meaning": "",
+      "name": "Herring",
+      "meaning": "Herring; also a kanji sense for roe or fish eggs.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "にしん",
+          "ニシン",
+          "はららご",
+          "はらご",
+          "ヒ"
+        ],
+        "romaji": [
+          "nishin",
+          "hararago",
+          "harago",
+          "hi"
+        ]
       },
       "unicode": "U+9BE1",
       "jis": {
@@ -1239,9 +1387,13 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The Japanese entry lists 鰊 as a synonym for the herring sense and 鮞 for the roe sense.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰺",
