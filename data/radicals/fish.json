@@ -9,7 +9,13 @@
     "seafood",
     "sushi",
     "food",
+    "river",
     "basic",
+    "sea",
+    "mammal",
+    "freshwater",
+    "anatomy",
+    "reptile",
     "spring"
   ],
   "items": [
@@ -45,11 +51,16 @@
     },
     {
       "char": "鮎",
-      "name": "",
-      "meaning": "",
+      "name": "Sweetfish",
+      "meaning": "Sweetfish; a river fish known as ayu in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "あゆ",
+          "アユ"
+        ],
+        "romaji": [
+          "ayu"
+        ]
       },
       "unicode": "U+9B8E",
       "jis": {
@@ -60,9 +71,13 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "In Japanese usage, 鮎 commonly refers to ayu or sweetfish.",
+      "tags": [
+        "fish",
+        "river",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰯",
@@ -208,11 +223,16 @@
     },
     {
       "char": "鯨",
-      "name": "",
-      "meaning": "",
+      "name": "Whale",
+      "meaning": "Whale; a large sea mammal known as kujira in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "くじら",
+          "クジラ"
+        ],
+        "romaji": [
+          "kujira"
+        ]
       },
       "unicode": "U+9BE8",
       "jis": {
@@ -223,17 +243,25 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Although written with the fish radical, whales are mammals.",
+      "tags": [
+        "sea",
+        "mammal"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯉",
-      "name": "",
-      "meaning": "",
+      "name": "Carp",
+      "meaning": "Carp; a freshwater fish known as koi in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "こい",
+          "コイ"
+        ],
+        "romaji": [
+          "koi"
+        ]
       },
       "unicode": "U+9BC9",
       "jis": {
@@ -245,8 +273,11 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "freshwater"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮭",
@@ -313,11 +344,16 @@
     },
     {
       "char": "鮫",
-      "name": "",
-      "meaning": "",
+      "name": "Shark",
+      "meaning": "Shark; a fish known as same in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "さめ",
+          "サメ"
+        ],
+        "romaji": [
+          "same"
+        ]
       },
       "unicode": "U+9BAB",
       "jis": {
@@ -329,8 +365,10 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮮",
@@ -415,11 +453,15 @@
     },
     {
       "char": "鰭",
-      "name": "",
-      "meaning": "",
+      "name": "Fin",
+      "meaning": "Fin; a fish body part known as hire in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "ひれ"
+        ],
+        "romaji": [
+          "hire"
+        ]
       },
       "unicode": "U+9C2D",
       "jis": {
@@ -431,16 +473,24 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "anatomy"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮒",
-      "name": "",
-      "meaning": "",
+      "name": "Crucian carp",
+      "meaning": "Crucian carp; a freshwater fish known as funa in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "ふな",
+          "フナ"
+        ],
+        "romaji": [
+          "funa"
+        ]
       },
       "unicode": "U+9B92",
       "jis": {
@@ -452,8 +502,12 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "freshwater",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮪",
@@ -488,11 +542,16 @@
     },
     {
       "char": "鱒",
-      "name": "",
-      "meaning": "",
+      "name": "Trout",
+      "meaning": "Trout; a fish known as masu in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "ます",
+          "マス"
+        ],
+        "romaji": [
+          "masu"
+        ]
       },
       "unicode": "U+9C52",
       "jis": {
@@ -504,16 +563,26 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "freshwater",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鱗",
-      "name": "",
-      "meaning": "",
+      "name": "Scale",
+      "meaning": "Scale; the scales of fish, reptiles, and other animals.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "うろこ",
+          "リン"
+        ],
+        "romaji": [
+          "uroko",
+          "rin"
+        ]
       },
       "unicode": "U+9C57",
       "jis": {
@@ -525,8 +594,11 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "anatomy"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "魯",
@@ -551,11 +623,16 @@
     },
     {
       "char": "鰐",
-      "name": "",
-      "meaning": "",
+      "name": "Crocodile",
+      "meaning": "Crocodile or alligator; a reptile known as wani in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "わに",
+          "ワニ"
+        ],
+        "romaji": [
+          "wani"
+        ]
       },
       "unicode": "U+9C10",
       "jis": {
@@ -566,9 +643,11 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Older Japanese usage can also refer to sharks or other large dangerous fish.",
+      "tags": [
+        "reptile"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "魴",
