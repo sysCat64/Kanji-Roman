@@ -1378,6 +1378,7 @@
 
                 state.loading = true;
                 state.error = "";
+                resultCount.textContent = "Loading...";
                 if (!getCollection()) renderGrid();
 
                 try {

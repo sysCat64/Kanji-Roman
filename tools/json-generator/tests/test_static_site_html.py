@@ -42,6 +42,14 @@ class StaticSiteHtmlTest(unittest.TestCase):
         self.assertHtmlContains("(item.tags || []).includes(tag)")
         self.assertHtmlContains("const tags = visibleTags(collection)")
 
+    def test_radical_switch_announces_loading_while_previous_list_remains(self):
+        select_radical_start = self.html.index("async function selectRadical(radicalId)")
+        select_radical_end = self.html.index("async function init()")
+        select_radical = self.html[select_radical_start:select_radical_end]
+
+        self.assertIn('resultCount.textContent = "Loading...";', select_radical)
+        self.assertIn("if (!getCollection()) renderGrid();", select_radical)
+
     def test_error_messages_do_not_expose_implementation_details(self):
         self.assertNotIn("radical JSON", self.html)
         self.assertNotIn("local HTTP server", self.html)
