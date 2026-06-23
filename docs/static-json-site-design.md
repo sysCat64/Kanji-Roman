@@ -69,9 +69,9 @@ The public JSON does not expose generator-only fields such as `generatedAt`, `so
 
 ## Browser Loading Flow
 
-The published entrypoint is the repository root `index.html`, which links to `design/radical-kanji-ui.html` with a relative path. This keeps the GitHub Pages project-site URL usable without duplicating the prototype UI while the UI is still being refined.
+The repository root `index.html` is a local entrypoint that links to `design/radical-kanji-ui.html` with a relative path. In the GitHub Pages artifact, the workflow copies `design/radical-kanji-ui.html` to the artifact root as `index.html` so the public project-site URL opens the app directly.
 
-1. Fetch `../data/site-index.json` from `design/radical-kanji-ui.html`.
+1. Fetch `data/site-index.json` when the app is served from the artifact root, or `../data/site-index.json` when previewing `design/radical-kanji-ui.html` directly.
 2. Build radical navigation from `siteIndex.radicals`.
 3. Load `siteIndex.defaultRadical`.
 4. Resolve each radical file relative to the loaded index location.
@@ -88,7 +88,7 @@ Direct `file://` opening is not a supported preview mode.
 
 ## GitHub Pages Publishing
 
-The repository uses `.github/workflows/pages.yml` to publish the static site. The workflow validates the project with `hooks/preflight.sh`, copies `index.html`, `.nojekyll`, `data/site-index.json`, `data/radicals/`, and `design/radical-kanji-ui.html` into `_site`, uploads `_site` as a Pages artifact with hidden files enabled for `.nojekyll`, and deploys that artifact to the `github-pages` environment.
+The repository uses `.github/workflows/pages.yml` to publish the static site. The workflow validates the project with `hooks/preflight.sh`, copies `.nojekyll`, `data/site-index.json`, `data/radicals/`, and `design/radical-kanji-ui.html` into `_site`, maps `design/radical-kanji-ui.html` to `_site/index.html`, uploads `_site` as a Pages artifact with hidden files enabled for `.nojekyll`, and deploys that artifact to the `github-pages` environment.
 
 In the GitHub repository settings, Pages source should be set to GitHub Actions. Branch publishing is not required for this project because the workflow owns deployment.
 

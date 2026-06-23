@@ -9,6 +9,8 @@ class StaticSiteHtmlTest(unittest.TestCase):
     def test_ui_loads_public_json_instead_of_inline_collections(self):
         self.assertNotIn("const collections = {", self.html)
         self.assertIn("../data/site-index.json", self.html)
+        self.assertIn("data/site-index.json", self.html)
+        self.assertIn("function getSiteIndexPath()", self.html)
         self.assertIn("fetchJson", self.html)
         self.assertIn("loadSiteIndex", self.html)
         self.assertIn("loadRadical", self.html)

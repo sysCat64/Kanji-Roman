@@ -143,7 +143,7 @@ http://localhost:8000/design/radical-kanji-ui.html
 
 GitHub Pages で公開する場合は、リポジトリ設定の Pages source を GitHub Actions にします。
 
-`.github/workflows/pages.yml` は `main` への push または手動実行で動きます。workflow は `hooks/preflight.sh` で公開サイト用JSONとパスを検証し、`index.html`、`.nojekyll`、`data/site-index.json`、`data/radicals/`、`design/radical-kanji-ui.html` を `_site` にまとめます。その後、`.nojekyll` を含めるために hidden files を有効にした Pages artifact としてアップロードし、`github-pages` 環境へデプロイします。
+`.github/workflows/pages.yml` は `main` への push または手動実行で動きます。workflow は `hooks/preflight.sh` で公開サイト用JSONとパスを検証し、`.nojekyll`、`data/site-index.json`、`data/radicals/`、`design/radical-kanji-ui.html` を `_site` にまとめます。公開URLでアプリを直接開けるように、`design/radical-kanji-ui.html` は `_site/index.html` としても配置します。その後、`.nojekyll` を含めるために hidden files を有効にした Pages artifact としてアップロードし、`github-pages` 環境へデプロイします。
 
 ## Validation
 
