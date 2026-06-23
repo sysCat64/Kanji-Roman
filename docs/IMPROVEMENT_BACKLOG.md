@@ -1,0 +1,172 @@
+# Improvement Backlog
+
+## Purpose
+
+This document tracks post-MVP improvement work for Kanji-Roman after the static
+JSON site and JSON generator are usable.
+
+Keep the project split clear:
+
+- Public-site UI work belongs with `docs/PLAN.md`, `design/radical-kanji-ui.html`,
+  and `data/`.
+- Generator and data-production work belongs with
+  `tools/json-generator/docs/PLAN.md`, `tools/json-generator/src/`,
+  `tools/json-generator/config/`, and `tools/json-generator/curation/`.
+- Finished public JSON in `data/` should be regenerated from generator inputs
+  when the change starts from kanji data, readings, tags, or curation text.
+
+## Current Baseline
+
+- The public site reads `data/site-index.json` and `data/radicals/*.json` over
+  HTTP.
+- GitHub Pages deployment is handled by `.github/workflows/pages.yml`.
+- The UI supports radical switching, search, tag filtering, detail cards,
+  loading states, error states, and theme persistence.
+- The generator can produce internal JSON and public-site JSON from JIS,
+  Unihan `kRSUnicode`, radical config, and curation input.
+- `hooks/preflight.sh` is the main repository validation gate.
+
+## Curation Workflow
+
+Use this workflow when adding readings, romaji, English names, meanings, parts,
+notes, or tags for individual kanji.
+
+1. Pick a radical id and character from generated data.
+   - Public output lives in `data/radicals/<id>.json`.
+   - Curation source input lives in `tools/json-generator/curation/<id>.json`.
+2. Edit the curation input, not the generated public JSON first.
+   - Use the kanji character as the object key.
+   - Keep machine-derived fields such as Unicode, JIS level, and kuten under
+     generator control.
+3. Fill curation fields conservatively.
+   - `name`: short display name in English.
+   - `meaning`: concise reader-facing meaning or gloss.
+   - `readings.ja`: kana readings, including common kana variants when useful.
+   - `readings.romaji`: romanized readings in a consistent project style.
+   - `parts.ja` and `parts.en`: readable component phrase for the UI.
+   - `note`: short cultural or usage note only when wording has been reviewed.
+   - `tags`: small topical tags used by the UI.
+   - `curationStatus`: use `draft` while wording needs review; use `reviewed`
+     only after checking a reliable source.
+   - `needsReview`: keep `true` until the entry has been checked.
+4. Regenerate internal and public JSON with the generator CLI after curation
+   changes.
+5. Review generator warnings, especially curation entries that do not appear in
+   the generated radical item set.
+6. Run validation:
+
+```bash
+PYTHONPATH=tools/json-generator/src python3 -m unittest discover -s tools/json-generator/tests
+bash hooks/preflight.sh
+```
+
+7. Preview over HTTP and check the changed radical:
+
+```bash
+python3 -m http.server 8000
+```
+
+Open `http://127.0.0.1:8000/design/radical-kanji-ui.html`.
+
+## Near-Term Backlog
+
+### Curation Sources And Provenance
+
+Define how reviewed readings, names, meanings, and notes record their source.
+The current public JSON does not expose source metadata, so this should start as
+a generator-side curation contract update before any UI display change.
+
+Candidate fields for curation input:
+
+- `sourceLabel`
+- `sourceUrl`
+- `sourceCheckedAt`
+- `reviewNote`
+
+### Fish Radical Curation Pass
+
+Use `fish` as the first full editorial pass because it already has seeded
+curation and is the default public radical.
+
+Suggested order:
+
+1. Add readings and romaji for high-recognition food and nature entries.
+2. Add English display names only where the wording can be checked.
+3. Keep cultural notes short and mark them `draft` until reviewed.
+4. Regenerate `tools/json-generator/outputs/internal/fish.json` and
+   `data/radicals/fish.json`.
+
+### Curation Files For Other Radicals
+
+Create curation files for `grass`, `tree`, and `thread` when editorial work
+starts for those radicals. Keep each PR scoped to one radical or one curation
+theme so generated diffs stay reviewable.
+
+### Curation Coverage Report
+
+Add a small generator report that counts `reviewed`, `draft`, and `unreviewed`
+entries per radical. This would make it easier to decide which radical needs
+editorial attention next.
+
+### Reviewed-Only Output Check
+
+Exercise and document the `--reviewed-only` flow before using it for public
+release data. The current public site is useful with `unreviewed` entries, but
+reviewed-only output may be helpful for curated showcase pages.
+
+## UI Improvement Backlog
+
+### Keyboard And Focus
+
+Review keyboard navigation for radical tabs, tag chips, kanji cards, the detail
+panel, and the theme toggle. Keep the visual style calm and consistent with the
+current Taisho and Showa-retro direction.
+
+### Mobile Detail Panel
+
+Check long kanji details on small screens. Improve panel spacing and close
+behavior if longer readings or notes make the card feel crowded.
+
+### Search Feedback
+
+Search already checks characters, names, meanings, readings, parts, notes,
+status text, and tags. After more readings are curated, review whether result
+counts and empty states still feel clear.
+
+### Public Release Review
+
+Before treating the site as a stable public MVP, run the manual HTTP or Pages
+check against:
+
+- Initial load
+- Radical switching
+- Search
+- Tag filtering
+- Detail card
+- Theme persistence
+- Failed radical JSON recovery
+
+## Later Backlog
+
+### IDS Component Search
+
+Add IDS-based component search as a separate layer from radical search. This is
+where characters such as `漁`, which contain `魚` visually but do not use the
+fish radical, should eventually belong.
+
+### Additional Radicals
+
+Add new radicals only after the generator and curation flow is comfortable for
+the first four radicals. Each new radical needs config, generated output,
+validation, and at least a light UI check.
+
+### Static Search Index
+
+Consider a generated search index only if browser-side filtering over the
+current radical JSON becomes too slow or if cross-radical search becomes part of
+the public UI.
+
+### Release Notes
+
+Add a lightweight release note or changelog process once public data changes
+become meaningful to readers, especially when reviewed curation increases.
