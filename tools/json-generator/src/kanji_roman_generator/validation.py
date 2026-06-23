@@ -1,11 +1,13 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Any, Mapping
 
 ALLOWED_CURATION_STATUSES = {"reviewed", "draft", "unreviewed"}
+RADICAL_ID_PATTERN = re.compile(r"^[a-z0-9-]+$")
 
 
 def validate_project(root: str | Path) -> list[str]:
@@ -23,6 +25,12 @@ def validate_project(root: str | Path) -> list[str]:
     site_index = root_path / "data" / "site-index.json"
     if site_index.exists() and site_index in json_data:
         issues.extend(_validate_site_index(root_path, site_index, json_data[site_index]))
+
+    radical_config = root_path / "tools" / "json-generator" / "config" / "radicals.json"
+    if radical_config.exists() and radical_config in json_data:
+        issues.extend(
+            _validate_radical_config(root_path, radical_config, json_data[radical_config])
+        )
 
     return issues
 
@@ -225,6 +233,72 @@ def _validate_public_item(
         issues.append(f"{prefix} invalid curationStatus: {curation_status}")
     if "All" in item.get("tags", []):
         issues.append(f"{prefix} includes forbidden tag 'All'")
+
+    return issues
+
+
+def _validate_radical_config(
+    root: Path,
+    path: Path,
+    data: Any,
+) -> list[str]:
+    rel = _rel(path, root)
+    if not isinstance(data, list):
+        return [f"{rel} must be a JSON array"]
+
+    issues: list[str] = []
+    seen_ids: set[str] = set()
+    for index, radical in enumerate(data):
+        prefix = f"{rel} entry {index}"
+        if not isinstance(radical, Mapping):
+            issues.append(f"{prefix} must be an object")
+            continue
+
+        required = {
+            "id",
+            "glyph",
+            "labelJa",
+            "labelEn",
+            "radical",
+            "displayRadical",
+            "kangxiRadicalNumber",
+            "title",
+            "copy",
+            "tags",
+            "theme",
+        }
+        missing = sorted(required - set(radical))
+        if missing:
+            issues.append(f"{prefix} missing keys: {', '.join(missing)}")
+
+        radical_id = radical.get("id")
+        if not isinstance(radical_id, str) or not RADICAL_ID_PATTERN.fullmatch(
+            radical_id
+        ):
+            issues.append(f"{prefix} invalid radical id: {radical_id}")
+        elif radical_id in seen_ids:
+            issues.append(f"{rel} duplicate radical id: {radical_id}")
+        else:
+            seen_ids.add(radical_id)
+
+        kangxi_number = radical.get("kangxiRadicalNumber")
+        if not isinstance(kangxi_number, int) or not 1 <= kangxi_number <= 214:
+            issues.append(f"{prefix} invalid kangxiRadicalNumber: {kangxi_number}")
+
+        tags = radical.get("tags")
+        if not isinstance(tags, list):
+            issues.append(f"{prefix} tags must be an array")
+        elif "All" in tags:
+            issues.append(f"{prefix} includes forbidden tag 'All'")
+
+        theme = radical.get("theme")
+        if not isinstance(theme, Mapping):
+            issues.append(f"{prefix} theme must be an object")
+        else:
+            required_theme = {"accent", "accentRgb", "darkAccent", "darkAccentRgb"}
+            missing_theme = sorted(required_theme - set(theme))
+            if missing_theme:
+                issues.append(f"{prefix} theme missing keys: {', '.join(missing_theme)}")
 
     return issues
 
