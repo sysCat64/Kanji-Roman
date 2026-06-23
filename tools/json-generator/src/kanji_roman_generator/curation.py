@@ -6,6 +6,12 @@ from pathlib import Path
 from typing import Any, Mapping, Sequence
 
 ALLOWED_CURATION_STATUSES = {"reviewed", "draft", "unreviewed"}
+PROVENANCE_FIELDS = (
+    "sourceLabel",
+    "sourceUrl",
+    "sourceCheckedAt",
+    "reviewNote",
+)
 
 
 @dataclass(frozen=True)
@@ -56,18 +62,7 @@ def merge_curation(
         char = str(merged_item["char"])
         if char in curation_by_char:
             curation = _normalize_entry(char, curation_by_char[char])
-            merged_item.update(
-                {
-                    "name": curation["name"],
-                    "meaning": curation["meaning"],
-                    "readings": curation["readings"],
-                    "parts": curation["parts"],
-                    "note": curation["note"],
-                    "tags": curation["tags"],
-                    "curationStatus": curation["curationStatus"],
-                    "needsReview": curation["needsReview"],
-                }
-            )
+            merged_item.update(_curation_fields(curation))
         merged_items.append(merged_item)
 
     return CurationMergeResult(items=merged_items, warnings=warnings)
@@ -87,7 +82,7 @@ def _normalize_entry(
             f"{curation_status}"
         )
 
-    return {
+    normalized = {
         "name": _string_field(char, entry, "name"),
         "meaning": _string_field(char, entry, "meaning"),
         "readings": readings,
@@ -97,6 +92,9 @@ def _normalize_entry(
         "curationStatus": curation_status,
         "needsReview": _bool_field(char, entry, "needsReview"),
     }
+    for field in PROVENANCE_FIELDS:
+        normalized[field] = _string_field(char, entry, field)
+    return normalized
 
 
 def _with_curation_defaults(item: dict[str, Any]) -> dict[str, Any]:
@@ -108,10 +106,28 @@ def _with_curation_defaults(item: dict[str, Any]) -> dict[str, Any]:
     item.setdefault("tags", [])
     item.setdefault("curationStatus", "unreviewed")
     item.setdefault("needsReview", False)
+    for field in PROVENANCE_FIELDS:
+        item.setdefault(field, "")
     item["readings"] = _normalize_readings(str(item["char"]), item["readings"])
     item["parts"] = _normalize_parts(str(item["char"]), item["parts"])
     item["tags"] = _unique_strings_without_all(str(item["char"]), "tags", item["tags"])
     return item
+
+
+def _curation_fields(curation: Mapping[str, Any]) -> dict[str, Any]:
+    fields = {
+        "name": curation["name"],
+        "meaning": curation["meaning"],
+        "readings": curation["readings"],
+        "parts": curation["parts"],
+        "note": curation["note"],
+        "tags": curation["tags"],
+        "curationStatus": curation["curationStatus"],
+        "needsReview": curation["needsReview"],
+    }
+    for field in PROVENANCE_FIELDS:
+        fields[field] = curation[field]
+    return fields
 
 
 def _normalize_readings(char: str, value: Any) -> dict[str, list[str]]:

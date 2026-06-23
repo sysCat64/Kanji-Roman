@@ -8,17 +8,23 @@
     "fish",
     "seafood",
     "sushi",
-    "spring",
-    "food"
+    "food",
+    "basic",
+    "spring"
   ],
   "items": [
     {
       "char": "鯵",
-      "name": "",
-      "meaning": "",
+      "name": "Horse mackerel",
+      "meaning": "Horse mackerel; a common food fish known as aji in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "あじ",
+          "アジ"
+        ],
+        "romaji": [
+          "aji"
+        ]
       },
       "unicode": "U+9BF5",
       "jis": {
@@ -30,8 +36,12 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "draft"
     },
     {
       "char": "鮎",
@@ -56,11 +66,16 @@
     },
     {
       "char": "鰯",
-      "name": "",
-      "meaning": "",
+      "name": "Sardine",
+      "meaning": "Sardine; a small fish commonly called iwashi in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "いわし",
+          "イワシ"
+        ],
+        "romaji": [
+          "iwashi"
+        ]
       },
       "unicode": "U+9C2F",
       "jis": {
@@ -72,16 +87,25 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "draft"
     },
     {
       "char": "鰻",
-      "name": "",
-      "meaning": "",
+      "name": "Eel",
+      "meaning": "Eel; a familiar food fish known as unagi in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "うなぎ",
+          "ウナギ"
+        ],
+        "romaji": [
+          "unagi"
+        ]
       },
       "unicode": "U+9C3B",
       "jis": {
@@ -93,8 +117,11 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "food"
+      ],
+      "curationStatus": "draft"
     },
     {
       "char": "鰍",
@@ -119,11 +146,16 @@
     },
     {
       "char": "鰹",
-      "name": "",
-      "meaning": "",
+      "name": "Bonito",
+      "meaning": "Bonito or skipjack tuna; a fish known as katsuo in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "かつお",
+          "カツオ"
+        ],
+        "romaji": [
+          "katsuo"
+        ]
       },
       "unicode": "U+9C39",
       "jis": {
@@ -135,16 +167,28 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "draft"
     },
     {
       "char": "魚",
-      "name": "",
-      "meaning": "",
+      "name": "Fish",
+      "meaning": "Fish; a general kanji for fish.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "さかな",
+          "うお",
+          "ギョ"
+        ],
+        "romaji": [
+          "sakana",
+          "uo",
+          "gyo"
+        ]
       },
       "unicode": "U+9B5A",
       "jis": {
@@ -156,8 +200,11 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "basic"
+      ],
+      "curationStatus": "draft"
     },
     {
       "char": "鯨",
@@ -203,11 +250,19 @@
     },
     {
       "char": "鮭",
-      "name": "",
-      "meaning": "",
+      "name": "Salmon",
+      "meaning": "Salmon; a fish commonly called sake or shake in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "さけ",
+          "しゃけ",
+          "サケ",
+          "シャケ"
+        ],
+        "romaji": [
+          "sake",
+          "shake"
+        ]
       },
       "unicode": "U+9BAD",
       "jis": {
@@ -219,16 +274,25 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "draft"
     },
     {
       "char": "鯖",
-      "name": "",
-      "meaning": "",
+      "name": "Mackerel",
+      "meaning": "Mackerel; a fish known as saba in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "さば",
+          "サバ"
+        ],
+        "romaji": [
+          "saba"
+        ]
       },
       "unicode": "U+9BD6",
       "jis": {
@@ -240,8 +304,12 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "draft"
     },
     {
       "char": "鮫",
@@ -287,11 +355,16 @@
     },
     {
       "char": "鯛",
-      "name": "",
-      "meaning": "",
+      "name": "Sea bream",
+      "meaning": "Sea bream; a fish known as tai in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "たい",
+          "タイ"
+        ],
+        "romaji": [
+          "tai"
+        ]
       },
       "unicode": "U+9BDB",
       "jis": {
@@ -303,16 +376,25 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "draft"
     },
     {
       "char": "鱈",
-      "name": "",
-      "meaning": "",
+      "name": "Cod",
+      "meaning": "Cod; a fish known as tara in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "たら",
+          "タラ"
+        ],
+        "romaji": [
+          "tara"
+        ]
       },
       "unicode": "U+9C48",
       "jis": {
@@ -324,8 +406,12 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "draft"
     },
     {
       "char": "鰭",
@@ -371,11 +457,16 @@
     },
     {
       "char": "鮪",
-      "name": "",
-      "meaning": "",
+      "name": "Tuna",
+      "meaning": "Tuna; a fish known as maguro in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "まぐろ",
+          "マグロ"
+        ],
+        "romaji": [
+          "maguro"
+        ]
       },
       "unicode": "U+9BAA",
       "jis": {
@@ -387,8 +478,13 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "seafood",
+        "sushi",
+        "food"
+      ],
+      "curationStatus": "draft"
     },
     {
       "char": "鱒",
@@ -938,11 +1034,16 @@
     },
     {
       "char": "鰺",
-      "name": "",
-      "meaning": "",
+      "name": "Horse mackerel",
+      "meaning": "Horse mackerel; another kanji form used for aji.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "あじ",
+          "アジ"
+        ],
+        "romaji": [
+          "aji"
+        ]
       },
       "unicode": "U+9C3A",
       "jis": {
@@ -954,8 +1055,12 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "draft"
     },
     {
       "char": "鯲",

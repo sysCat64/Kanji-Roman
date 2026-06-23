@@ -129,7 +129,11 @@ Validation:
     "note": "Human-facing wording is draft until reviewed against a reliable source.",
     "tags": ["fish", "spring", "food"],
     "curationStatus": "draft",
-    "needsReview": true
+    "needsReview": true,
+    "sourceLabel": "",
+    "sourceUrl": "",
+    "sourceCheckedAt": "",
+    "reviewNote": ""
   }
 }
 ```
@@ -140,6 +144,8 @@ Validation:
 - `curationStatus` は `reviewed`, `draft`, `unreviewed` のいずれかにする。
 - `readings.ja`, `readings.romaji`, `tags` は配列にする。
 - `tags` に `"All"` を入れない。
+- `sourceLabel`, `sourceUrl`, `sourceCheckedAt`, `reviewNote` は任意の文字列として扱う。
+- `reviewed` にする場合は、出典名と確認日を curation input に残す。
 - 対象部首のJIS集合に存在しない文字は警告として出す。
 
 ### Vendor Input
@@ -201,6 +207,10 @@ Internal item fields:
 - `tags[]`
 - `curationStatus`
 - `needsReview`
+- `sourceLabel`
+- `sourceUrl`
+- `sourceCheckedAt`
+- `reviewNote`
 
 ### Public Site Index
 
@@ -301,6 +311,7 @@ Validation:
 | item `note` | item `note` | 未入力なら空文字にする |
 | item `tags` | item `tags` | `"All"` を除外し、重複を除く |
 | item `curationStatus` | item `curationStatus` | 未入力なら `unreviewed` にする |
+| item `needsReview`, `sourceLabel`, `sourceUrl`, `sourceCheckedAt`, `reviewNote` | omitted | generator-side review metadataとして公開JSONには出さない |
 
 ## Implementation Phases
 
@@ -386,7 +397,7 @@ Files:
 Steps:
 
 1. `tools/json-generator/curation/<id>.json` を文字キーで読み込む。
-2. JIS/Unihan由来のitemに、`name`, `meaning`, `readings`, `parts`, `note`, `tags`, `curationStatus`, `needsReview` をマージする。
+2. JIS/Unihan由来のitemに、`name`, `meaning`, `readings`, `parts`, `note`, `tags`, `curationStatus`, `needsReview`, `sourceLabel`, `sourceUrl`, `sourceCheckedAt`, `reviewNote` をマージする。
 3. キュレーションがないitemは `curationStatus: "unreviewed"`、表示文字列は空文字、配列は空配列にする。
 4. 対象部首のJIS集合に存在しないキュレーション文字は警告に入れ、生成自体は継続する。
 5. `--reviewed-only` は `curationStatus: "reviewed"` のitemだけを公開サイト用JSONへ出す。
@@ -409,7 +420,7 @@ Steps:
 1. `site-index.json` を `tools/json-generator/config/radicals.json` から生成する。
 2. `radicals[].file` は `radicals/<id>.json` として出力する。
 3. 部首別JSONは内部JSONを公開サイト契約へ変換して生成する。
-4. 公開JSONから `generatedAt`, `source`, `radical.kangxiRadicalNumber`, `needsReview` などの生成ツール内部情報を外す。
+4. 公開JSONから `generatedAt`, `source`, `radical.kangxiRadicalNumber`, `needsReview`, source review fields などの生成ツール内部情報を外す。
 5. top-level `tags` は部首定義の `tags` とitemの `tags` を初出順で結合する。
 
 Acceptance:
