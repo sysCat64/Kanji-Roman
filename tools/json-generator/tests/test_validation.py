@@ -92,6 +92,25 @@ def valid_radical_definition():
     }
 
 
+def write_valid_vendor_readme(root):
+    readme = root / "tools" / "json-generator" / "vendor" / "README.md"
+    readme.parent.mkdir(parents=True, exist_ok=True)
+    readme.write_text(
+        "\n".join(
+            [
+                "# Vendor Data",
+                "",
+                "- Source URL: https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip",
+                "- Unicode version: 17.0.0",
+                "- Retrieval status: not committed",
+                "- License: Unicode License v3",
+                "",
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+
 class ProjectValidationTest(unittest.TestCase):
     def test_validates_public_site_json_contract(self):
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -165,10 +184,42 @@ class ProjectValidationTest(unittest.TestCase):
                 root / "tools" / "json-generator" / "config" / "radicals.json",
                 [valid_radical_definition()],
             )
+            write_valid_vendor_readme(root)
 
             issues = validate_project(root)
 
         self.assertEqual([], issues)
+
+    def test_reports_missing_vendor_readme_for_generator_inputs(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            write_json(
+                root / "tools" / "json-generator" / "config" / "radicals.json",
+                [valid_radical_definition()],
+            )
+
+            issues = validate_project(root)
+
+        self.assertIn("tools/json-generator/vendor/README.md is required", issues)
+
+    def test_reports_incomplete_vendor_readme_for_generator_inputs(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            write_json(
+                root / "tools" / "json-generator" / "config" / "radicals.json",
+                [valid_radical_definition()],
+            )
+            readme = root / "tools" / "json-generator" / "vendor" / "README.md"
+            readme.parent.mkdir(parents=True)
+            readme.write_text("# Vendor Data\n\nUnihan input lives here.\n", encoding="utf-8")
+
+            issues = validate_project(root)
+
+        joined = "\n".join(issues)
+        self.assertIn("missing source URL", joined)
+        self.assertIn("missing Unicode version", joined)
+        self.assertIn("missing retrieval status", joined)
+        self.assertIn("missing license", joined)
 
     def test_reports_radical_config_contract_violations(self):
         with tempfile.TemporaryDirectory() as tmpdir:

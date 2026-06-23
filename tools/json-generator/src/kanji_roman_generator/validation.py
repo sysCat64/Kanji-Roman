@@ -8,6 +8,13 @@ from typing import Any, Mapping
 
 ALLOWED_CURATION_STATUSES = {"reviewed", "draft", "unreviewed"}
 RADICAL_ID_PATTERN = re.compile(r"^[a-z0-9-]+$")
+VENDOR_README = Path("tools/json-generator/vendor/README.md")
+VENDOR_README_REQUIRED_MARKERS = {
+    "source URL": "https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip",
+    "Unicode version": "Unicode version:",
+    "retrieval status": "Retrieval status:",
+    "license": "Unicode License v3",
+}
 
 
 def validate_project(root: str | Path) -> list[str]:
@@ -31,6 +38,7 @@ def validate_project(root: str | Path) -> list[str]:
         issues.extend(
             _validate_radical_config(root_path, radical_config, json_data[radical_config])
         )
+        issues.extend(_validate_vendor_readme(root_path))
 
     return issues
 
@@ -300,6 +308,19 @@ def _validate_radical_config(
             if missing_theme:
                 issues.append(f"{prefix} theme missing keys: {', '.join(missing_theme)}")
 
+    return issues
+
+
+def _validate_vendor_readme(root: Path) -> list[str]:
+    readme = root / VENDOR_README
+    if not readme.exists():
+        return [f"{VENDOR_README.as_posix()} is required"]
+
+    text = readme.read_text(encoding="utf-8")
+    issues: list[str] = []
+    for label, marker in VENDOR_README_REQUIRED_MARKERS.items():
+        if marker not in text:
+            issues.append(f"{VENDOR_README.as_posix()} missing {label}")
     return issues
 
 
