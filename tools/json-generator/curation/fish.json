@@ -28,8 +28,12 @@
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
-    "curationStatus": "draft",
-    "needsReview": true
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%AF",
+    "sourceCheckedAt": "2026-06-23",
+    "reviewNote": "Checked iwashi, katakana usage, and pilchard or sardine gloss against the Japanese entry."
   },
   "鰻": {
     "name": "Eel",
@@ -44,8 +48,12 @@
     },
     "note": "",
     "tags": ["fish", "food"],
-    "curationStatus": "draft",
-    "needsReview": true
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%BB",
+    "sourceCheckedAt": "2026-06-23",
+    "reviewNote": "Checked unagi, katakana usage, and eel gloss against the Japanese entry."
   },
   "鰹": {
     "name": "Bonito",
@@ -60,8 +68,12 @@
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
-    "curationStatus": "draft",
-    "needsReview": true
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%B9",
+    "sourceCheckedAt": "2026-06-23",
+    "reviewNote": "Checked katsuo, katakana usage, and skipjack tuna or bonito gloss against the Japanese entry."
   },
   "魚": {
     "name": "Fish",
@@ -116,8 +128,12 @@
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
-    "curationStatus": "draft",
-    "needsReview": true
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AF%96",
+    "sourceCheckedAt": "2026-06-23",
+    "reviewNote": "Checked saba, katakana usage, and mackerel gloss against the Japanese entry."
   },
   "鯛": {
     "name": "Sea bream",
@@ -132,8 +148,12 @@
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
-    "curationStatus": "draft",
-    "needsReview": true
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AF%9B",
+    "sourceCheckedAt": "2026-06-23",
+    "reviewNote": "Checked tai, katakana usage, and sea bream gloss against the Japanese entry."
   },
   "鱈": {
     "name": "Cod",
@@ -148,8 +168,12 @@
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
-    "curationStatus": "draft",
-    "needsReview": true
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B1%88",
+    "sourceCheckedAt": "2026-06-23",
+    "reviewNote": "Checked tara, katakana usage, and codfish gloss against the Japanese entry."
   },
   "鮪": {
     "name": "Tuna",
