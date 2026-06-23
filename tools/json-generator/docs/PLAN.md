@@ -429,7 +429,7 @@ Files:
 
 Steps:
 
-1. JSON構文、必須キー、重複id、重複char、Unicode一致、JIS水準、`All` タグ混入、相対パスを検証する。
+1. JSON構文、部首定義config、必須キー、重複id、重複char、Unicode一致、JIS水準、`All` タグ混入、相対パスを検証する。
 2. `hooks/preflight.sh` でルート `data/` の公開JSONが検証されることを確認する。
 3. `docs/radical-kanji-json-tool-design.md` のディレクトリ例とCLI例を `tools/json-generator/` 配下の責務に合わせる。
 4. `docs/static-json-site-design.md` は公開サイト側設計書として扱い、この生成ツール計画からは参照に留める。

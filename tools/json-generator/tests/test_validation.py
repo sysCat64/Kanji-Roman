@@ -71,6 +71,27 @@ def valid_fish_json():
     }
 
 
+def valid_radical_definition():
+    return {
+        "id": "fish",
+        "glyph": "魚",
+        "labelJa": "魚へん",
+        "labelEn": "Fish radical",
+        "radical": "魚",
+        "displayRadical": "魚",
+        "kangxiRadicalNumber": 195,
+        "title": "魚へんの漢字",
+        "copy": "辞書上の部首が魚に分類されるJIS第一・第二水準の漢字。",
+        "tags": ["fish", "seafood"],
+        "theme": {
+            "accent": "#0f766e",
+            "accentRgb": "15 118 110",
+            "darkAccent": "#5eead4",
+            "darkAccentRgb": "94 234 212",
+        },
+    }
+
+
 class ProjectValidationTest(unittest.TestCase):
     def test_validates_public_site_json_contract(self):
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -136,6 +157,47 @@ class ProjectValidationTest(unittest.TestCase):
 
         self.assertEqual(1, len(issues))
         self.assertIn("Invalid JSON in data/site-index.json", issues[0])
+
+    def test_validates_radical_config_contract(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            write_json(
+                root / "tools" / "json-generator" / "config" / "radicals.json",
+                [valid_radical_definition()],
+            )
+
+            issues = validate_project(root)
+
+        self.assertEqual([], issues)
+
+    def test_reports_radical_config_contract_violations(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            first = valid_radical_definition()
+            first["id"] = "Fish!"
+            first["kangxiRadicalNumber"] = 0
+            first["tags"] = ["fish", "All"]
+            del first["labelEn"]
+            del first["theme"]["darkAccentRgb"]
+            second = valid_radical_definition()
+            second["kangxiRadicalNumber"] = 215
+            write_json(
+                root / "tools" / "json-generator" / "config" / "radicals.json",
+                [first, second],
+            )
+
+            issues = validate_project(root)
+
+        joined = "\n".join(issues)
+        self.assertIn(
+            "tools/json-generator/config/radicals.json entry 0 missing keys: labelEn",
+            joined,
+        )
+        self.assertIn("invalid radical id: Fish!", joined)
+        self.assertIn("invalid kangxiRadicalNumber: 0", joined)
+        self.assertIn("includes forbidden tag 'All'", joined)
+        self.assertIn("theme missing keys: darkAccentRgb", joined)
+        self.assertIn("invalid kangxiRadicalNumber: 215", joined)
 
 
 class HookValidationTest(unittest.TestCase):
