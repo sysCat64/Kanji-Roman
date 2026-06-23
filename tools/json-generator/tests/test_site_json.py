@@ -99,6 +99,10 @@ class SiteJsonCurationTest(unittest.TestCase):
                     "radical": {"kangxiRadicalNumber": 195},
                     "curationStatus": "draft",
                     "needsReview": True,
+                    "sourceLabel": "Example dictionary",
+                    "sourceUrl": "https://example.com/sawara",
+                    "sourceCheckedAt": "2026-06-23",
+                    "reviewNote": "Readings and English display name checked.",
                 }
             ],
         }
@@ -123,6 +127,10 @@ class SiteJsonCurationTest(unittest.TestCase):
         self.assertNotIn("source", public_json)
         self.assertNotIn("radical", public_json["items"][0])
         self.assertNotIn("needsReview", public_json["items"][0])
+        self.assertNotIn("sourceLabel", public_json["items"][0])
+        self.assertNotIn("sourceUrl", public_json["items"][0])
+        self.assertNotIn("sourceCheckedAt", public_json["items"][0])
+        self.assertNotIn("reviewNote", public_json["items"][0])
 
     def test_public_items_reflect_merged_curation_fields(self):
         group = {

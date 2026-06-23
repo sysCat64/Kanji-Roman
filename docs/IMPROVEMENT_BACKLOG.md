@@ -49,6 +49,8 @@ notes, or tags for individual kanji.
    - `curationStatus`: use `draft` while wording needs review; use `reviewed`
      only after checking a reliable source.
    - `needsReview`: keep `true` until the entry has been checked.
+   - `sourceLabel`, `sourceUrl`, `sourceCheckedAt`, and `reviewNote`:
+     generator-side review metadata for entries that have source checks.
 4. Regenerate internal and public JSON with the generator CLI after curation
    changes.
 5. Review generator warnings, especially curation entries that do not appear in
@@ -72,16 +74,16 @@ Open `http://127.0.0.1:8000/design/radical-kanji-ui.html`.
 
 ### Curation Sources And Provenance
 
-Define how reviewed readings, names, meanings, and notes record their source.
-The current public JSON does not expose source metadata, so this should start as
-a generator-side curation contract update before any UI display change.
+Reviewed readings, names, meanings, and notes record source checks in
+generator-side curation input. Public JSON does not expose source metadata; a UI
+display for sources belongs in a separate public-site change.
 
-Candidate fields for curation input:
+Supported curation input fields:
 
-- `sourceLabel`
-- `sourceUrl`
-- `sourceCheckedAt`
-- `reviewNote`
+- `sourceLabel`: human-readable source name.
+- `sourceUrl`: source URL when a stable URL is available.
+- `sourceCheckedAt`: source check date in `YYYY-MM-DD` form.
+- `reviewNote`: short internal note describing what was checked.
 
 ### Fish Radical Curation Pass
 

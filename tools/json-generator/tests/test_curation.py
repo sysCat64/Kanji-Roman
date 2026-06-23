@@ -69,6 +69,10 @@ class CurationLoadTest(unittest.TestCase):
                             "tags": ["fish", "spring", "food"],
                             "curationStatus": "draft",
                             "needsReview": True,
+                            "sourceLabel": "Example dictionary",
+                            "sourceUrl": "https://example.com/sawara",
+                            "sourceCheckedAt": "2026-06-23",
+                            "reviewNote": "Readings and English display name checked.",
                         }
                     },
                     ensure_ascii=False,
@@ -81,6 +85,13 @@ class CurationLoadTest(unittest.TestCase):
         self.assertEqual("Japanese Spanish mackerel", curation["鰆"]["name"])
         self.assertEqual(["sawara"], curation["鰆"]["readings"]["romaji"])
         self.assertTrue(curation["鰆"]["needsReview"])
+        self.assertEqual("Example dictionary", curation["鰆"]["sourceLabel"])
+        self.assertEqual("https://example.com/sawara", curation["鰆"]["sourceUrl"])
+        self.assertEqual("2026-06-23", curation["鰆"]["sourceCheckedAt"])
+        self.assertEqual(
+            "Readings and English display name checked.",
+            curation["鰆"]["reviewNote"],
+        )
 
     def test_rejects_invalid_curation_contract(self):
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -131,6 +142,10 @@ class CurationMergeTest(unittest.TestCase):
                     "tags": ["fish", "spring", "fish"],
                     "curationStatus": "draft",
                     "needsReview": True,
+                    "sourceLabel": "Example dictionary",
+                    "sourceUrl": "https://example.com/sawara",
+                    "sourceCheckedAt": "2026-06-23",
+                    "reviewNote": "Draft source check.",
                 }
             },
         )
@@ -151,6 +166,10 @@ class CurationMergeTest(unittest.TestCase):
         self.assertEqual(["fish", "spring"], sawara["tags"])
         self.assertEqual("draft", sawara["curationStatus"])
         self.assertTrue(sawara["needsReview"])
+        self.assertEqual("Example dictionary", sawara["sourceLabel"])
+        self.assertEqual("https://example.com/sawara", sawara["sourceUrl"])
+        self.assertEqual("2026-06-23", sawara["sourceCheckedAt"])
+        self.assertEqual("Draft source check.", sawara["reviewNote"])
         self.assertEqual([], result.warnings)
 
     def test_reports_out_of_scope_curation_without_blocking_generation(self):

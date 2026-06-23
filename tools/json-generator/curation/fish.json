@@ -1,4 +1,180 @@
 {
+  "鯵": {
+    "name": "Horse mackerel",
+    "meaning": "Horse mackerel; a common food fish known as aji in Japanese.",
+    "readings": {
+      "ja": ["あじ", "アジ"],
+      "romaji": ["aji"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "draft",
+    "needsReview": true
+  },
+  "鰯": {
+    "name": "Sardine",
+    "meaning": "Sardine; a small fish commonly called iwashi in Japanese.",
+    "readings": {
+      "ja": ["いわし", "イワシ"],
+      "romaji": ["iwashi"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "draft",
+    "needsReview": true
+  },
+  "鰻": {
+    "name": "Eel",
+    "meaning": "Eel; a familiar food fish known as unagi in Japanese.",
+    "readings": {
+      "ja": ["うなぎ", "ウナギ"],
+      "romaji": ["unagi"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "",
+    "tags": ["fish", "food"],
+    "curationStatus": "draft",
+    "needsReview": true
+  },
+  "鰹": {
+    "name": "Bonito",
+    "meaning": "Bonito or skipjack tuna; a fish known as katsuo in Japanese.",
+    "readings": {
+      "ja": ["かつお", "カツオ"],
+      "romaji": ["katsuo"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "draft",
+    "needsReview": true
+  },
+  "魚": {
+    "name": "Fish",
+    "meaning": "Fish; a general kanji for fish.",
+    "readings": {
+      "ja": ["さかな", "うお", "ギョ"],
+      "romaji": ["sakana", "uo", "gyo"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "",
+    "tags": ["fish", "basic"],
+    "curationStatus": "draft",
+    "needsReview": true
+  },
+  "鮭": {
+    "name": "Salmon",
+    "meaning": "Salmon; a fish commonly called sake or shake in Japanese.",
+    "readings": {
+      "ja": ["さけ", "しゃけ", "サケ", "シャケ"],
+      "romaji": ["sake", "shake"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "draft",
+    "needsReview": true
+  },
+  "鯖": {
+    "name": "Mackerel",
+    "meaning": "Mackerel; a fish known as saba in Japanese.",
+    "readings": {
+      "ja": ["さば", "サバ"],
+      "romaji": ["saba"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "draft",
+    "needsReview": true
+  },
+  "鯛": {
+    "name": "Sea bream",
+    "meaning": "Sea bream; a fish known as tai in Japanese.",
+    "readings": {
+      "ja": ["たい", "タイ"],
+      "romaji": ["tai"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "draft",
+    "needsReview": true
+  },
+  "鱈": {
+    "name": "Cod",
+    "meaning": "Cod; a fish known as tara in Japanese.",
+    "readings": {
+      "ja": ["たら", "タラ"],
+      "romaji": ["tara"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "draft",
+    "needsReview": true
+  },
+  "鮪": {
+    "name": "Tuna",
+    "meaning": "Tuna; a fish known as maguro in Japanese.",
+    "readings": {
+      "ja": ["まぐろ", "マグロ"],
+      "romaji": ["maguro"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "",
+    "tags": ["fish", "seafood", "sushi", "food"],
+    "curationStatus": "draft",
+    "needsReview": true
+  },
+  "鰺": {
+    "name": "Horse mackerel",
+    "meaning": "Horse mackerel; another kanji form used for aji.",
+    "readings": {
+      "ja": ["あじ", "アジ"],
+      "romaji": ["aji"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "draft",
+    "needsReview": true
+  },
   "鰆": {
     "name": "Japanese Spanish mackerel",
     "meaning": "A spring-associated fish commonly eaten in Japan.",
