@@ -23,6 +23,11 @@ U+6728\tkDefinition\ttree
 not a valid unihan row
 """
 
+SAMPLE_RADICAL_STROKE_COUNTS = """\
+U+9C06\tkRSAdobe_Japan1_6\tC+7339+195.11.9
+U+9BAD\tkRSAdobe_Japan1_6\tC+2154+195.11.6
+"""
+
 
 class UnihanParsingTest(unittest.TestCase):
     def test_parses_only_krsunicode_rows_to_kangxi_radical_numbers(self):
@@ -46,6 +51,26 @@ class UnihanParsingTest(unittest.TestCase):
 
         self.assertEqual((195,), records["鰆"])
         self.assertEqual((85,), records["漁"])
+
+    def test_loads_krsunicode_from_irgsources_when_radical_stroke_counts_has_adobe_data(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            zip_path = Path(tmpdir) / "Unihan.zip"
+            with zipfile.ZipFile(zip_path, "w") as archive:
+                archive.writestr(
+                    "Unihan_RadicalStrokeCounts.txt",
+                    SAMPLE_RADICAL_STROKE_COUNTS,
+                )
+                archive.writestr(
+                    "Unihan_IRGSources.txt",
+                    SAMPLE_KRSUNICODE,
+                )
+
+            records = load_krsunicode_from_zip(zip_path)
+
+        self.assertIn("鰆", records)
+        self.assertIn(chr(0x9BAD), records)
+        self.assertEqual((195,), records["鰆"])
+        self.assertEqual((195, 85), records[chr(0x9BAD)])
 
 
 class RadicalFilterTest(unittest.TestCase):

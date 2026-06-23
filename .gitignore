@@ -27,6 +27,10 @@ coverage/
 .parcel-cache/
 .vite/
 
+# Kanji-Roman generator local data and generated intermediates
+tools/json-generator/vendor/
+tools/json-generator/outputs/
+
 # Python local state
 __pycache__/
 *.py[cod]

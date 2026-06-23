@@ -332,7 +332,7 @@ Files:
 
 Steps:
 
-1. `Unihan.zip` から `Unihan_RadicalStrokeCounts.txt` を読み、`kRSUnicode` 行だけを解析する。
+1. `Unihan.zip` から `Unihan_IRGSources.txt` を優先して読み、`kRSUnicode` 行だけを解析する。古いfixture互換として `Unihan_RadicalStrokeCounts.txt` もfallbackとして扱う。
 2. `U+9C06 kRSUnicode 195.9` のような値から先頭の康熙部首番号を抽出する。
 3. `tools/json-generator/config/radicals.json` を読み、`kangxiRadicalNumber` と照合して対象文字を絞り込む。
 4. 複数値を持つ `kRSUnicode` は、いずれかの値の先頭番号が対象番号と一致すれば対象に含める。

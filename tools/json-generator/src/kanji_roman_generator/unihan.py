@@ -4,7 +4,9 @@ import re
 import zipfile
 from pathlib import Path
 
+UNIHAN_IRG_SOURCES = "Unihan_IRGSources.txt"
 UNIHAN_RADICAL_STROKE_COUNTS = "Unihan_RadicalStrokeCounts.txt"
+UNIHAN_KRSUNICODE_SOURCES = (UNIHAN_IRG_SOURCES, UNIHAN_RADICAL_STROKE_COUNTS)
 KRSUNICODE_PROPERTY = "kRSUnicode"
 _RADICAL_NUMBER_PATTERN = re.compile(r"^(\d{1,3})'?\.")
 
@@ -27,7 +29,7 @@ def radical_numbers_from_krsunicode(value: str) -> tuple[int, ...]:
 
 
 def parse_krsunicode_text(text: str) -> dict[str, tuple[int, ...]]:
-    """Parse Unihan_RadicalStrokeCounts text into char to radical numbers."""
+    """Parse Unihan kRSUnicode rows into char to radical numbers."""
     records: dict[str, tuple[int, ...]] = {}
 
     for raw_line in text.splitlines():
@@ -53,14 +55,22 @@ def parse_krsunicode_text(text: str) -> dict[str, tuple[int, ...]]:
 def load_krsunicode_from_zip(path: str | Path) -> dict[str, tuple[int, ...]]:
     """Load kRSUnicode records from a local Unihan.zip file."""
     with zipfile.ZipFile(path) as archive:
-        try:
-            raw_text = archive.read(UNIHAN_RADICAL_STROKE_COUNTS)
-        except KeyError as exc:
-            raise FileNotFoundError(
-                f"{UNIHAN_RADICAL_STROKE_COUNTS} not found in {path}"
-            ) from exc
+        last_error: KeyError | None = None
+        for source_name in UNIHAN_KRSUNICODE_SOURCES:
+            try:
+                raw_text = archive.read(source_name)
+            except KeyError as exc:
+                last_error = exc
+                continue
 
-    return parse_krsunicode_text(raw_text.decode("utf-8"))
+            records = parse_krsunicode_text(raw_text.decode("utf-8"))
+            if records:
+                return records
+
+    source_list = " or ".join(UNIHAN_KRSUNICODE_SOURCES)
+    raise FileNotFoundError(
+        f"{source_list} with kRSUnicode data not found in {path}"
+    ) from last_error
 
 
 def _char_from_code_point(value: str) -> str:
