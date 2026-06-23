@@ -1209,6 +1209,12 @@
                 }
             }
 
+            function visibleTags(collection) {
+                return (collection.tags || []).filter((tag) => {
+                    return tag === ALL_TAG || (collection.items || []).some((item) => (item.tags || []).includes(tag));
+                });
+            }
+
             function renderTags() {
                 const collection = getCollection();
                 if (!collection) {
@@ -1216,7 +1222,12 @@
                     return;
                 }
 
-                tagRow.replaceChildren(...collection.tags.map((tag) => {
+                const tags = visibleTags(collection);
+                if (!tags.includes(state.tag)) {
+                    state.tag = ALL_TAG;
+                }
+
+                tagRow.replaceChildren(...tags.map((tag) => {
                     const button = document.createElement("button");
                     button.className = "tag-button";
                     button.type = "button";
