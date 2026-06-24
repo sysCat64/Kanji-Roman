@@ -7,8 +7,8 @@
       "romaji": ["aji"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 参",
+      "en": "Fish + 参 component"
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
@@ -27,8 +27,8 @@
       "romaji": ["iwashi"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 弱",
+      "en": "Fish + 弱 component"
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
@@ -127,8 +127,8 @@
       "romaji": ["saba"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 青",
+      "en": "Fish + 青 component"
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
@@ -147,8 +147,8 @@
       "romaji": ["tai"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 周",
+      "en": "Fish + 周 component"
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
@@ -167,8 +167,8 @@
       "romaji": ["tara"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 雪",
+      "en": "Fish + 雪 component"
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
@@ -187,8 +187,8 @@
       "romaji": ["maguro"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 有",
+      "en": "Fish + 有 component"
     },
     "note": "",
     "tags": ["fish", "seafood", "sushi", "food"],
@@ -247,8 +247,8 @@
       "romaji": ["ayu"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 占",
+      "en": "Fish + 占 component"
     },
     "note": "In Japanese usage, 鮎 commonly refers to ayu or sweetfish.",
     "tags": ["fish", "river", "food"],
@@ -267,8 +267,8 @@
       "romaji": ["koi"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 里",
+      "en": "Fish + 里 component"
     },
     "note": "",
     "tags": ["fish", "freshwater"],
@@ -287,8 +287,8 @@
       "romaji": ["same"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 交",
+      "en": "Fish + 交 component"
     },
     "note": "",
     "tags": ["fish"],
@@ -307,8 +307,8 @@
       "romaji": ["kujira"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 京",
+      "en": "Fish + 京 component"
     },
     "note": "Although written with the fish radical, whales are mammals.",
     "tags": ["sea", "mammal"],
@@ -367,8 +367,8 @@
       "romaji": ["funa"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 付",
+      "en": "Fish + 付 component"
     },
     "note": "",
     "tags": ["fish", "freshwater", "food"],
@@ -427,8 +427,8 @@
       "romaji": ["dojo", "inada", "kajika", "shu"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 秋",
+      "en": "Fish + 秋 component"
     },
     "note": "The Japanese readings point to different fish names, so the public gloss stays broad.",
     "tags": ["fish"],
@@ -527,8 +527,8 @@
       "romaji": ["hirame", "hei", "hyo"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 平",
+      "en": "Fish + 平 component"
     },
     "note": "Alternative spellings include 平目 and 比目魚.",
     "tags": ["fish", "seafood", "food"],
@@ -547,8 +547,8 @@
       "romaji": ["awabi", "shiouo", "ho", "byo"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 包",
+      "en": "Fish + 包 component"
     },
     "note": "Although written with the fish radical, abalone is a mollusk.",
     "tags": ["seafood", "food", "mollusk"],
@@ -587,8 +587,8 @@
       "romaji": ["an", "anko"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 安",
+      "en": "Fish + 安 component"
     },
     "note": "Only found in compounds; the familiar fish name is 鮟鱇.",
     "tags": ["fish", "seafood", "food"],
@@ -607,8 +607,8 @@
       "romaji": ["haya", "hae", "gai"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 危",
+      "en": "Fish + 危 component"
     },
     "note": "Chinese and Korean senses point to catfish, but the Japanese entry gives dace.",
     "tags": ["fish", "freshwater"],
@@ -627,8 +627,8 @@
       "romaji": ["sushi", "shi", "gi", "ki"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 旨",
+      "en": "Fish + 旨 component"
     },
     "note": "Listed as an alternative spelling of the same sushi entry as 鮓.",
     "tags": ["food", "sushi"],
@@ -647,8 +647,8 @@
       "romaji": ["mebaru", "gori", "kochi", "mate"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 休",
+      "en": "Fish + 休 component"
     },
     "note": "The gori reading is listed as probably the most common, while kochi and mate are rare uses.",
     "tags": ["fish", "sea", "freshwater"],
@@ -727,8 +727,8 @@
       "romaji": ["asari", "ugui"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 利",
+      "en": "Fish + 利 component"
     },
     "note": "Although written with the fish radical, the main Japanese gloss is a clam.",
     "tags": ["seafood", "food", "mollusk"],
@@ -747,8 +747,8 @@
       "romaji": ["kazunoko"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 希",
+      "en": "Fish + 希 component"
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
@@ -787,8 +787,8 @@
       "romaji": ["surume", "eki", "yaku"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 易",
+      "en": "Fish + 易 component"
     },
     "note": "The dried squid sense is now most common; older usage can also refer to Japanese flying squid.",
     "tags": ["seafood", "food", "squid"],
@@ -827,8 +827,8 @@
       "romaji": ["kon"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 昆",
+      "en": "Fish + 昆 component"
     },
     "note": "The Japanese noun entry describes a northern-sea giant fish from Chinese mythology.",
     "tags": ["fish", "mythology"],
@@ -867,8 +867,8 @@
       "romaji": ["nishin", "hararago", "harago", "hi"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 非",
+      "en": "Fish + 非 component"
     },
     "note": "The Japanese entry lists 鰊 as a synonym for the herring sense and 鮞 for the roe sense.",
     "tags": ["fish", "seafood", "food"],
@@ -967,8 +967,8 @@
       "romaji": ["higai", "ko"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 皇",
+      "en": "Fish + 皇 component"
     },
     "note": "The kanji entry also lists sturgeon and carp senses, while the Japanese noun entry gives higai.",
     "tags": ["fish", "freshwater"],
