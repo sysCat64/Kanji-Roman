@@ -828,11 +828,17 @@
     },
     {
       "char": "鮖",
-      "name": "",
-      "meaning": "",
+      "name": "Kajika sculpin",
+      "meaning": "Kajika; a freshwater sculpin in the family Cottidae.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "かじか",
+          "かじこ"
+        ],
+        "romaji": [
+          "kajika",
+          "kajiko"
+        ]
       },
       "unicode": "U+9B96",
       "jis": {
@@ -843,9 +849,12 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Kanjipedia notes that the character evokes a fish living among stones.",
+      "tags": [
+        "fish",
+        "freshwater"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鮗",
@@ -1077,11 +1086,19 @@
     },
     {
       "char": "鮹",
-      "name": "",
-      "meaning": "",
+      "name": "Octopus",
+      "meaning": "Octopus; an alternate fish-radical spelling read tako in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "たこ",
+          "ショウ",
+          "ソウ"
+        ],
+        "romaji": [
+          "tako",
+          "sho",
+          "so"
+        ]
       },
       "unicode": "U+9BB9",
       "jis": {
@@ -1092,9 +1109,13 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Although written with the fish radical, octopus is a mollusk; compare the reviewed 鱆 entry.",
+      "tags": [
+        "seafood",
+        "food",
+        "mollusk"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯆",
@@ -1429,11 +1450,15 @@
     },
     {
       "char": "鯲",
-      "name": "",
-      "meaning": "",
+      "name": "Loach",
+      "meaning": "Loach; a freshwater fish read dojo in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "どじょう"
+        ],
+        "romaji": [
+          "dojo"
+        ]
       },
       "unicode": "U+9BF2",
       "jis": {
@@ -1444,9 +1469,12 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The character is kept separate from the reviewed 鰌 entry even though both are read dojo.",
+      "tags": [
+        "fish",
+        "freshwater"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯱",
@@ -1825,11 +1853,17 @@
     },
     {
       "char": "鰄",
-      "name": "",
-      "meaning": "",
+      "name": "Kairagi sharkskin",
+      "meaning": "Kairagi; rough shark or ray skin used as a material, and by extension a sharkskin-like ceramic glaze.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "かいらぎ",
+          "イ"
+        ],
+        "romaji": [
+          "kairagi",
+          "i"
+        ]
       },
       "unicode": "U+9C04",
       "jis": {
@@ -1840,9 +1874,12 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Kairagi can also be written 梅花皮.",
+      "tags": [
+        "fish",
+        "anatomy"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰮",
@@ -1980,11 +2017,18 @@
     },
     {
       "char": "鰡",
-      "name": "",
-      "meaning": "",
+      "name": "Striped mullet",
+      "meaning": "Striped or flathead grey mullet; a fish read bora in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "ぼら",
+          "ボラ",
+          "リュウ"
+        ],
+        "romaji": [
+          "bora",
+          "ryu"
+        ]
       },
       "unicode": "U+9C21",
       "jis": {
@@ -1995,9 +2039,13 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Often written 鯔; 鰡 also appears in 鰡子, karasumi or dried mullet roe.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰰",
@@ -2033,11 +2081,15 @@
     },
     {
       "char": "鱇",
-      "name": "",
-      "meaning": "",
+      "name": "Anglerfish",
+      "meaning": "Anglerfish; the ko component of anko in 鮟鱇.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "コウ"
+        ],
+        "romaji": [
+          "ko"
+        ]
       },
       "unicode": "U+9C47",
       "jis": {
@@ -2048,9 +2100,13 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Often encountered as the second character of 鮟鱇, read anko.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰲",

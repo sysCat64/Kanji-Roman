@@ -1338,5 +1338,125 @@
     "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B1%B8",
     "sourceCheckedAt": "2026-06-24",
     "reviewNote": "Checked suzuki, katakana usage, ru, ro, sea bass kanji gloss, Japanese sea bass noun gloss, shinjitai form 魲, and katakana usage note against the Japanese entry."
+  },
+  "鮖": {
+    "name": "Kajika sculpin",
+    "meaning": "Kajika; a freshwater sculpin in the family Cottidae.",
+    "readings": {
+      "ja": ["かじか", "かじこ"],
+      "romaji": ["kajika", "kajiko"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Kanjipedia notes that the character evokes a fish living among stones.",
+    "tags": ["fish", "freshwater"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "Kanjipedia and Unicode Unihan",
+    "sourceUrl": "https://www.kanjipedia.jp/kanji/0000948700",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked kajika, Cottidae freshwater fish meaning, kokuji note, and stone-place etymology note against Kanjipedia; checked kajiko in vendored Unihan_Readings.txt."
+  },
+  "鮹": {
+    "name": "Octopus",
+    "meaning": "Octopus; an alternate fish-radical spelling read tako in Japanese.",
+    "readings": {
+      "ja": ["たこ", "ショウ", "ソウ"],
+      "romaji": ["tako", "sho", "so"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Although written with the fish radical, octopus is a mollusk; compare the reviewed 鱆 entry.",
+    "tags": ["seafood", "food", "mollusk"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "Unicode Unihan",
+    "sourceUrl": "https://www.unicode.org/reports/tr38/",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked tako, sho, so, and the octopus or devilfish kDefinition in vendored Unihan_Readings.txt."
+  },
+  "鯲": {
+    "name": "Loach",
+    "meaning": "Loach; a freshwater fish read dojo in Japanese.",
+    "readings": {
+      "ja": ["どじょう"],
+      "romaji": ["dojo"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "The character is kept separate from the reviewed 鰌 entry even though both are read dojo.",
+    "tags": ["fish", "freshwater"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "Unicode Unihan and Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pond_loach",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked dojo in vendored Unihan_Readings.txt and checked the pond loach page for Dojo loach and Japanese dojo nabe usage."
+  },
+  "鰄": {
+    "name": "Kairagi sharkskin",
+    "meaning": "Kairagi; rough shark or ray skin used as a material, and by extension a sharkskin-like ceramic glaze.",
+    "readings": {
+      "ja": ["かいらぎ", "イ"],
+      "romaji": ["kairagi", "i"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Kairagi can also be written 梅花皮.",
+    "tags": ["fish", "anatomy"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "Kanjipedia and Jisho (JMdict)",
+    "sourceUrl": "https://www.kanjipedia.jp/kanji/0000186500",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked kairagi, i, and shark-skin material meaning against Kanjipedia; checked fish skin, shark or stingray, ceramic glaze, and 梅花皮 alternative spelling through the Jisho JMdict entry."
+  },
+  "鰡": {
+    "name": "Striped mullet",
+    "meaning": "Striped or flathead grey mullet; a fish read bora in Japanese.",
+    "readings": {
+      "ja": ["ぼら", "ボラ", "リュウ"],
+      "romaji": ["bora", "ryu"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Often written 鯔; 鰡 also appears in 鰡子, karasumi or dried mullet roe.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "Jisho (JMdict), Mojinavi, and Unicode Unihan",
+    "sourceUrl": "https://mojinavi.com/d/u9c21",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked bora and striped or flathead grey mullet gloss in the Jisho JMdict entry for 鰡 as a spelling of 鯔; checked ryu and bora-family fish meaning against Mojinavi; checked ryu in vendored Unihan_Readings.txt; retained 鰡子 karasumi note from the Jisho JMdict entry."
+  },
+  "鱇": {
+    "name": "Anglerfish",
+    "meaning": "Anglerfish; the ko component of anko in 鮟鱇.",
+    "readings": {
+      "ja": ["コウ"],
+      "romaji": ["ko"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Often encountered as the second character of 鮟鱇, read anko.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "Unicode Unihan",
+    "sourceUrl": "https://www.unicode.org/reports/tr38/",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked ko and the anglerfish kDefinition in vendored Unihan_Readings.txt."
   }
 }
