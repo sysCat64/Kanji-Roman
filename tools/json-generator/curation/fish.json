@@ -1118,5 +1118,225 @@
     "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%9B",
     "sourceCheckedAt": "2026-06-24",
     "reviewNote": "Checked iwashi, on, shinjitai relationship to 鰮, alternative-spelling relationship to 鰯, and pilchard or Japanese sardine gloss against the Japanese entry."
+  },
+  "鰥": {
+    "name": "Widower",
+    "meaning": "Widower; a non-fish social term written with the fish radical.",
+    "readings": {
+      "ja": ["やもめ", "やもお", "ケン", "カン", "コン"],
+      "romaji": ["yamome", "yamoo", "ken", "kan", "kon"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Chinese definitions also include an obsolete yellowcheek fish sense, but the Japanese entry centers on widower.",
+    "tags": ["people"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%A5",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked yamome, yamoo, ken, kan, kon, the widower Japanese sense, and the obsolete yellowcheek Chinese sense against the source page."
+  },
+  "鰤": {
+    "name": "Japanese amberjack",
+    "meaning": "Japanese amberjack or yellowtail; the adult fish known as buri in Japanese.",
+    "readings": {
+      "ja": ["ぶり", "ブリ", "かます", "カマス", "シ"],
+      "romaji": ["buri", "kamasu", "shi"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "The source notes size- and region-dependent names for this fish; kamasu is listed as a separate barracuda spelling sense.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%A4",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked buri, katakana usage, shi, kamasu, Japanese amberjack, yellowtail, adult-fish sense, size or regional naming note, and barracuda alternative-spelling sense against the Japanese entry."
+  },
+  "鰰": {
+    "name": "Sailfin sandfish",
+    "meaning": "Sailfin sandfish; a fish known as hatahata in Japanese.",
+    "readings": {
+      "ja": ["はたはた", "ハタハタ", "いな"],
+      "romaji": ["hatahata", "ina"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "鱩 is listed as an alternative spelling; ina is listed as a nanori reading.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%B0",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked hatahata, katakana usage, ina, sailfin sandfish gloss, 鱩 alternative spelling, and kaminariuo synonym against the Japanese entry."
+  },
+  "鰲": {
+    "name": "Mythological sea turtle",
+    "meaning": "Huge mythological sea turtle; read oogame or go in Japanese.",
+    "readings": {
+      "ja": ["おおがめ", "ゴウ"],
+      "romaji": ["oogame", "go"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Although written with the fish radical, the sourced meaning is a mythological turtle, not a fish.",
+    "tags": ["mythology", "reptile", "sea"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%B2",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked oogame, go, the huge mythological sea turtle Japanese sense, and the Chinese mythology sea turtle definition against the source page."
+  },
+  "鱆": {
+    "name": "Octopus",
+    "meaning": "Octopus; a seafood mollusk read tako in Japanese.",
+    "readings": {
+      "ja": ["たこ", "タコ", "ショウ"],
+      "romaji": ["tako", "sho"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Although written with the fish radical, octopus is a mollusk.",
+    "tags": ["seafood", "food", "mollusk"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B1%86",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked tako, sho, Japanese image caption, Chinese octopus definition, and 鱆魚 compound against the source page."
+  },
+  "鰾": {
+    "name": "Swim bladder",
+    "meaning": "Swim bladder; a buoyancy organ in fish read ukibukuro in Japanese.",
+    "readings": {
+      "ja": ["うきぶくろ", "ビョウ", "ヒョウ"],
+      "romaji": ["ukibukuro", "byo", "hyo"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Alternative spellings listed in the source include 浮き袋, 浮袋, and 浮き囊.",
+    "tags": ["fish", "anatomy"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%BE",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked ukibukuro, byo, hyo, swim bladder gloss, and alternative spellings 浮き袋, 浮袋, and 浮き囊 against the Japanese entry."
+  },
+  "鱚": {
+    "name": "Sillaginid or whiting",
+    "meaning": "Sillaginid or whiting; a fish known as kisu in Japanese.",
+    "readings": {
+      "ja": ["きす", "キス"],
+      "romaji": ["kisu"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B1%9A",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked kisu, katakana usage, and sillaginid or whiting gloss against the Japanese entry."
+  },
+  "鱧": {
+    "name": "Daggertooth pike conger",
+    "meaning": "Daggertooth pike conger; an eel-like fish known as hamo in Japanese.",
+    "readings": {
+      "ja": ["はも", "ハモ", "はむ", "ライ", "レイ"],
+      "romaji": ["hamo", "hamu", "rai", "rei"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "The older hamu reading is listed as archaic or possibly obsolete.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B1%A7",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked hamo, katakana usage, hamu, rai, rei, daggertooth pike conger gloss, eel note, and archaic or obsolete hamu sense against the Japanese entry."
+  },
+  "鱠": {
+    "name": "Namasu",
+    "meaning": "Namasu; a dish of raw fish or vegetables dressed with vinegar.",
+    "readings": {
+      "ja": ["なます"],
+      "romaji": ["namasu"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Kanjipedia also lists 膾 as an alternative spelling.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "Kanjipedia",
+    "sourceUrl": "https://www.kanjipedia.jp/kotoba/0000838500",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked namasu, vinegar-dressed raw fish or vegetable dish meaning, and 膾 alternative spelling against the Kanjipedia word entry."
+  },
+  "鱶": {
+    "name": "Large shark",
+    "meaning": "Large shark; a general shark term read fuka in Japanese.",
+    "readings": {
+      "ja": ["ふか", "ひもの", "ヨウ", "ショウ"],
+      "romaji": ["fuka", "himono", "yo", "sho"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "The source also lists a Chinese variant relationship to 鯗, meaning dried or cured fish.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B1%B6",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked fuka, himono, yo, sho, large shark gloss, 鱶鰭 derived term, and the Chinese variant relationship to 鯗 against the source page."
+  },
+  "鱸": {
+    "name": "Japanese sea bass",
+    "meaning": "Japanese sea bass; a fish known as suzuki in Japanese.",
+    "readings": {
+      "ja": ["すずき", "スズキ", "ル", "ロ"],
+      "romaji": ["suzuki", "ru", "ro"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "The source notes that organism names like this are often written in katakana in biological contexts.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B1%B8",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked suzuki, katakana usage, ru, ro, sea bass kanji gloss, Japanese sea bass noun gloss, shinjitai form 魲, and katakana usage note against the Japanese entry."
   }
 }

@@ -24,7 +24,8 @@
     "squid",
     "amphibian",
     "crustacean",
-    "spring"
+    "spring",
+    "people"
   ],
   "items": [
     {
@@ -1909,11 +1910,23 @@
     },
     {
       "char": "鰥",
-      "name": "",
-      "meaning": "",
+      "name": "Widower",
+      "meaning": "Widower; a non-fish social term written with the fish radical.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "やもめ",
+          "やもお",
+          "ケン",
+          "カン",
+          "コン"
+        ],
+        "romaji": [
+          "yamome",
+          "yamoo",
+          "ken",
+          "kan",
+          "kon"
+        ]
       },
       "unicode": "U+9C25",
       "jis": {
@@ -1924,17 +1937,29 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Chinese definitions also include an obsolete yellowcheek fish sense, but the Japanese entry centers on widower.",
+      "tags": [
+        "people"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰤",
-      "name": "",
-      "meaning": "",
+      "name": "Japanese amberjack",
+      "meaning": "Japanese amberjack or yellowtail; the adult fish known as buri in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "ぶり",
+          "ブリ",
+          "かます",
+          "カマス",
+          "シ"
+        ],
+        "romaji": [
+          "buri",
+          "kamasu",
+          "shi"
+        ]
       },
       "unicode": "U+9C24",
       "jis": {
@@ -1945,9 +1970,13 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The source notes size- and region-dependent names for this fish; kamasu is listed as a separate barracuda spelling sense.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰡",
@@ -1972,11 +2001,18 @@
     },
     {
       "char": "鰰",
-      "name": "",
-      "meaning": "",
+      "name": "Sailfin sandfish",
+      "meaning": "Sailfin sandfish; a fish known as hatahata in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "はたはた",
+          "ハタハタ",
+          "いな"
+        ],
+        "romaji": [
+          "hatahata",
+          "ina"
+        ]
       },
       "unicode": "U+9C30",
       "jis": {
@@ -1987,9 +2023,13 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "鱩 is listed as an alternative spelling; ina is listed as a nanori reading.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鱇",
@@ -2014,11 +2054,17 @@
     },
     {
       "char": "鰲",
-      "name": "",
-      "meaning": "",
+      "name": "Mythological sea turtle",
+      "meaning": "Huge mythological sea turtle; read oogame or go in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "おおがめ",
+          "ゴウ"
+        ],
+        "romaji": [
+          "oogame",
+          "go"
+        ]
       },
       "unicode": "U+9C32",
       "jis": {
@@ -2029,17 +2075,28 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Although written with the fish radical, the sourced meaning is a mythological turtle, not a fish.",
+      "tags": [
+        "mythology",
+        "reptile",
+        "sea"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鱆",
-      "name": "",
-      "meaning": "",
+      "name": "Octopus",
+      "meaning": "Octopus; a seafood mollusk read tako in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "たこ",
+          "タコ",
+          "ショウ"
+        ],
+        "romaji": [
+          "tako",
+          "sho"
+        ]
       },
       "unicode": "U+9C46",
       "jis": {
@@ -2050,17 +2107,29 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Although written with the fish radical, octopus is a mollusk.",
+      "tags": [
+        "seafood",
+        "food",
+        "mollusk"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰾",
-      "name": "",
-      "meaning": "",
+      "name": "Swim bladder",
+      "meaning": "Swim bladder; a buoyancy organ in fish read ukibukuro in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "うきぶくろ",
+          "ビョウ",
+          "ヒョウ"
+        ],
+        "romaji": [
+          "ukibukuro",
+          "byo",
+          "hyo"
+        ]
       },
       "unicode": "U+9C3E",
       "jis": {
@@ -2071,17 +2140,25 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Alternative spellings listed in the source include 浮き袋, 浮袋, and 浮き囊.",
+      "tags": [
+        "fish",
+        "anatomy"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鱚",
-      "name": "",
-      "meaning": "",
+      "name": "Sillaginid or whiting",
+      "meaning": "Sillaginid or whiting; a fish known as kisu in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "きす",
+          "キス"
+        ],
+        "romaji": [
+          "kisu"
+        ]
       },
       "unicode": "U+9C5A",
       "jis": {
@@ -2093,16 +2170,24 @@
         "en": ""
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鱠",
-      "name": "",
-      "meaning": "",
+      "name": "Namasu",
+      "meaning": "Namasu; a dish of raw fish or vegetables dressed with vinegar.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "なます"
+        ],
+        "romaji": [
+          "namasu"
+        ]
       },
       "unicode": "U+9C60",
       "jis": {
@@ -2113,17 +2198,32 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Kanjipedia also lists 膾 as an alternative spelling.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鱧",
-      "name": "",
-      "meaning": "",
+      "name": "Daggertooth pike conger",
+      "meaning": "Daggertooth pike conger; an eel-like fish known as hamo in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "はも",
+          "ハモ",
+          "はむ",
+          "ライ",
+          "レイ"
+        ],
+        "romaji": [
+          "hamo",
+          "hamu",
+          "rai",
+          "rei"
+        ]
       },
       "unicode": "U+9C67",
       "jis": {
@@ -2134,17 +2234,31 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The older hamu reading is listed as archaic or possibly obsolete.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鱶",
-      "name": "",
-      "meaning": "",
+      "name": "Large shark",
+      "meaning": "Large shark; a general shark term read fuka in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "ふか",
+          "ひもの",
+          "ヨウ",
+          "ショウ"
+        ],
+        "romaji": [
+          "fuka",
+          "himono",
+          "yo",
+          "sho"
+        ]
       },
       "unicode": "U+9C76",
       "jis": {
@@ -2155,17 +2269,30 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The source also lists a Chinese variant relationship to 鯗, meaning dried or cured fish.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鱸",
-      "name": "",
-      "meaning": "",
+      "name": "Japanese sea bass",
+      "meaning": "Japanese sea bass; a fish known as suzuki in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "すずき",
+          "スズキ",
+          "ル",
+          "ロ"
+        ],
+        "romaji": [
+          "suzuki",
+          "ru",
+          "ro"
+        ]
       },
       "unicode": "U+9C78",
       "jis": {
@@ -2176,9 +2303,13 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The source notes that organism names like this are often written in katakana in biological contexts.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     }
   ]
 }
