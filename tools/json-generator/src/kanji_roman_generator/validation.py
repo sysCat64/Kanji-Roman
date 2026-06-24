@@ -8,6 +8,13 @@ from typing import Any, Mapping
 
 ALLOWED_CURATION_STATUSES = {"reviewed", "draft", "unreviewed"}
 RADICAL_ID_PATTERN = re.compile(r"^[a-z0-9-]+$")
+PUBLIC_ITEM_GENERATOR_ONLY_KEYS = {
+    "needsReview",
+    "reviewNote",
+    "sourceCheckedAt",
+    "sourceLabel",
+    "sourceUrl",
+}
 VENDOR_README = Path("tools/json-generator/vendor/README.md")
 VENDOR_README_REQUIRED_MARKERS = {
     "source URL": "https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip",
@@ -212,6 +219,12 @@ def _validate_public_item(
     missing = sorted(required - set(item))
     if missing:
         issues.append(f"{prefix} missing keys: {', '.join(missing)}")
+    generator_only_keys = sorted(PUBLIC_ITEM_GENERATOR_ONLY_KEYS & set(item))
+    if generator_only_keys:
+        issues.append(
+            f"{prefix} includes generator-only keys: "
+            f"{', '.join(generator_only_keys)}"
+        )
     char = item.get("char")
     if not isinstance(char, str) or len(char) != 1:
         issues.append(f"{prefix} char must be one character")
