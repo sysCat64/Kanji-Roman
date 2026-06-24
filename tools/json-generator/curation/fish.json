@@ -467,8 +467,8 @@
       "romaji": ["ro", "ru", "oroka"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 曰",
+      "en": "Fish + 曰 component"
     },
     "note": "This fish-radical character is not a fish name in common Japanese use.",
     "tags": ["history"],
@@ -1087,8 +1087,8 @@
       "romaji": ["iwashi", "on"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 𥁕",
+      "en": "Fish + 𥁕 component"
     },
     "note": "Kyujitai form of 鰛 and an alternative spelling of 鰯.",
     "tags": ["fish", "seafood", "food"],
@@ -1107,8 +1107,8 @@
       "romaji": ["iwashi", "on"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 昷",
+      "en": "Fish + 昷 component"
     },
     "note": "Shinjitai form of 鰮 and an alternative spelling of 鰯.",
     "tags": ["fish", "seafood", "food"],
@@ -1127,8 +1127,8 @@
       "romaji": ["yamome", "yamoo", "ken", "kan", "kon"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 眔",
+      "en": "Fish + 眔 component"
     },
     "note": "Chinese definitions also include an obsolete yellowcheek fish sense, but the Japanese entry centers on widower.",
     "tags": ["people"],
@@ -1187,8 +1187,8 @@
       "romaji": ["oogame", "go"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "敖 + 魚",
+      "en": "敖 component + fish"
     },
     "note": "Although written with the fish radical, the sourced meaning is a mythological turtle, not a fish.",
     "tags": ["mythology", "reptile", "sea"],
