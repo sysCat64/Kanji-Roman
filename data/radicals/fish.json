@@ -23,6 +23,7 @@
     "mythology",
     "squid",
     "amphibian",
+    "crustacean",
     "spring"
   ],
   "items": [
@@ -1448,11 +1449,22 @@
     },
     {
       "char": "鯱",
-      "name": "",
-      "meaning": "",
+      "name": "Orca or shachihoko",
+      "meaning": "Orca or killer whale; also shachihoko, a tiger-headed carp-like roof ornament in Japanese mythology.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "しゃち",
+          "シャチ",
+          "しゃちほこ",
+          "しゃっちょこ",
+          "コ"
+        ],
+        "romaji": [
+          "shachi",
+          "shachihoko",
+          "shatchoko",
+          "ko"
+        ]
       },
       "unicode": "U+9BF1",
       "jis": {
@@ -1463,17 +1475,28 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "A kokuji; the shachi sense is an orca, while shachihoko is a mythical roof ornament.",
+      "tags": [
+        "sea",
+        "mammal",
+        "mythology"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鯰",
-      "name": "",
-      "meaning": "",
+      "name": "Catfish",
+      "meaning": "Catfish, especially Amur catfish; also an idiomatic earthquake sense in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "なまず",
+          "ナマズ",
+          "ネン"
+        ],
+        "romaji": [
+          "namazu",
+          "nen"
+        ]
       },
       "unicode": "U+9BF0",
       "jis": {
@@ -1484,17 +1507,29 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "A kokuji; the biological term is often written in katakana as ナマズ.",
+      "tags": [
+        "fish",
+        "freshwater"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰕",
-      "name": "",
-      "meaning": "",
+      "name": "Shrimp or prawn",
+      "meaning": "Shrimp, prawn, lobster, crayfish, or another long-tailed decapod crustacean read ebi in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "えび",
+          "エビ",
+          "ゲ",
+          "カ"
+        ],
+        "romaji": [
+          "ebi",
+          "ge",
+          "ka"
+        ]
       },
       "unicode": "U+9C15",
       "jis": {
@@ -1505,17 +1540,36 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "An alternative spelling of 海老; although written with the fish radical, the main Japanese sense is a crustacean.",
+      "tags": [
+        "seafood",
+        "food",
+        "crustacean"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰔",
-      "name": "",
-      "meaning": "",
+      "name": "Codfish",
+      "meaning": "Codfish; a rare alternative spelling of 鱈 read tara.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "たら",
+          "タラ",
+          "かれい",
+          "ケン",
+          "コン",
+          "ゲン",
+          "カン"
+        ],
+        "romaji": [
+          "tara",
+          "karei",
+          "ken",
+          "kon",
+          "gen",
+          "kan"
+        ]
       },
       "unicode": "U+9C14",
       "jis": {
@@ -1526,17 +1580,28 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The source lists 鰔 as a rare alternative spelling for the tara or codfish entry; karei is also listed as a kun reading.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰉",
-      "name": "",
-      "meaning": "",
+      "name": "Higai fish",
+      "meaning": "Higai; a Japanese fish name identified with Sarcocheilichthys variegatus.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "ひがい",
+          "ヒガイ",
+          "コウ"
+        ],
+        "romaji": [
+          "higai",
+          "ko"
+        ]
       },
       "unicode": "U+9C09",
       "jis": {
@@ -1547,17 +1612,29 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The kanji entry also lists sturgeon and carp senses, while the Japanese noun entry gives higai.",
+      "tags": [
+        "fish",
+        "freshwater"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰓",
-      "name": "",
-      "meaning": "",
+      "name": "Gill",
+      "meaning": "Gill; the breathing organ of fish and other aquatic animals.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "えら",
+          "エラ",
+          "サイ",
+          "シ"
+        ],
+        "romaji": [
+          "era",
+          "sai",
+          "shi"
+        ]
       },
       "unicode": "U+9C13",
       "jis": {
@@ -1568,17 +1645,29 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Alternative spellings listed in the source include 腮 and 顋.",
+      "tags": [
+        "fish",
+        "anatomy"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰌",
-      "name": "",
-      "meaning": "",
+      "name": "Pond loach",
+      "meaning": "Pond loach; an alternative spelling of 泥鰌 read dojo.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "どじょう",
+          "ドジョウ",
+          "ジュ",
+          "シュウ"
+        ],
+        "romaji": [
+          "dojo",
+          "ju",
+          "shu"
+        ]
       },
       "unicode": "U+9C0C",
       "jis": {
@@ -1589,9 +1678,12 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The source treats 鰌 as a variant of 鰍 in Chinese and as an alternative spelling of 泥鰌 in Japanese.",
+      "tags": [
+        "fish",
+        "freshwater"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰆",
@@ -1625,11 +1717,22 @@
     },
     {
       "char": "鰈",
-      "name": "",
-      "meaning": "",
+      "name": "Righteye flounder",
+      "meaning": "Righteye flounder; a flatfish known as karei in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "かれい",
+          "カレイ",
+          "ジョウ",
+          "トウ",
+          "チョウ"
+        ],
+        "romaji": [
+          "karei",
+          "jo",
+          "to",
+          "cho"
+        ]
       },
       "unicode": "U+9C08",
       "jis": {
@@ -1640,17 +1743,31 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The Japanese entry also lists a rare obsolete sole sense through 舌鮃.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰒",
-      "name": "",
-      "meaning": "",
+      "name": "Abalone or blowfish",
+      "meaning": "Abalone in dated usage, or blowfish; read awabi or fugu in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "あわび",
+          "アワビ",
+          "ふぐ",
+          "フグ",
+          "フク"
+        ],
+        "romaji": [
+          "awabi",
+          "fugu",
+          "fuku"
+        ]
       },
       "unicode": "U+9C12",
       "jis": {
@@ -1661,17 +1778,32 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The abalone sense is dated, and abalone is a mollusk despite the fish radical.",
+      "tags": [
+        "seafood",
+        "food",
+        "fish",
+        "mollusk"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰊",
-      "name": "",
-      "meaning": "",
+      "name": "Pacific herring",
+      "meaning": "Pacific herring; a fish read nishin or regionally kado in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "にしん",
+          "ニシン",
+          "かど",
+          "カド",
+          "レン"
+        ],
+        "romaji": [
+          "nishin",
+          "kado",
+          "ren"
+        ]
       },
       "unicode": "U+9C0A",
       "jis": {
@@ -1682,9 +1814,13 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The nishin entry lists 鯡 as an alternative spelling; kado is chiefly Tohoku usage.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰄",
@@ -1709,11 +1845,18 @@
     },
     {
       "char": "鰮",
-      "name": "",
-      "meaning": "",
+      "name": "Sardine",
+      "meaning": "Sardine or Japanese pilchard; a kyujitai form read iwashi in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "いわし",
+          "イワシ",
+          "オン"
+        ],
+        "romaji": [
+          "iwashi",
+          "on"
+        ]
       },
       "unicode": "U+9C2E",
       "jis": {
@@ -1724,17 +1867,28 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Kyujitai form of 鰛 and an alternative spelling of 鰯.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰛",
-      "name": "",
-      "meaning": "",
+      "name": "Sardine",
+      "meaning": "Sardine or Japanese pilchard; a shinjitai form read iwashi in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "いわし",
+          "イワシ",
+          "オン"
+        ],
+        "romaji": [
+          "iwashi",
+          "on"
+        ]
       },
       "unicode": "U+9C1B",
       "jis": {
@@ -1745,9 +1899,13 @@
         "ja": "",
         "en": ""
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Shinjitai form of 鰮 and an alternative spelling of 鰯.",
+      "tags": [
+        "fish",
+        "seafood",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "鰥",
