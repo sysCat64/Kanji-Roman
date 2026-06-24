@@ -48,9 +48,9 @@ notes, or tags for individual kanji.
      - Default to glyph-based labels: `parts.ja` uses forms such as
        `魚 + 里`, and `parts.en` keeps the right-side glyph with `component`,
        such as `Fish + 里 component`.
-     - Use an English gloss such as `Fish + Spring` only as a reviewed,
-       deliberate reader-facing exception, not as a broad automatic conversion
-       from kanji to English meanings.
+     - Use an English gloss only as a reviewed, deliberate reader-facing
+       exception, not as a broad automatic conversion from kanji to English
+       meanings.
      - Leave `parts` blank for standalone characters or when the breakdown
        would require stroke-level or overly obscure pieces.
    - `note`: short cultural or usage note only when wording has been reviewed.

@@ -62,7 +62,7 @@ def valid_fish_json():
                 "readings": {"ja": ["さわら"], "romaji": ["sawara"]},
                 "unicode": "U+9C06",
                 "jis": {"level": 2, "kuten": "82-54"},
-                "parts": {"ja": "魚 + 春", "en": "Fish + Spring"},
+                "parts": {"ja": "魚 + 春", "en": "Fish + 春 component"},
                 "note": "Draft wording.",
                 "tags": ["fish", "spring"],
                 "curationStatus": "draft",

@@ -64,7 +64,7 @@ class CurationLoadTest(unittest.TestCase):
                                 "ja": ["さわら", "サワラ"],
                                 "romaji": ["sawara"],
                             },
-                            "parts": {"ja": "魚 + 春", "en": "Fish + Spring"},
+                            "parts": {"ja": "魚 + 春", "en": "Fish + 春 component"},
                             "note": "Draft wording.",
                             "tags": ["fish", "spring", "food"],
                             "curationStatus": "draft",
@@ -160,7 +160,7 @@ class CurationMergeTest(unittest.TestCase):
                         "ja": ["さわら", "サワラ"],
                         "romaji": ["sawara"],
                     },
-                    "parts": {"ja": "魚 + 春", "en": "Fish + Spring"},
+                    "parts": {"ja": "魚 + 春", "en": "Fish + 春 component"},
                     "note": "Draft wording.",
                     "tags": ["fish", "spring", "fish"],
                     "curationStatus": "draft",
@@ -184,7 +184,10 @@ class CurationMergeTest(unittest.TestCase):
         self.assertEqual("A spring-associated fish.", sawara["meaning"])
         self.assertEqual(["さわら", "サワラ"], sawara["readings"]["ja"])
         self.assertEqual(["sawara"], sawara["readings"]["romaji"])
-        self.assertEqual({"ja": "魚 + 春", "en": "Fish + Spring"}, sawara["parts"])
+        self.assertEqual(
+            {"ja": "魚 + 春", "en": "Fish + 春 component"},
+            sawara["parts"],
+        )
         self.assertEqual("Draft wording.", sawara["note"])
         self.assertEqual(["fish", "spring"], sawara["tags"])
         self.assertEqual("draft", sawara["curationStatus"])
