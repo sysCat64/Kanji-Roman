@@ -8,6 +8,8 @@
     "grass",
     "plant",
     "nature",
+    "color",
+    "dye",
     "food",
     "vegetable",
     "tuber",
@@ -16,15 +18,22 @@
     "quality",
     "flower",
     "basic",
+    "behavior",
     "load",
     "cargo",
     "confectionery",
     "fruit",
     "sprout",
     "growth",
+    "mustard",
+    "waste",
+    "spring",
     "taste",
     "feeling",
     "youth",
+    "core",
+    "object",
+    "moss",
     "seedling",
     "fragrance"
   ],
@@ -52,11 +61,19 @@
     },
     {
       "char": "茜",
-      "name": "",
-      "meaning": "",
+      "name": "Madder",
+      "meaning": "Madder; also the reddish color or dye made from madder roots.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "あかね",
+          "セン",
+          "セイ"
+        ],
+        "romaji": [
+          "akane",
+          "sen",
+          "sei"
+        ]
       },
       "unicode": "U+831C",
       "jis": {
@@ -64,12 +81,16 @@
         "kuten": "16-11"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 西",
+        "en": "Grass + 西 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "plant",
+        "color",
+        "dye"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "葦",
@@ -376,11 +397,19 @@
     },
     {
       "char": "苛",
-      "name": "",
-      "meaning": "",
+      "name": "Harsh",
+      "meaning": "Harsh or severe; also to bully or torment.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "きびしい",
+          "カ",
+          "ガ"
+        ],
+        "romaji": [
+          "kibishii",
+          "ka",
+          "ga"
+        ]
       },
       "unicode": "U+82DB",
       "jis": {
@@ -388,12 +417,15 @@
         "kuten": "18-55"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 可",
+        "en": "Grass + 可 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "quality",
+        "behavior"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "茄",
@@ -544,11 +576,21 @@
     },
     {
       "char": "芥",
-      "name": "",
-      "meaning": "",
+      "name": "Mustard",
+      "meaning": "Mustard; also rubbish, trash, or dust.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "からし",
+          "あくた",
+          "カイ",
+          "ケ"
+        ],
+        "romaji": [
+          "karashi",
+          "akuta",
+          "kai",
+          "ke"
+        ]
       },
       "unicode": "U+82A5",
       "jis": {
@@ -556,12 +598,16 @@
         "kuten": "19-09"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 介",
+        "en": "Grass + 介 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "food",
+        "mustard",
+        "waste"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "蓋",
@@ -754,11 +800,19 @@
     },
     {
       "char": "芹",
-      "name": "",
-      "meaning": "",
+      "name": "Water Dropwort",
+      "meaning": "Water dropwort, an edible plant also counted among the seven spring herbs.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "せり",
+          "キン",
+          "ゴン"
+        ],
+        "romaji": [
+          "seri",
+          "kin",
+          "gon"
+        ]
       },
       "unicode": "U+82B9",
       "jis": {
@@ -766,12 +820,16 @@
         "kuten": "22-60"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 斤",
+        "en": "Grass + 斤 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "plant",
+        "food",
+        "spring"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "菌",
@@ -1256,11 +1314,19 @@
     },
     {
       "char": "芯",
-      "name": "",
-      "meaning": "",
+      "name": "Core",
+      "meaning": "Core, heart, wick, or pencil lead.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "シン",
+          "ほそい",
+          "とうしんぐさ"
+        ],
+        "romaji": [
+          "shin",
+          "hosoi",
+          "toshingusa"
+        ]
       },
       "unicode": "U+82AF",
       "jis": {
@@ -1268,12 +1334,15 @@
         "kuten": "31-36"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 心",
+        "en": "Grass + 心 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "core",
+        "object"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "薪",
@@ -1497,11 +1566,19 @@
     },
     {
       "char": "苔",
-      "name": "",
-      "meaning": "",
+      "name": "Moss",
+      "meaning": "Moss.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "こけ",
+          "タイ",
+          "ダイ"
+        ],
+        "romaji": [
+          "koke",
+          "tai",
+          "dai"
+        ]
       },
       "unicode": "U+82D4",
       "jis": {
@@ -1509,12 +1586,15 @@
         "kuten": "34-61"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 台",
+        "en": "Grass + 台 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "plant",
+        "moss"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "茸",
