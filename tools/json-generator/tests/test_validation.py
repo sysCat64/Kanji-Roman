@@ -1,4 +1,5 @@
 import json
+import re
 import subprocess
 import tempfile
 import unittest
@@ -164,6 +165,27 @@ class ProjectValidationTest(unittest.TestCase):
         self.assertIn("data/site-index.json missing keys: defaultRadical", joined)
         self.assertIn("data/radicals/fish.json missing keys: title", joined)
         self.assertIn("item 0 missing keys: unicode", joined)
+
+    def test_reports_generator_review_metadata_in_public_items(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            fish = valid_fish_json()
+            fish["items"][0]["needsReview"] = False
+            fish["items"][0]["sourceLabel"] = "Example dictionary"
+            fish["items"][0]["sourceUrl"] = "https://example.com"
+            fish["items"][0]["sourceCheckedAt"] = "2026-06-23"
+            fish["items"][0]["reviewNote"] = "Internal source check."
+            write_json(root / "data" / "site-index.json", valid_site_index())
+            write_json(root / "data" / "radicals" / "fish.json", fish)
+
+            issues = validate_project(root)
+
+        joined = "\n".join(issues)
+        self.assertIn(
+            "item 0 includes generator-only keys: needsReview, reviewNote, "
+            "sourceCheckedAt, sourceLabel, sourceUrl",
+            joined,
+        )
 
     def test_reports_invalid_json_syntax(self):
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -337,6 +359,26 @@ class PublicDataFixtureTest(unittest.TestCase):
                 radical_path.exists(),
                 f"Expected public radical JSON at {radical_path}",
             )
+
+    def test_fish_parts_copy_uses_component_wording(self):
+        legacy_gloss = re.compile(r"Fish \+ [A-Za-z][A-Za-z ]*(?:$|[`<\"/,])")
+        paths = [
+            Path("data/radicals/fish.json"),
+            Path("tools/json-generator/curation/fish.json"),
+            Path("tools/json-generator/docs/PLAN.md"),
+            *sorted(Path("docs").glob("*.md")),
+            *sorted(Path("design").glob("*.html")),
+            *sorted(Path("tools/json-generator/tests").glob("*.py")),
+        ]
+
+        offenders = []
+        for path in paths:
+            text = path.read_text(encoding="utf-8")
+            for line_number, line in enumerate(text.splitlines(), start=1):
+                if legacy_gloss.search(line):
+                    offenders.append(f"{path}:{line_number}: {line.strip()}")
+
+        self.assertEqual([], offenders)
 
 
 if __name__ == "__main__":
