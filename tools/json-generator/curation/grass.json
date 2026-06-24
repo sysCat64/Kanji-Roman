@@ -1,4 +1,24 @@
 {
+  "茜": {
+    "name": "Madder",
+    "meaning": "Madder; also the reddish color or dye made from madder roots.",
+    "readings": {
+      "ja": ["あかね", "セン", "セイ"],
+      "romaji": ["akane", "sen", "sei"]
+    },
+    "parts": {
+      "ja": "艹 + 西",
+      "en": "Grass + 西 component"
+    },
+    "note": "",
+    "tags": ["plant", "color", "dye"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8C%9C",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked akane, sen, and sei readings, madder, madder dye, and madder red glosses, and 艹 + 西 composition against the Japanese and translingual entries."
+  },
   "芋": {
     "name": "Tuber",
     "meaning": "Edible tuber such as potato, sweet potato, yam, or taro.",
@@ -58,6 +78,26 @@
     "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8A%B1",
     "sourceCheckedAt": "2026-06-24",
     "reviewNote": "Checked hana and ka readings, flower gloss, and 艹 + 化 composition against the Japanese and translingual entries."
+  },
+  "苛": {
+    "name": "Harsh",
+    "meaning": "Harsh or severe; also to bully or torment.",
+    "readings": {
+      "ja": ["きびしい", "カ", "ガ"],
+      "romaji": ["kibishii", "ka", "ga"]
+    },
+    "parts": {
+      "ja": "艹 + 可",
+      "en": "Grass + 可 component"
+    },
+    "note": "",
+    "tags": ["quality", "behavior"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8B%9B",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked kibishii, ka, and ga readings, harsh, severe, bully, and torment glosses, and 艹 + 可 composition against the Japanese and translingual entries."
   },
   "茄": {
     "name": "Eggplant",
@@ -119,6 +159,26 @@
     "sourceCheckedAt": "2026-06-24",
     "reviewNote": "Checked kashi, kudamono, and ka readings, confection or fruit usage, and 艹 + 果 composition against the Japanese and translingual entries."
   },
+  "芹": {
+    "name": "Water Dropwort",
+    "meaning": "Water dropwort, an edible plant also counted among the seven spring herbs.",
+    "readings": {
+      "ja": ["せり", "キン", "ゴン"],
+      "romaji": ["seri", "kin", "gon"]
+    },
+    "parts": {
+      "ja": "艹 + 斤",
+      "en": "Grass + 斤 component"
+    },
+    "note": "",
+    "tags": ["plant", "food", "spring"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8A%B9",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked seri, kin, and gon readings, water dropwort gloss, seven spring herbs note, and 艹 + 斤 composition against the Japanese and translingual entries."
+  },
   "芽": {
     "name": "Bud",
     "meaning": "Bud, sprout, or shoot; also the germ or beginning of an idea.",
@@ -138,6 +198,26 @@
     "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8A%BD",
     "sourceCheckedAt": "2026-06-25",
     "reviewNote": "Checked me and ga readings, bud, sprout, shoot, and germ glosses, and 艹 + 牙 composition against the Japanese and translingual entries."
+  },
+  "芥": {
+    "name": "Mustard",
+    "meaning": "Mustard; also rubbish, trash, or dust.",
+    "readings": {
+      "ja": ["からし", "あくた", "カイ", "ケ"],
+      "romaji": ["karashi", "akuta", "kai", "ke"]
+    },
+    "parts": {
+      "ja": "艹 + 介",
+      "en": "Grass + 介 component"
+    },
+    "note": "",
+    "tags": ["food", "mustard", "waste"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8A%A5",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked karashi, akuta, kai, and ke readings, mustard, rubbish, trash, and dust glosses, and 艹 + 介 composition against the Japanese and translingual entries."
   },
   "苦": {
     "name": "Bitter",
@@ -179,6 +259,26 @@
     "sourceCheckedAt": "2026-06-24",
     "reviewNote": "Checked wakai and jaku readings, young and if glosses, and 艹 + 右 composition against the Japanese and translingual entries."
   },
+  "芯": {
+    "name": "Core",
+    "meaning": "Core, heart, wick, or pencil lead.",
+    "readings": {
+      "ja": ["シン", "ほそい", "とうしんぐさ"],
+      "romaji": ["shin", "hosoi", "toshingusa"]
+    },
+    "parts": {
+      "ja": "艹 + 心",
+      "en": "Grass + 心 component"
+    },
+    "note": "",
+    "tags": ["core", "object"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8A%AF",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked shin, hosoi, and toshingusa readings, core, heart, wick, and pencil lead glosses, and 艹 + 心 composition against the Japanese and translingual entries."
+  },
   "草": {
     "name": "Grass",
     "meaning": "Grass; also weed or herb in Japanese.",
@@ -218,6 +318,26 @@
     "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8B%97",
     "sourceCheckedAt": "2026-06-24",
     "reviewNote": "Checked nae, byo, and myo readings, seedling and young plant gloss, and 艹 + 田 composition against the Japanese and translingual entries."
+  },
+  "苔": {
+    "name": "Moss",
+    "meaning": "Moss.",
+    "readings": {
+      "ja": ["こけ", "タイ", "ダイ"],
+      "romaji": ["koke", "tai", "dai"]
+    },
+    "parts": {
+      "ja": "艹 + 台",
+      "en": "Grass + 台 component"
+    },
+    "note": "",
+    "tags": ["plant", "moss"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8B%94",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked koke, tai, and dai readings, moss gloss, and 艹 + 台 composition against the Japanese and translingual entries."
   },
   "芳": {
     "name": "Fragrant",
