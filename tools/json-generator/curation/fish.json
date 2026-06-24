@@ -878,5 +878,245 @@
     "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AF%A1",
     "sourceCheckedAt": "2026-06-24",
     "reviewNote": "Checked nishin, hararago, harago, hi, herring gloss, roe or fish eggs sense, and synonym notes against the Japanese entry."
+  },
+  "鯱": {
+    "name": "Orca or shachihoko",
+    "meaning": "Orca or killer whale; also shachihoko, a tiger-headed carp-like roof ornament in Japanese mythology.",
+    "readings": {
+      "ja": ["しゃち", "シャチ", "しゃちほこ", "しゃっちょこ", "コ"],
+      "romaji": ["shachi", "shachihoko", "shatchoko", "ko"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "A kokuji; the shachi sense is an orca, while shachihoko is a mythical roof ornament.",
+    "tags": ["sea", "mammal", "mythology"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AF%B1",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked shachi, shachihoko, shatchoko, ko, kokuji status, orca or killer whale gloss, and the shachihoko mythology sense against the Japanese entry."
+  },
+  "鯰": {
+    "name": "Catfish",
+    "meaning": "Catfish, especially Amur catfish; also an idiomatic earthquake sense in Japanese.",
+    "readings": {
+      "ja": ["なまず", "ナマズ", "ネン"],
+      "romaji": ["namazu", "nen"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "A kokuji; the biological term is often written in katakana as ナマズ.",
+    "tags": ["fish", "freshwater"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%AF%B0",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked namazu, katakana usage, nen, kokuji status, catfish and Amur catfish glosses, and the idiomatic earthquake sense against the Japanese entry."
+  },
+  "鰕": {
+    "name": "Shrimp or prawn",
+    "meaning": "Shrimp, prawn, lobster, crayfish, or another long-tailed decapod crustacean read ebi in Japanese.",
+    "readings": {
+      "ja": ["えび", "エビ", "ゲ", "カ"],
+      "romaji": ["ebi", "ge", "ka"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "An alternative spelling of 海老; although written with the fish radical, the main Japanese sense is a crustacean.",
+    "tags": ["seafood", "food", "crustacean"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%95",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked ebi, ge, ka, the 海老 cross-reference, shrimp, prawn, lobster, crayfish, and long-tailed decapod crustacean glosses, plus alternative spellings against the Japanese entry."
+  },
+  "鰔": {
+    "name": "Codfish",
+    "meaning": "Codfish; a rare alternative spelling of 鱈 read tara.",
+    "readings": {
+      "ja": ["たら", "タラ", "かれい", "ケン", "コン", "ゲン", "カン"],
+      "romaji": ["tara", "karei", "ken", "kon", "gen", "kan"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "The source lists 鰔 as a rare alternative spelling for the tara or codfish entry; karei is also listed as a kun reading.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%94",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked tara, karei, ken, kon, gen, kan, codfish gloss through the 鱈 cross-reference, and rare alternative spelling note against the Japanese entry."
+  },
+  "鰉": {
+    "name": "Higai fish",
+    "meaning": "Higai; a Japanese fish name identified with Sarcocheilichthys variegatus.",
+    "readings": {
+      "ja": ["ひがい", "ヒガイ", "コウ"],
+      "romaji": ["higai", "ko"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "The kanji entry also lists sturgeon and carp senses, while the Japanese noun entry gives higai.",
+    "tags": ["fish", "freshwater"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%89",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked higai, katakana usage, ko, the Sarcocheilichthys variegatus noun entry, usage note, and sturgeon or carp kanji senses against the Japanese entry."
+  },
+  "鰓": {
+    "name": "Gill",
+    "meaning": "Gill; the breathing organ of fish and other aquatic animals.",
+    "readings": {
+      "ja": ["えら", "エラ", "サイ", "シ"],
+      "romaji": ["era", "sai", "shi"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Alternative spellings listed in the source include 腮 and 顋.",
+    "tags": ["fish", "anatomy"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%93",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked era, katakana usage, sai, shi, gill gloss, and alternative spellings 腮 and 顋 against the Japanese entry."
+  },
+  "鰌": {
+    "name": "Pond loach",
+    "meaning": "Pond loach; an alternative spelling of 泥鰌 read dojo.",
+    "readings": {
+      "ja": ["どじょう", "ドジョウ", "ジュ", "シュウ"],
+      "romaji": ["dojo", "ju", "shu"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "The source treats 鰌 as a variant of 鰍 in Chinese and as an alternative spelling of 泥鰌 in Japanese.",
+    "tags": ["fish", "freshwater"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%8C",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked dojo, katakana usage, ju, shu, pond loach gloss, Japanese 泥鰌 alternative spelling note, and Chinese 鰍 variant note against the source page."
+  },
+  "鰈": {
+    "name": "Righteye flounder",
+    "meaning": "Righteye flounder; a flatfish known as karei in Japanese.",
+    "readings": {
+      "ja": ["かれい", "カレイ", "ジョウ", "トウ", "チョウ"],
+      "romaji": ["karei", "jo", "to", "cho"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "The Japanese entry also lists a rare obsolete sole sense through 舌鮃.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%88",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked karei, jo, to, cho, righteye flounder gloss, flatfish family note, and the rare obsolete sole sense against the Japanese entry."
+  },
+  "鰒": {
+    "name": "Abalone or blowfish",
+    "meaning": "Abalone in dated usage, or blowfish; read awabi or fugu in Japanese.",
+    "readings": {
+      "ja": ["あわび", "アワビ", "ふぐ", "フグ", "フク"],
+      "romaji": ["awabi", "fugu", "fuku"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "The abalone sense is dated, and abalone is a mollusk despite the fish radical.",
+    "tags": ["seafood", "food", "fish", "mollusk"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%92",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked awabi, fugu, fuku, dated abalone sense, blowfish sense, and Chinese abalone or rare shark definitions against the source page."
+  },
+  "鰊": {
+    "name": "Pacific herring",
+    "meaning": "Pacific herring; a fish read nishin or regionally kado in Japanese.",
+    "readings": {
+      "ja": ["にしん", "ニシン", "かど", "カド", "レン"],
+      "romaji": ["nishin", "kado", "ren"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "The nishin entry lists 鯡 as an alternative spelling; kado is chiefly Tohoku usage.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%8A",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked nishin, katakana usage, kado, ren, Pacific herring gloss, 鯡 alternative spelling, and chiefly Tohoku kado note against the Japanese entry."
+  },
+  "鰮": {
+    "name": "Sardine",
+    "meaning": "Sardine or Japanese pilchard; a kyujitai form read iwashi in Japanese.",
+    "readings": {
+      "ja": ["いわし", "イワシ", "オン"],
+      "romaji": ["iwashi", "on"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Kyujitai form of 鰛 and an alternative spelling of 鰯.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%AE",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked iwashi, on, kyujitai relationship to 鰛, alternative-spelling relationship to 鰯, and pilchard or Japanese sardine gloss against the Japanese entry."
+  },
+  "鰛": {
+    "name": "Sardine",
+    "meaning": "Sardine or Japanese pilchard; a shinjitai form read iwashi in Japanese.",
+    "readings": {
+      "ja": ["いわし", "イワシ", "オン"],
+      "romaji": ["iwashi", "on"]
+    },
+    "parts": {
+      "ja": "",
+      "en": ""
+    },
+    "note": "Shinjitai form of 鰮 and an alternative spelling of 鰯.",
+    "tags": ["fish", "seafood", "food"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E9%B0%9B",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked iwashi, on, shinjitai relationship to 鰮, alternative-spelling relationship to 鰯, and pilchard or Japanese sardine gloss against the Japanese entry."
   }
 }
