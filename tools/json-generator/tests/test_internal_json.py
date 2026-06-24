@@ -387,6 +387,86 @@ class InternalJsonCliTest(unittest.TestCase):
         self.assertEqual(["鮭"], [item["char"] for item in public_output["items"]])
         self.assertNotIn("needsReview", public_output["items"][0])
 
+    def test_cli_writes_curation_coverage_report(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            radicals_path = root / "radicals.json"
+            unihan_path = root / "Unihan.zip"
+            curation_dir = root / "curation"
+            out_dir = root / "outputs"
+            report_path = root / "coverage.json"
+            radicals_path.write_text(
+                json.dumps(RADICALS, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            curation_dir.mkdir()
+            (curation_dir / "fish.json").write_text(
+                json.dumps(
+                    {
+                        "鮭": {
+                            "name": "Chum salmon",
+                            "curationStatus": "reviewed",
+                            "needsReview": False,
+                            "sourceLabel": "Example dictionary",
+                            "sourceCheckedAt": "2026-06-23",
+                        },
+                        "鰆": {
+                            "name": "Japanese Spanish mackerel",
+                            "curationStatus": "draft",
+                        },
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            with zipfile.ZipFile(unihan_path, "w") as archive:
+                archive.writestr(
+                    "Unihan_RadicalStrokeCounts.txt",
+                    SAMPLE_KRSUNICODE,
+                )
+
+            exit_code = main(
+                [
+                    "--all",
+                    "--radicals",
+                    str(radicals_path),
+                    "--unihan",
+                    str(unihan_path),
+                    "--curation-dir",
+                    str(curation_dir),
+                    "--out-dir",
+                    str(out_dir),
+                    "--coverage-report",
+                    str(report_path),
+                ]
+            )
+
+            report = json.loads(report_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(0, exit_code)
+        self.assertEqual(
+            {
+                "schemaVersion": "0.1",
+                "radicals": [
+                    {
+                        "id": "fish",
+                        "total": 2,
+                        "reviewed": 1,
+                        "draft": 1,
+                        "unreviewed": 0,
+                    },
+                    {
+                        "id": "water",
+                        "total": 2,
+                        "reviewed": 0,
+                        "draft": 0,
+                        "unreviewed": 2,
+                    },
+                ],
+            },
+            report,
+        )
+
     def test_cli_all_writes_public_site_index_for_every_generated_radical(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)
