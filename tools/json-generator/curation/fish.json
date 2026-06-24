@@ -47,8 +47,8 @@
       "romaji": ["unagi"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 曼",
+      "en": "Fish + 曼 component"
     },
     "note": "",
     "tags": ["fish", "food"],
@@ -67,8 +67,8 @@
       "romaji": ["katsuo"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 堅",
+      "en": "Fish + 堅 component"
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
@@ -107,8 +107,8 @@
       "romaji": ["sake", "shake"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 圭",
+      "en": "Fish + 圭 component"
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
@@ -347,8 +347,8 @@
       "romaji": ["masu"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 尊",
+      "en": "Fish + 尊 component"
     },
     "note": "",
     "tags": ["fish", "freshwater", "food"],
@@ -447,8 +447,8 @@
       "romaji": ["sen", "azayaka", "atarashii"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 羊",
+      "en": "Fish + 羊 component"
     },
     "note": "Common Japanese use is adjectival, as in fresh or vivid, rather than a fish name.",
     "tags": ["fresh", "color"],
@@ -487,8 +487,8 @@
       "romaji": ["kagamidai", "oshikiuo", "ho", "bo"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 方",
+      "en": "Fish + 方 component"
     },
     "note": "The Japanese entry lists readings but leaves the definition unfilled, so the English gloss follows the fish glosses on the same source page.",
     "tags": ["fish"],
@@ -567,8 +567,8 @@
       "romaji": ["konoshiro", "hiiragi"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 冬",
+      "en": "Fish + 冬 component"
     },
     "note": "This kokuji is mainly tied to konoshiro, with a rarer irregular hiiragi use also listed.",
     "tags": ["fish", "seafood"],
@@ -667,8 +667,8 @@
       "romaji": ["kon"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 系",
+      "en": "Fish + 系 component"
     },
     "note": "The Japanese entry lists only the on reading, so the public meaning follows the sourced Chinese definitions.",
     "tags": ["fish", "history", "mythology"],
@@ -687,8 +687,8 @@
       "romaji": ["haze", "same", "sha", "sa"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 沙",
+      "en": "Fish + 沙 component"
     },
     "note": "The Japanese noun section documents haze as goby, while Chinese usage documents shark.",
     "tags": ["fish", "sea"],
@@ -887,8 +887,8 @@
       "romaji": ["shachi", "shachihoko", "shatchoko", "ko"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 虎",
+      "en": "Fish + 虎 component"
     },
     "note": "A kokuji; the shachi sense is an orca, while shachihoko is a mythical roof ornament.",
     "tags": ["sea", "mammal", "mythology"],
@@ -907,8 +907,8 @@
       "romaji": ["namazu", "nen"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 念",
+      "en": "Fish + 念 component"
     },
     "note": "A kokuji; the biological term is often written in katakana as ナマズ.",
     "tags": ["fish", "freshwater"],
@@ -987,8 +987,8 @@
       "romaji": ["era", "sai", "shi"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 思",
+      "en": "Fish + 思 component"
     },
     "note": "Alternative spellings listed in the source include 腮 and 顋.",
     "tags": ["fish", "anatomy"],
@@ -1147,8 +1147,8 @@
       "romaji": ["buri", "kamasu", "shi"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 師",
+      "en": "Fish + 師 component"
     },
     "note": "The source notes size- and region-dependent names for this fish; kamasu is listed as a separate barracuda spelling sense.",
     "tags": ["fish", "seafood", "food"],
@@ -1167,8 +1167,8 @@
       "romaji": ["hatahata", "ina"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 神",
+      "en": "Fish + 神 component"
     },
     "note": "鱩 is listed as an alternative spelling; ina is listed as a nanori reading.",
     "tags": ["fish", "seafood", "food"],
@@ -1207,8 +1207,8 @@
       "romaji": ["tako", "sho"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 章",
+      "en": "Fish + 章 component"
     },
     "note": "Although written with the fish radical, octopus is a mollusk.",
     "tags": ["seafood", "food", "mollusk"],
@@ -1227,8 +1227,8 @@
       "romaji": ["ukibukuro", "byo", "hyo"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 票",
+      "en": "Fish + 票 component"
     },
     "note": "Alternative spellings listed in the source include 浮き袋, 浮袋, and 浮き囊.",
     "tags": ["fish", "anatomy"],
@@ -1247,8 +1247,8 @@
       "romaji": ["kisu"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 喜",
+      "en": "Fish + 喜 component"
     },
     "note": "",
     "tags": ["fish", "seafood", "food"],
@@ -1267,8 +1267,8 @@
       "romaji": ["hamo", "hamu", "rai", "rei"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 豊",
+      "en": "Fish + 豊 component"
     },
     "note": "The older hamu reading is listed as archaic or possibly obsolete.",
     "tags": ["fish", "seafood", "food"],
@@ -1307,8 +1307,8 @@
       "romaji": ["fuka", "himono", "yo", "sho"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 養",
+      "en": "Fish + 養 component"
     },
     "note": "The source also lists a Chinese variant relationship to 鯗, meaning dried or cured fish.",
     "tags": ["fish", "seafood", "food"],
@@ -1347,8 +1347,8 @@
       "romaji": ["kajika", "kajiko"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 石",
+      "en": "Fish + 石 component"
     },
     "note": "Kanjipedia notes that the character evokes a fish living among stones.",
     "tags": ["fish", "freshwater"],
@@ -1367,8 +1367,8 @@
       "romaji": ["tako", "sho", "so"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 肖",
+      "en": "Fish + 肖 component"
     },
     "note": "Although written with the fish radical, octopus is a mollusk; compare the reviewed 鱆 entry.",
     "tags": ["seafood", "food", "mollusk"],
@@ -1407,8 +1407,8 @@
       "romaji": ["kairagi", "i"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 威",
+      "en": "Fish + 威 component"
     },
     "note": "Kairagi can also be written 梅花皮.",
     "tags": ["fish", "anatomy"],
@@ -1427,8 +1427,8 @@
       "romaji": ["bora", "ryu"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 留",
+      "en": "Fish + 留 component"
     },
     "note": "Often written 鯔; 鰡 also appears in 鰡子, karasumi or dried mullet roe.",
     "tags": ["fish", "seafood", "food"],
@@ -1447,8 +1447,8 @@
       "romaji": ["ko"]
     },
     "parts": {
-      "ja": "",
-      "en": ""
+      "ja": "魚 + 康",
+      "en": "Fish + 康 component"
     },
     "note": "Often encountered as the second character of 鮟鱇, read anko.",
     "tags": ["fish", "seafood", "food"],
