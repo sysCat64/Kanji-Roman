@@ -118,7 +118,7 @@ Rules:
       },
       "parts": {
         "ja": "魚 + 春",
-        "en": "Fish + Spring"
+        "en": "Fish + 春 component"
       },
       "note": "In Japan, sawara is often associated with spring and seasonal cooking.",
       "tags": ["Season", "Sushi", "Poetic"],
