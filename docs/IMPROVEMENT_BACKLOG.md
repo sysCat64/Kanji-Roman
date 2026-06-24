@@ -116,17 +116,36 @@ Create curation files for `grass`, `tree`, and `thread` when editorial work
 starts for those radicals. Keep each PR scoped to one radical or one curation
 theme so generated diffs stay reviewable.
 
-### Curation Coverage Report
+### Curation Coverage Report Baseline
 
-Add a small generator report that counts `reviewed`, `draft`, and `unreviewed`
-entries per radical. This would make it easier to decide which radical needs
-editorial attention next.
+The generator CLI can write a curation coverage report with
+`--coverage-report <path>`. The report counts `reviewed`, `draft`, and
+`unreviewed` entries per generated radical while leaving internal and public
+JSON output unchanged.
 
-### Reviewed-Only Output Check
+Current coverage:
 
-Exercise and document the `--reviewed-only` flow before using it for public
-release data. The current public site is useful with `unreviewed` entries, but
-reviewed-only output may be helpful for curated showcase pages.
+- `fish`: 73 total, 73 reviewed, 0 draft, 0 unreviewed.
+- `grass`: 278 total, 0 reviewed, 0 draft, 278 unreviewed.
+- `tree`: 356 total, 0 reviewed, 0 draft, 356 unreviewed.
+- `thread`: 173 total, 0 reviewed, 0 draft, 173 unreviewed.
+
+### Reviewed-Only Output Baseline
+
+The `--reviewed-only` flow has been exercised against the current generator and
+curation inputs. It filters public radical JSON items to reviewed entries while
+keeping internal output complete.
+
+Current public reviewed-only counts:
+
+- `fish`: 73 items.
+- `grass`: 0 items.
+- `thread`: 0 items.
+- `tree`: 0 items.
+
+Keep the default public site on the normal output until the other initial
+radicals have reviewed curation. Use `--reviewed-only` for curated showcase
+builds or focused checks where empty non-fish radical pages are acceptable.
 
 ## UI Improvement Backlog
 

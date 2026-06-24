@@ -370,6 +370,7 @@ Steps:
 3. `--radical fish` と `--all` をCLIで選べるようにする。
 4. `--sort jis` と `--sort unicode` を受け付ける。
 5. `--include-unreviewed` を既定動作にし、`--reviewed-only` はキュレーション対応後に有効化する。
+6. `--coverage-report <path>` で生成対象部首ごとの `reviewed`, `draft`, `unreviewed` 件数をJSON出力できるようにする。
 
 Acceptance:
 

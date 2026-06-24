@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 from typing import Sequence
@@ -40,6 +41,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         )
 
     out_dir = Path(args.out_dir)
+    coverage_report = {"schemaVersion": "0.1", "radicals": []}
     for radical_id, radical in zip(radical_ids, target_radicals):
         curation_by_char = _load_curation_for_radical(args.curation_dir, radical_id)
         group = generate_internal_group(
@@ -53,6 +55,8 @@ def main(argv: Sequence[str] | None = None) -> int:
         for warning in group.get("warnings", []):
             print(warning["message"], file=sys.stderr)
         write_internal_group(out_dir / f"{radical_id}.json", group)
+        if args.coverage_report is not None:
+            coverage_report["radicals"].append(_coverage_entry(group))
         if args.site_data_dir is not None:
             public_radical = public_radical_from_internal_group(
                 group,
@@ -65,6 +69,8 @@ def main(argv: Sequence[str] | None = None) -> int:
             )
     if args.site_data_dir is not None:
         write_site_index(Path(args.site_data_dir) / "site-index.json", site_index)
+    if args.coverage_report is not None:
+        _write_coverage_report(args.coverage_report, coverage_report)
 
     return 0
 
@@ -94,6 +100,11 @@ def _parse_args(argv: Sequence[str] | None) -> argparse.Namespace:
         action="store_true",
         help="Accepted for future curation filtering.",
     )
+    parser.add_argument(
+        "--coverage-report",
+        type=Path,
+        help="Write curation status counts for generated radicals to this JSON file.",
+    )
     return parser.parse_args(argv)
 
 
@@ -113,6 +124,29 @@ def _load_curation_for_radical(
     if curation_dir is None:
         return {}
     return load_curation(curation_dir / f"{radical_id}.json")
+
+
+def _coverage_entry(group: dict) -> dict:
+    counts = {"reviewed": 0, "draft": 0, "unreviewed": 0}
+    for item in group.get("items", []):
+        status = item.get("curationStatus", "unreviewed")
+        if status in counts:
+            counts[status] += 1
+    return {
+        "id": group["group"]["id"],
+        "total": len(group.get("items", [])),
+        "reviewed": counts["reviewed"],
+        "draft": counts["draft"],
+        "unreviewed": counts["unreviewed"],
+    }
+
+
+def _write_coverage_report(path: Path, report: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(report, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
 
 if __name__ == "__main__":
