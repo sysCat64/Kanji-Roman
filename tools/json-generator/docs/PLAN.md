@@ -124,7 +124,7 @@ Validation:
     },
     "parts": {
       "ja": "魚 + 春",
-      "en": "Fish + Spring"
+      "en": "Fish + 春 component"
     },
     "note": "Human-facing wording is draft until reviewed against a reliable source.",
     "tags": ["fish", "spring", "food"],
@@ -273,7 +273,7 @@ Validation:
       },
       "parts": {
         "ja": "魚 + 春",
-        "en": "Fish + Spring"
+        "en": "Fish + 春 component"
       },
       "note": "Human-facing wording is draft until reviewed against a reliable source.",
       "tags": ["fish", "spring", "food"],

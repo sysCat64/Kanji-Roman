@@ -43,7 +43,16 @@ notes, or tags for individual kanji.
    - `meaning`: concise reader-facing meaning or gloss.
    - `readings.ja`: kana readings, including common kana variants when useful.
    - `readings.romaji`: romanized readings in a consistent project style.
-   - `parts.ja` and `parts.en`: readable component phrase for the UI.
+   - `parts.ja` and `parts.en`: readable visual component phrase for the UI,
+     not a claim about etymology or literal meaning.
+     - Default to glyph-based labels: `parts.ja` uses forms such as
+       `魚 + 里`, and `parts.en` keeps the right-side glyph with `component`,
+       such as `Fish + 里 component`.
+     - Use an English gloss such as `Fish + Spring` only as a reviewed,
+       deliberate reader-facing exception, not as a broad automatic conversion
+       from kanji to English meanings.
+     - Leave `parts` blank for standalone characters or when the breakdown
+       would require stroke-level or overly obscure pieces.
    - `note`: short cultural or usage note only when wording has been reviewed.
    - `tags`: small topical tags used by the UI.
    - `curationStatus`: use `draft` while wording needs review; use `reviewed`
