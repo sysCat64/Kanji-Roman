@@ -94,17 +94,20 @@ Supported curation input fields:
 - `sourceCheckedAt`: source check date in `YYYY-MM-DD` form.
 - `reviewNote`: short internal note describing what was checked.
 
-### Fish Radical Curation Pass
+### Fish Radical Curation Baseline
 
-Use `fish` as the first full editorial pass because it already has seeded
-curation and is the default public radical.
+The first `fish` editorial pass is complete enough to serve as the reference
+workflow for other radicals. The public `data/radicals/fish.json` output has 73
+items marked `reviewed`; the standalone `魚` entry intentionally leaves
+`parts.ja` and `parts.en` blank.
 
-Suggested order:
+Keep future fish changes small and source-checked:
 
-1. Add readings and romaji for high-recognition food and nature entries.
-2. Add English display names only where the wording can be checked.
-3. Keep cultural notes short and mark them `draft` until reviewed.
-4. Regenerate `tools/json-generator/outputs/internal/fish.json` and
+1. Adjust individual readings, names, meanings, notes, or tags only after
+   reviewing a reliable source.
+2. Keep `parts` wording glyph-based unless a deliberate reader-facing exception
+   is reviewed.
+3. Regenerate `tools/json-generator/outputs/internal/fish.json` and
    `data/radicals/fish.json`.
 
 ### Curation Files For Other Radicals
