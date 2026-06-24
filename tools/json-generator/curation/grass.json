@@ -1,4 +1,44 @@
 {
+  "芋": {
+    "name": "Tuber",
+    "meaning": "Edible tuber such as potato, sweet potato, yam, or taro.",
+    "readings": {
+      "ja": ["いも", "ウ"],
+      "romaji": ["imo", "u"]
+    },
+    "parts": {
+      "ja": "艹 + 于",
+      "en": "Grass + 于 component"
+    },
+    "note": "",
+    "tags": ["food", "vegetable", "tuber"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8A%8B",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked imo and u readings, edible tuber glosses, and 艹 + 于 composition against the Japanese and translingual entries."
+  },
+  "英": {
+    "name": "English",
+    "meaning": "Britain or English; also outstanding.",
+    "readings": {
+      "ja": ["エイ", "はなぶさ"],
+      "romaji": ["ei", "hanabusa"]
+    },
+    "parts": {
+      "ja": "艹 + 央",
+      "en": "Grass + 央 component"
+    },
+    "note": "",
+    "tags": ["language", "country", "quality"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8B%B1",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked ei and hanabusa readings, Britain, English, and outstanding glosses, and 艹 + 央 composition against the Japanese and translingual entries."
+  },
   "花": {
     "name": "Flower",
     "meaning": "Flower; a basic kanji for blossoms and flowers.",
@@ -19,6 +59,46 @@
     "sourceCheckedAt": "2026-06-24",
     "reviewNote": "Checked hana and ka readings, flower gloss, and 艹 + 化 composition against the Japanese and translingual entries."
   },
+  "茄": {
+    "name": "Eggplant",
+    "meaning": "Eggplant or aubergine.",
+    "readings": {
+      "ja": ["なす", "カ"],
+      "romaji": ["nasu", "ka"]
+    },
+    "parts": {
+      "ja": "艹 + 加",
+      "en": "Grass + 加 component"
+    },
+    "note": "",
+    "tags": ["food", "vegetable"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8C%84",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked nasu and ka readings, eggplant gloss, and 艹 + 加 composition against the Japanese and translingual entries."
+  },
+  "荷": {
+    "name": "Load",
+    "meaning": "Load, cargo, or luggage; also to shoulder or carry.",
+    "readings": {
+      "ja": ["に", "になう", "カ"],
+      "romaji": ["ni", "ninau", "ka"]
+    },
+    "parts": {
+      "ja": "艹 + 何",
+      "en": "Grass + 何 component"
+    },
+    "note": "",
+    "tags": ["load", "cargo"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8D%B7",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked ni, ninau, and ka readings, load, cargo, and luggage glosses, and 艹 + 何 composition against the Japanese and translingual entries."
+  },
   "菓": {
     "name": "Confectionery",
     "meaning": "Confectionery or fruit; the kanji used in words such as 菓子.",
@@ -38,6 +118,26 @@
     "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8F%93",
     "sourceCheckedAt": "2026-06-24",
     "reviewNote": "Checked kashi, kudamono, and ka readings, confection or fruit usage, and 艹 + 果 composition against the Japanese and translingual entries."
+  },
+  "芽": {
+    "name": "Bud",
+    "meaning": "Bud, sprout, or shoot; also the germ or beginning of an idea.",
+    "readings": {
+      "ja": ["め", "ガ"],
+      "romaji": ["me", "ga"]
+    },
+    "parts": {
+      "ja": "艹 + 牙",
+      "en": "Grass + 牙 component"
+    },
+    "note": "",
+    "tags": ["plant", "sprout", "growth"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8A%BD",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked me and ga readings, bud, sprout, shoot, and germ glosses, and 艹 + 牙 composition against the Japanese and translingual entries."
   },
   "苦": {
     "name": "Bitter",
@@ -118,5 +218,25 @@
     "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8B%97",
     "sourceCheckedAt": "2026-06-24",
     "reviewNote": "Checked nae, byo, and myo readings, seedling and young plant gloss, and 艹 + 田 composition against the Japanese and translingual entries."
+  },
+  "芳": {
+    "name": "Fragrant",
+    "meaning": "Fragrant or sweet-smelling; also good reputation or satisfactory.",
+    "readings": {
+      "ja": ["かんばしい", "ホウ"],
+      "romaji": ["kanbashii", "ho"]
+    },
+    "parts": {
+      "ja": "艹 + 方",
+      "en": "Grass + 方 component"
+    },
+    "note": "",
+    "tags": ["fragrance", "quality"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8A%B3",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked kanbashii and ho readings, fragrant, good reputation, and satisfactory glosses, and 艹 + 方 composition against the Japanese and translingual entries."
   }
 }

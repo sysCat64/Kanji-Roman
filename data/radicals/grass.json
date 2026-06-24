@@ -8,15 +8,25 @@
     "grass",
     "plant",
     "nature",
+    "food",
+    "vegetable",
+    "tuber",
+    "language",
+    "country",
+    "quality",
     "flower",
     "basic",
-    "food",
+    "load",
+    "cargo",
     "confectionery",
     "fruit",
+    "sprout",
+    "growth",
     "taste",
     "feeling",
     "youth",
-    "seedling"
+    "seedling",
+    "fragrance"
   ],
   "items": [
     {
@@ -147,11 +157,17 @@
     },
     {
       "char": "芋",
-      "name": "",
-      "meaning": "",
+      "name": "Tuber",
+      "meaning": "Edible tuber such as potato, sweet potato, yam, or taro.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "いも",
+          "ウ"
+        ],
+        "romaji": [
+          "imo",
+          "u"
+        ]
       },
       "unicode": "U+828B",
       "jis": {
@@ -159,12 +175,16 @@
         "kuten": "16-82"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 于",
+        "en": "Grass + 于 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "food",
+        "vegetable",
+        "tuber"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "蔭",
@@ -231,11 +251,17 @@
     },
     {
       "char": "英",
-      "name": "",
-      "meaning": "",
+      "name": "English",
+      "meaning": "Britain or English; also outstanding.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "エイ",
+          "はなぶさ"
+        ],
+        "romaji": [
+          "ei",
+          "hanabusa"
+        ]
       },
       "unicode": "U+82F1",
       "jis": {
@@ -243,12 +269,16 @@
         "kuten": "17-49"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 央",
+        "en": "Grass + 央 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "language",
+        "country",
+        "quality"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "苑",
@@ -367,11 +397,17 @@
     },
     {
       "char": "茄",
-      "name": "",
-      "meaning": "",
+      "name": "Eggplant",
+      "meaning": "Eggplant or aubergine.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "なす",
+          "カ"
+        ],
+        "romaji": [
+          "nasu",
+          "ka"
+        ]
       },
       "unicode": "U+8304",
       "jis": {
@@ -379,20 +415,31 @@
         "kuten": "18-56"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 加",
+        "en": "Grass + 加 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "food",
+        "vegetable"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "荷",
-      "name": "",
-      "meaning": "",
+      "name": "Load",
+      "meaning": "Load, cargo, or luggage; also to shoulder or carry.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "に",
+          "になう",
+          "カ"
+        ],
+        "romaji": [
+          "ni",
+          "ninau",
+          "ka"
+        ]
       },
       "unicode": "U+8377",
       "jis": {
@@ -400,12 +447,15 @@
         "kuten": "18-57"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 何",
+        "en": "Grass + 何 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "load",
+        "cargo"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "華",
@@ -463,11 +513,17 @@
     },
     {
       "char": "芽",
-      "name": "",
-      "meaning": "",
+      "name": "Bud",
+      "meaning": "Bud, sprout, or shoot; also the germ or beginning of an idea.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "め",
+          "ガ"
+        ],
+        "romaji": [
+          "me",
+          "ga"
+        ]
       },
       "unicode": "U+82BD",
       "jis": {
@@ -475,12 +531,16 @@
         "kuten": "18-74"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 牙",
+        "en": "Grass + 牙 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "plant",
+        "sprout",
+        "growth"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "芥",
@@ -2141,11 +2201,17 @@
     },
     {
       "char": "芳",
-      "name": "",
-      "meaning": "",
+      "name": "Fragrant",
+      "meaning": "Fragrant or sweet-smelling; also good reputation or satisfactory.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "かんばしい",
+          "ホウ"
+        ],
+        "romaji": [
+          "kanbashii",
+          "ho"
+        ]
       },
       "unicode": "U+82B3",
       "jis": {
@@ -2153,12 +2219,15 @@
         "kuten": "43-07"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 方",
+        "en": "Grass + 方 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "fragrance",
+        "quality"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "萌",
