@@ -19,6 +19,26 @@
     "sourceCheckedAt": "2026-06-25",
     "reviewNote": "Checked akane, sen, and sei readings, madder, madder dye, and madder red glosses, and 艹 + 西 composition against the Japanese and translingual entries."
   },
+  "芦": {
+    "name": "Reed",
+    "meaning": "Reed or bulrush; also used for common reed.",
+    "readings": {
+      "ja": ["あし", "よし", "ロ", "ル"],
+      "romaji": ["ashi", "yoshi", "ro", "ru"]
+    },
+    "parts": {
+      "ja": "艹 + 戸",
+      "en": "Grass + 戸 component"
+    },
+    "note": "",
+    "tags": ["plant", "reed"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8A%A6",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked ashi, yoshi, ro, and ru readings, reed and bulrush glosses, common reed usage, and 艹 + 戸 composition against the Japanese and translingual entries."
+  },
   "芋": {
     "name": "Tuber",
     "meaning": "Edible tuber such as potato, sweet potato, yam, or taro.",
@@ -219,6 +239,46 @@
     "sourceCheckedAt": "2026-06-25",
     "reviewNote": "Checked karashi, akuta, kai, and ke readings, mustard, rubbish, trash, and dust glosses, and 艹 + 介 composition against the Japanese and translingual entries."
   },
+  "茅": {
+    "name": "Thatch",
+    "meaning": "Thatch or cogon grass.",
+    "readings": {
+      "ja": ["かや", "ちがや", "ボウ", "ミョウ"],
+      "romaji": ["kaya", "chigaya", "bo", "myo"]
+    },
+    "parts": {
+      "ja": "艹 + 矛",
+      "en": "Grass + 矛 component"
+    },
+    "note": "",
+    "tags": ["plant", "grass", "thatch"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8C%85",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked kaya, chigaya, bo, and myo readings, thatch and cogon grass glosses, and 艹 + 矛 composition against the Japanese and translingual entries."
+  },
+  "芸": {
+    "name": "Art",
+    "meaning": "Art, technique, craft, or performance; also rue as an older herb sense.",
+    "readings": {
+      "ja": ["ゲイ", "ウン"],
+      "romaji": ["gei", "un"]
+    },
+    "parts": {
+      "ja": "艹 + 云",
+      "en": "Grass + 云 component"
+    },
+    "note": "",
+    "tags": ["art", "performance", "plant"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8A%B8",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked gei and un readings, art, technique, craft, performance, and rue glosses, and 艹 + 云 composition against the Japanese and translingual entries."
+  },
   "苦": {
     "name": "Bitter",
     "meaning": "Bitter; also pain, suffering, or hardship.",
@@ -279,6 +339,46 @@
     "sourceCheckedAt": "2026-06-25",
     "reviewNote": "Checked shin, hosoi, and toshingusa readings, core, heart, wick, and pencil lead glosses, and 艹 + 心 composition against the Japanese and translingual entries."
   },
+  "菅": {
+    "name": "Sedge",
+    "meaning": "Sedge, a grass-like plant; also used in surnames such as Suga or Kan.",
+    "readings": {
+      "ja": ["すげ", "すが", "カン", "ケン"],
+      "romaji": ["suge", "suga", "kan", "ken"]
+    },
+    "parts": {
+      "ja": "艹 + 官",
+      "en": "Grass + 官 component"
+    },
+    "note": "",
+    "tags": ["plant", "sedge", "surname"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8F%85",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked suge, suga, kan, and ken readings, sedge and surname glosses, and 艹 + 官 composition against the Japanese and translingual entries."
+  },
+  "菜": {
+    "name": "Greens",
+    "meaning": "Greens, vegetables, rapeseed, or side dish.",
+    "readings": {
+      "ja": ["な", "サイ"],
+      "romaji": ["na", "sai"]
+    },
+    "parts": {
+      "ja": "艹 + 采",
+      "en": "Grass + 采 component"
+    },
+    "note": "",
+    "tags": ["food", "vegetable", "greens"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8F%9C",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked na and sai readings, greens, vegetables, rapeseed, and side dish glosses, and 艹 + 采 composition against the Japanese and translingual entries."
+  },
   "草": {
     "name": "Grass",
     "meaning": "Grass; also weed or herb in Japanese.",
@@ -318,6 +418,26 @@
     "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8B%97",
     "sourceCheckedAt": "2026-06-24",
     "reviewNote": "Checked nae, byo, and myo readings, seedling and young plant gloss, and 艹 + 田 composition against the Japanese and translingual entries."
+  },
+  "蒔": {
+    "name": "Sowing",
+    "meaning": "Sowing seeds; to sow, plant, or grow.",
+    "readings": {
+      "ja": ["まく", "うえる", "シ", "ジ"],
+      "romaji": ["maku", "ueru", "shi", "ji"]
+    },
+    "parts": {
+      "ja": "艹 + 時",
+      "en": "Grass + 時 component"
+    },
+    "note": "",
+    "tags": ["plant", "sowing", "growth"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%92%94",
+    "sourceCheckedAt": "2026-06-25",
+    "reviewNote": "Checked maku, ueru, shi, and ji readings, sowing, sow, plant, and grow glosses, and 艹 + 時 composition against the Japanese and translingual entries."
   },
   "苔": {
     "name": "Moss",

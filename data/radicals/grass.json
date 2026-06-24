@@ -10,6 +10,7 @@
     "nature",
     "color",
     "dye",
+    "reed",
     "food",
     "vegetable",
     "tuber",
@@ -27,12 +28,19 @@
     "growth",
     "mustard",
     "waste",
+    "thatch",
     "spring",
     "taste",
     "feeling",
+    "art",
+    "performance",
+    "greens",
+    "sowing",
     "youth",
     "core",
     "object",
+    "sedge",
+    "surname",
     "moss",
     "seedling",
     "fragrance"
@@ -115,11 +123,21 @@
     },
     {
       "char": "芦",
-      "name": "",
-      "meaning": "",
+      "name": "Reed",
+      "meaning": "Reed or bulrush; also used for common reed.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "あし",
+          "よし",
+          "ロ",
+          "ル"
+        ],
+        "romaji": [
+          "ashi",
+          "yoshi",
+          "ro",
+          "ru"
+        ]
       },
       "unicode": "U+82A6",
       "jis": {
@@ -127,12 +145,15 @@
         "kuten": "16-18"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 戸",
+        "en": "Grass + 戸 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "plant",
+        "reed"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "萎",
@@ -674,11 +695,21 @@
     },
     {
       "char": "茅",
-      "name": "",
-      "meaning": "",
+      "name": "Thatch",
+      "meaning": "Thatch or cogon grass.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "かや",
+          "ちがや",
+          "ボウ",
+          "ミョウ"
+        ],
+        "romaji": [
+          "kaya",
+          "chigaya",
+          "bo",
+          "myo"
+        ]
       },
       "unicode": "U+8305",
       "jis": {
@@ -686,12 +717,16 @@
         "kuten": "19-93"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 矛",
+        "en": "Grass + 矛 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "plant",
+        "grass",
+        "thatch"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "萱",
@@ -949,11 +984,17 @@
     },
     {
       "char": "芸",
-      "name": "",
-      "meaning": "",
+      "name": "Art",
+      "meaning": "Art, technique, craft, or performance; also rue as an older herb sense.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "ゲイ",
+          "ウン"
+        ],
+        "romaji": [
+          "gei",
+          "un"
+        ]
       },
       "unicode": "U+82B8",
       "jis": {
@@ -961,12 +1002,16 @@
         "kuten": "23-61"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 云",
+        "en": "Grass + 云 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "art",
+        "performance",
+        "plant"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "菰",
@@ -1012,11 +1057,17 @@
     },
     {
       "char": "菜",
-      "name": "",
-      "meaning": "",
+      "name": "Greens",
+      "meaning": "Greens, vegetables, rapeseed, or side dish.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "な",
+          "サイ"
+        ],
+        "romaji": [
+          "na",
+          "sai"
+        ]
       },
       "unicode": "U+83DC",
       "jis": {
@@ -1024,12 +1075,16 @@
         "kuten": "26-58"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 采",
+        "en": "Grass + 采 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "food",
+        "vegetable",
+        "greens"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "薩",
@@ -1054,11 +1109,21 @@
     },
     {
       "char": "蒔",
-      "name": "",
-      "meaning": "",
+      "name": "Sowing",
+      "meaning": "Sowing seeds; to sow, plant, or grow.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "まく",
+          "うえる",
+          "シ",
+          "ジ"
+        ],
+        "romaji": [
+          "maku",
+          "ueru",
+          "shi",
+          "ji"
+        ]
       },
       "unicode": "U+8494",
       "jis": {
@@ -1066,12 +1131,16 @@
         "kuten": "28-12"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 時",
+        "en": "Grass + 時 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "plant",
+        "sowing",
+        "growth"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "蔀",
@@ -1367,11 +1436,21 @@
     },
     {
       "char": "菅",
-      "name": "",
-      "meaning": "",
+      "name": "Sedge",
+      "meaning": "Sedge, a grass-like plant; also used in surnames such as Suga or Kan.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "すげ",
+          "すが",
+          "カン",
+          "ケン"
+        ],
+        "romaji": [
+          "suge",
+          "suga",
+          "kan",
+          "ken"
+        ]
       },
       "unicode": "U+83C5",
       "jis": {
@@ -1379,12 +1458,16 @@
         "kuten": "31-91"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 官",
+        "en": "Grass + 官 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "plant",
+        "sedge",
+        "surname"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "薦",
