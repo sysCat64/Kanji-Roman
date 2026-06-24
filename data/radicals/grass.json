@@ -7,7 +7,16 @@
   "tags": [
     "grass",
     "plant",
-    "nature"
+    "nature",
+    "flower",
+    "basic",
+    "food",
+    "confectionery",
+    "fruit",
+    "taste",
+    "feeling",
+    "youth",
+    "seedling"
   ],
   "items": [
     {
@@ -306,11 +315,17 @@
     },
     {
       "char": "花",
-      "name": "",
-      "meaning": "",
+      "name": "Flower",
+      "meaning": "Flower; a basic kanji for blossoms and flowers.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "はな",
+          "カ"
+        ],
+        "romaji": [
+          "hana",
+          "ka"
+        ]
       },
       "unicode": "U+82B1",
       "jis": {
@@ -318,12 +333,16 @@
         "kuten": "18-54"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 化",
+        "en": "Grass + 化 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "plant",
+        "flower",
+        "basic"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "苛",
@@ -411,11 +430,19 @@
     },
     {
       "char": "菓",
-      "name": "",
-      "meaning": "",
+      "name": "Confectionery",
+      "meaning": "Confectionery or fruit; the kanji used in words such as 菓子.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "かし",
+          "くだもの",
+          "カ"
+        ],
+        "romaji": [
+          "kashi",
+          "kudamono",
+          "ka"
+        ]
       },
       "unicode": "U+83D3",
       "jis": {
@@ -423,12 +450,16 @@
         "kuten": "18-59"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 果",
+        "en": "Grass + 果 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "food",
+        "confectionery",
+        "fruit"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "芽",
@@ -705,11 +736,19 @@
     },
     {
       "char": "苦",
-      "name": "",
-      "meaning": "",
+      "name": "Bitter",
+      "meaning": "Bitter; also pain, suffering, or hardship.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "にがい",
+          "くるしい",
+          "ク"
+        ],
+        "romaji": [
+          "nigai",
+          "kurushii",
+          "ku"
+        ]
       },
       "unicode": "U+82E6",
       "jis": {
@@ -717,12 +756,15 @@
         "kuten": "22-76"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 古",
+        "en": "Grass + 古 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "taste",
+        "feeling"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "薫",
@@ -978,11 +1020,17 @@
     },
     {
       "char": "若",
-      "name": "",
-      "meaning": "",
+      "name": "Young",
+      "meaning": "Young; also used for conditional meanings such as if.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "わかい",
+          "ジャク"
+        ],
+        "romaji": [
+          "wakai",
+          "jaku"
+        ]
       },
       "unicode": "U+82E5",
       "jis": {
@@ -990,12 +1038,14 @@
         "kuten": "28-67"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 右",
+        "en": "Grass + 右 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "youth"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "蒐",
@@ -1251,11 +1301,17 @@
     },
     {
       "char": "草",
-      "name": "",
-      "meaning": "",
+      "name": "Grass",
+      "meaning": "Grass; also weed or herb in Japanese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "くさ",
+          "ソウ"
+        ],
+        "romaji": [
+          "kusa",
+          "so"
+        ]
       },
       "unicode": "U+8349",
       "jis": {
@@ -1263,12 +1319,16 @@
         "kuten": "33-80"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 早",
+        "en": "Grass + 早 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "plant",
+        "grass",
+        "basic"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "荘",
@@ -1860,11 +1920,19 @@
     },
     {
       "char": "苗",
-      "name": "",
-      "meaning": "",
+      "name": "Seedling",
+      "meaning": "Seedling or young plant.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "なえ",
+          "ビョウ",
+          "ミョウ"
+        ],
+        "romaji": [
+          "nae",
+          "byo",
+          "myo"
+        ]
       },
       "unicode": "U+82D7",
       "jis": {
@@ -1872,12 +1940,15 @@
         "kuten": "41-36"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 田",
+        "en": "Grass + 田 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "plant",
+        "seedling"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "蒜",

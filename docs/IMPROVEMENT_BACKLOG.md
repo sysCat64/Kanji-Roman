@@ -112,9 +112,10 @@ Keep future fish changes small and source-checked:
 
 ### Curation Files For Other Radicals
 
-Create curation files for `grass`, `tree`, and `thread` when editorial work
-starts for those radicals. Keep each PR scoped to one radical or one curation
-theme so generated diffs stay reviewable.
+The `grass` curation file has started with a small source-checked seed batch.
+Create curation files for `tree` and `thread` when editorial work starts for
+those radicals. Keep each PR scoped to one radical or one curation theme so
+generated diffs stay reviewable.
 
 ### Curation Coverage Report Baseline
 
@@ -126,7 +127,7 @@ JSON output unchanged.
 Current coverage:
 
 - `fish`: 73 total, 73 reviewed, 0 draft, 0 unreviewed.
-- `grass`: 278 total, 0 reviewed, 0 draft, 278 unreviewed.
+- `grass`: 278 total, 6 reviewed, 0 draft, 272 unreviewed.
 - `tree`: 356 total, 0 reviewed, 0 draft, 356 unreviewed.
 - `thread`: 173 total, 0 reviewed, 0 draft, 173 unreviewed.
 
@@ -139,7 +140,7 @@ keeping internal output complete.
 Current public reviewed-only counts:
 
 - `fish`: 73 items.
-- `grass`: 0 items.
+- `grass`: 6 items.
 - `thread`: 0 items.
 - `tree`: 0 items.
 

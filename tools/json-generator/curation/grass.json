@@ -1,0 +1,122 @@
+{
+  "花": {
+    "name": "Flower",
+    "meaning": "Flower; a basic kanji for blossoms and flowers.",
+    "readings": {
+      "ja": ["はな", "カ"],
+      "romaji": ["hana", "ka"]
+    },
+    "parts": {
+      "ja": "艹 + 化",
+      "en": "Grass + 化 component"
+    },
+    "note": "",
+    "tags": ["plant", "flower", "basic"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8A%B1",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked hana and ka readings, flower gloss, and 艹 + 化 composition against the Japanese and translingual entries."
+  },
+  "菓": {
+    "name": "Confectionery",
+    "meaning": "Confectionery or fruit; the kanji used in words such as 菓子.",
+    "readings": {
+      "ja": ["かし", "くだもの", "カ"],
+      "romaji": ["kashi", "kudamono", "ka"]
+    },
+    "parts": {
+      "ja": "艹 + 果",
+      "en": "Grass + 果 component"
+    },
+    "note": "",
+    "tags": ["food", "confectionery", "fruit"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8F%93",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked kashi, kudamono, and ka readings, confection or fruit usage, and 艹 + 果 composition against the Japanese and translingual entries."
+  },
+  "苦": {
+    "name": "Bitter",
+    "meaning": "Bitter; also pain, suffering, or hardship.",
+    "readings": {
+      "ja": ["にがい", "くるしい", "ク"],
+      "romaji": ["nigai", "kurushii", "ku"]
+    },
+    "parts": {
+      "ja": "艹 + 古",
+      "en": "Grass + 古 component"
+    },
+    "note": "",
+    "tags": ["taste", "feeling"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8B%A6",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked nigai, kurushii, and ku readings, bitter and suffering glosses, and 艹 + 古 composition against the Japanese and translingual entries."
+  },
+  "若": {
+    "name": "Young",
+    "meaning": "Young; also used for conditional meanings such as if.",
+    "readings": {
+      "ja": ["わかい", "ジャク"],
+      "romaji": ["wakai", "jaku"]
+    },
+    "parts": {
+      "ja": "艹 + 右",
+      "en": "Grass + 右 component"
+    },
+    "note": "",
+    "tags": ["youth"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8B%A5",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked wakai and jaku readings, young and if glosses, and 艹 + 右 composition against the Japanese and translingual entries."
+  },
+  "草": {
+    "name": "Grass",
+    "meaning": "Grass; also weed or herb in Japanese.",
+    "readings": {
+      "ja": ["くさ", "ソウ"],
+      "romaji": ["kusa", "so"]
+    },
+    "parts": {
+      "ja": "艹 + 早",
+      "en": "Grass + 早 component"
+    },
+    "note": "",
+    "tags": ["plant", "grass", "basic"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8D%89",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked kusa and so readings, grass, weed, and herb glosses, and 艹 + 早 composition against the Japanese and translingual entries."
+  },
+  "苗": {
+    "name": "Seedling",
+    "meaning": "Seedling or young plant.",
+    "readings": {
+      "ja": ["なえ", "ビョウ", "ミョウ"],
+      "romaji": ["nae", "byo", "myo"]
+    },
+    "parts": {
+      "ja": "艹 + 田",
+      "en": "Grass + 田 component"
+    },
+    "note": "",
+    "tags": ["plant", "seedling"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8B%97",
+    "sourceCheckedAt": "2026-06-24",
+    "reviewNote": "Checked nae, byo, and myo readings, seedling and young plant gloss, and 艹 + 田 composition against the Japanese and translingual entries."
+  }
+}
