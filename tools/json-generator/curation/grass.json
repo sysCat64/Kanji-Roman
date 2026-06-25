@@ -598,5 +598,125 @@
     "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8F%96",
     "sourceCheckedAt": "2026-06-26",
     "reviewNote": "Checked sho reading, iris, sweet flag, calamus, and 菖蒲 compound notes, and 艹 + 昌 composition against the Japanese and translingual entries."
+  },
+  "葵": {
+    "name": "Mallow",
+    "meaning": "Mallow, hollyhock, or hibiscus; also used for several plant names.",
+    "readings": {
+      "ja": ["あおい", "キ", "ギ"],
+      "romaji": ["aoi", "ki", "gi"]
+    },
+    "parts": {
+      "ja": "艹 + 癸",
+      "en": "Grass + 癸 component"
+    },
+    "note": "Also associated with the aoi mon crest and the Tokugawa shogunate symbol.",
+    "tags": ["plant", "flower", "crest"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%91%B5",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked aoi, ki, and gi readings, mallow, hollyhock, hibiscus, and plant-name glosses, aoi mon and Tokugawa shogunate notes, and 艹 + 癸 composition against the Japanese and translingual entries."
+  },
+  "荻": {
+    "name": "Amur Silvergrass",
+    "meaning": "Amur silvergrass; also reed or cane.",
+    "readings": {
+      "ja": ["おぎ", "テキ", "ジャク"],
+      "romaji": ["ogi", "teki", "jaku"]
+    },
+    "parts": {
+      "ja": "艹 + 狄",
+      "en": "Grass + 狄 component"
+    },
+    "note": "Not to be confused with 萩 (hagi, bush clover).",
+    "tags": ["plant", "grass", "reed"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8D%BB",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked ogi, teki, and jaku readings, Amur silvergrass, reed, and cane glosses, distinction from 萩, and 艹 + 狄 composition against the Japanese and translingual entries."
+  },
+  "葛": {
+    "name": "Kudzu",
+    "meaning": "Kudzu or Japanese arrowroot; also creepers, wickerwork, kudzu starch, or cloth made from kudzu fiber.",
+    "readings": {
+      "ja": ["くず", "かずら", "つづら", "カツ", "カチ"],
+      "romaji": ["kuzu", "kazura", "tsuzura", "katsu", "kachi"]
+    },
+    "parts": {
+      "ja": "艹 + 曷",
+      "en": "Grass + 曷 component"
+    },
+    "note": "The word kudzu is borrowed into English from Japanese.",
+    "tags": ["plant", "vine", "food", "fiber"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%91%9B",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked kuzu, kazura, tsuzura, katsu, and kachi readings, kudzu, Japanese arrowroot, creeper, starch, sauce, and fiber cloth glosses, English descendant note, and 艹 + 曷 composition against the Japanese and translingual entries."
+  },
+  "葦": {
+    "name": "Common Reed",
+    "meaning": "Common reed, especially Phragmites australis.",
+    "readings": {
+      "ja": ["あし", "よし", "イ"],
+      "romaji": ["ashi", "yoshi", "i"]
+    },
+    "parts": {
+      "ja": "艹 + 韋",
+      "en": "Grass + 韋 component"
+    },
+    "note": "Also written 芦, 蘆, or 葭; よし is an alternate Japanese reading for the same plant.",
+    "tags": ["plant", "grass", "reed"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%91%A6",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked ashi, yoshi, and i readings, common reed and Phragmites australis glosses, alternate spellings 芦, 蘆, and 葭, and 艹 + 韋 composition against the Japanese and translingual entries."
+  },
+  "萎": {
+    "name": "Wilt",
+    "meaning": "To wither, wilt, droop, weaken, or decline.",
+    "readings": {
+      "ja": ["なえる", "しぼむ", "しおれる", "イ"],
+      "romaji": ["naeru", "shibomu", "shioreru", "i"]
+    },
+    "parts": {
+      "ja": "艹 + 委",
+      "en": "Grass + 委 component"
+    },
+    "note": "Often appears in compounds such as 萎縮, withering or atrophy, and 萎靡, decline or decay.",
+    "tags": ["plant", "state", "verb"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%90%8E",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked naeru, shibomu, shioreru, and i readings, wither, wilt, droop, decline, and weaken glosses, 萎縮 and 萎靡 compound notes, and 艹 + 委 composition against the Japanese and translingual entries."
+  },
+  "茨": {
+    "name": "Briar",
+    "meaning": "Briar, bramble, thorny bush, or wild rose.",
+    "readings": {
+      "ja": ["いばら", "シ", "ジ"],
+      "romaji": ["ibara", "shi", "ji"]
+    },
+    "parts": {
+      "ja": "艹 + 次",
+      "en": "Grass + 次 component"
+    },
+    "note": "Also used figuratively for suffering, hardship, or distress.",
+    "tags": ["plant", "thorn", "rose"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8C%A8",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked ibara, shi, and ji readings, briar, bramble, thorny bush, wild rose, and figurative hardship glosses, and 艹 + 次 composition against the Japanese and translingual entries."
   }
 }
