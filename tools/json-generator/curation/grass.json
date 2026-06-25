@@ -478,5 +478,125 @@
     "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8A%B3",
     "sourceCheckedAt": "2026-06-25",
     "reviewNote": "Checked kanbashii and ho readings, fragrant, good reputation, and satisfactory glosses, and 艹 + 方 composition against the Japanese and translingual entries."
+  },
+  "著": {
+    "name": "Writing",
+    "meaning": "To write or publish; also remarkable, renowned, or conspicuous.",
+    "readings": {
+      "ja": ["チョ", "チャク", "ジャク", "あらわす", "いちじるしい"],
+      "romaji": ["cho", "chaku", "jaku", "arawasu", "ichijirushii"]
+    },
+    "parts": {
+      "ja": "艹 + 者",
+      "en": "Grass + 者 component"
+    },
+    "note": "",
+    "tags": ["writing", "publication", "quality"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%91%97",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked cho, chaku, jaku, arawasu, and ichijirushii readings, write, publish, remarkable, renowned, and conspicuous glosses, and 艹 + 者 composition against the Japanese and translingual entries."
+  },
+  "萌": {
+    "name": "Sprout",
+    "meaning": "Bud or sprout; also a sign of something beginning to emerge.",
+    "readings": {
+      "ja": ["もえる", "めばえ", "きざし", "モウ", "ミョウ", "ホウ", "ボウ"],
+      "romaji": ["moeru", "mebae", "kizashi", "mo", "myo", "ho", "bo"]
+    },
+    "parts": {
+      "ja": "艹 + 明",
+      "en": "Grass + 明 component"
+    },
+    "note": "Also familiar in modern Japanese through 萌え, but the core kanji gloss is budding or sprouting.",
+    "tags": ["plant", "sprout", "growth"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%90%8C",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked moeru, mebae, kizashi, mo, myo, ho, and bo readings, bud, sprout, sign, and moe usage notes, and 艹 + 明 composition against the Japanese and translingual entries."
+  },
+  "蓮": {
+    "name": "Lotus",
+    "meaning": "Lotus plant or flower, especially Nelumbo nucifera.",
+    "readings": {
+      "ja": ["はす", "はちす", "レン"],
+      "romaji": ["hasu", "hachisu", "ren"]
+    },
+    "parts": {
+      "ja": "艹 + 連",
+      "en": "Grass + 連 component"
+    },
+    "note": "",
+    "tags": ["plant", "flower", "lotus"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%93%AE",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked hasu, hachisu, and ren readings, lotus plant and flower glosses, Nelumbo nucifera reference, and 艹 + 連 composition against the Japanese and translingual entries."
+  },
+  "芝": {
+    "name": "Turf",
+    "meaning": "Turf, lawn, or grass.",
+    "readings": {
+      "ja": ["しば", "シ"],
+      "romaji": ["shiba", "shi"]
+    },
+    "parts": {
+      "ja": "艹 + 之",
+      "en": "Grass + 之 component"
+    },
+    "note": "In Chinese, 芝 is also associated with lingzhi or Ganoderma; the Japanese everyday sense is turf or lawn grass.",
+    "tags": ["plant", "grass", "lawn"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8A%9D",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked shiba and shi readings, turf, lawn, grass, and Chinese lingzhi notes, and 艹 + 之 composition against the Japanese and translingual entries."
+  },
+  "萩": {
+    "name": "Bush Clover",
+    "meaning": "Bush clover, especially plants of the genus Lespedeza.",
+    "readings": {
+      "ja": ["はぎ", "シュ", "シュウ"],
+      "romaji": ["hagi", "shu", "shu"]
+    },
+    "parts": {
+      "ja": "艹 + 秋",
+      "en": "Grass + 秋 component"
+    },
+    "note": "Culturally important as one of the seven flowers of autumn and as a hanafuda suit.",
+    "tags": ["plant", "flower", "autumn", "hanafuda"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%90%A9",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked hagi, shu, and shu readings, bush clover and Lespedeza glosses, autumn seven flowers and hanafuda notes, and 艹 + 秋 composition against the Japanese and translingual entries."
+  },
+  "菖": {
+    "name": "Iris",
+    "meaning": "Iris, sweet flag, or calamus; mostly seen in compounds such as 菖蒲.",
+    "readings": {
+      "ja": ["ショウ"],
+      "romaji": ["sho"]
+    },
+    "parts": {
+      "ja": "艹 + 昌",
+      "en": "Grass + 昌 component"
+    },
+    "note": "",
+    "tags": ["plant", "flower", "iris"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8F%96",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked sho reading, iris, sweet flag, calamus, and 菖蒲 compound notes, and 艹 + 昌 composition against the Japanese and translingual entries."
   }
 }

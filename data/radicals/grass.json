@@ -36,14 +36,21 @@
     "performance",
     "greens",
     "sowing",
+    "lawn",
     "youth",
+    "iris",
     "core",
     "object",
     "sedge",
     "surname",
     "moss",
+    "writing",
+    "publication",
+    "autumn",
+    "hanafuda",
     "seedling",
-    "fragrance"
+    "fragrance",
+    "lotus"
   ],
   "items": [
     {
@@ -1165,11 +1172,17 @@
     },
     {
       "char": "芝",
-      "name": "",
-      "meaning": "",
+      "name": "Turf",
+      "meaning": "Turf, lawn, or grass.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "しば",
+          "シ"
+        ],
+        "romaji": [
+          "shiba",
+          "shi"
+        ]
       },
       "unicode": "U+829D",
       "jis": {
@@ -1177,12 +1190,16 @@
         "kuten": "28-39"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 之",
+        "en": "Grass + 之 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "In Chinese, 芝 is also associated with lingzhi or Ganoderma; the Japanese everyday sense is turf or lawn grass.",
+      "tags": [
+        "plant",
+        "grass",
+        "lawn"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "蕊",
@@ -1299,11 +1316,15 @@
     },
     {
       "char": "菖",
-      "name": "",
-      "meaning": "",
+      "name": "Iris",
+      "meaning": "Iris, sweet flag, or calamus; mostly seen in compounds such as 菖蒲.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "ショウ"
+        ],
+        "romaji": [
+          "sho"
+        ]
       },
       "unicode": "U+83D6",
       "jis": {
@@ -1311,12 +1332,16 @@
         "kuten": "30-52"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 昌",
+        "en": "Grass + 昌 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "plant",
+        "flower",
+        "iris"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "蒋",
@@ -1765,11 +1790,23 @@
     },
     {
       "char": "著",
-      "name": "",
-      "meaning": "",
+      "name": "Writing",
+      "meaning": "To write or publish; also remarkable, renowned, or conspicuous.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "チョ",
+          "チャク",
+          "ジャク",
+          "あらわす",
+          "いちじるしい"
+        ],
+        "romaji": [
+          "cho",
+          "chaku",
+          "jaku",
+          "arawasu",
+          "ichijirushii"
+        ]
       },
       "unicode": "U+8457",
       "jis": {
@@ -1777,12 +1814,16 @@
         "kuten": "35-88"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 者",
+        "en": "Grass + 者 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "writing",
+        "publication",
+        "quality"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "蔦",
@@ -2017,11 +2058,19 @@
     },
     {
       "char": "萩",
-      "name": "",
-      "meaning": "",
+      "name": "Bush Clover",
+      "meaning": "Bush clover, especially plants of the genus Lespedeza.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "はぎ",
+          "シュ",
+          "シュウ"
+        ],
+        "romaji": [
+          "hagi",
+          "shu",
+          "shu"
+        ]
       },
       "unicode": "U+8429",
       "jis": {
@@ -2029,12 +2078,17 @@
         "kuten": "39-75"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 秋",
+        "en": "Grass + 秋 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Culturally important as one of the seven flowers of autumn and as a hanafuda suit.",
+      "tags": [
+        "plant",
+        "flower",
+        "autumn",
+        "hanafuda"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "薄",
@@ -2394,11 +2448,27 @@
     },
     {
       "char": "萌",
-      "name": "",
-      "meaning": "",
+      "name": "Sprout",
+      "meaning": "Bud or sprout; also a sign of something beginning to emerge.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "もえる",
+          "めばえ",
+          "きざし",
+          "モウ",
+          "ミョウ",
+          "ホウ",
+          "ボウ"
+        ],
+        "romaji": [
+          "moeru",
+          "mebae",
+          "kizashi",
+          "mo",
+          "myo",
+          "ho",
+          "bo"
+        ]
       },
       "unicode": "U+840C",
       "jis": {
@@ -2406,12 +2476,16 @@
         "kuten": "43-08"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 明",
+        "en": "Grass + 明 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Also familiar in modern Japanese through 萌え, but the core kanji gloss is budding or sprouting.",
+      "tags": [
+        "plant",
+        "sprout",
+        "growth"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "蓬",
@@ -2730,11 +2804,19 @@
     },
     {
       "char": "蓮",
-      "name": "",
-      "meaning": "",
+      "name": "Lotus",
+      "meaning": "Lotus plant or flower, especially Nelumbo nucifera.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "はす",
+          "はちす",
+          "レン"
+        ],
+        "romaji": [
+          "hasu",
+          "hachisu",
+          "ren"
+        ]
       },
       "unicode": "U+84EE",
       "jis": {
@@ -2742,12 +2824,16 @@
         "kuten": "47-01"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 連",
+        "en": "Grass + 連 component"
       },
       "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "tags": [
+        "plant",
+        "flower",
+        "lotus"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "藁",
