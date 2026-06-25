@@ -127,7 +127,7 @@ JSON output unchanged.
 Current coverage:
 
 - `fish`: 73 total, 73 reviewed, 0 draft, 0 unreviewed.
-- `grass`: 278 total, 30 reviewed, 0 draft, 248 unreviewed.
+- `grass`: 278 total, 36 reviewed, 0 draft, 242 unreviewed.
 - `tree`: 356 total, 0 reviewed, 0 draft, 356 unreviewed.
 - `thread`: 173 total, 0 reviewed, 0 draft, 173 unreviewed.
 
@@ -140,7 +140,7 @@ keeping internal output complete.
 Current public reviewed-only counts:
 
 - `fish`: 73 items.
-- `grass`: 30 items.
+- `grass`: 36 items.
 - `thread`: 0 items.
 - `tree`: 0 items.
 

@@ -8,16 +8,21 @@
     "grass",
     "plant",
     "nature",
+    "flower",
+    "crest",
     "color",
     "dye",
     "reed",
+    "state",
+    "verb",
+    "thorn",
+    "rose",
     "food",
     "vegetable",
     "tuber",
     "language",
     "country",
     "quality",
-    "flower",
     "basic",
     "behavior",
     "load",
@@ -28,6 +33,8 @@
     "growth",
     "mustard",
     "waste",
+    "vine",
+    "fiber",
     "thatch",
     "spring",
     "taste",
@@ -55,11 +62,19 @@
   "items": [
     {
       "char": "葵",
-      "name": "",
-      "meaning": "",
+      "name": "Mallow",
+      "meaning": "Mallow, hollyhock, or hibiscus; also used for several plant names.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "あおい",
+          "キ",
+          "ギ"
+        ],
+        "romaji": [
+          "aoi",
+          "ki",
+          "gi"
+        ]
       },
       "unicode": "U+8475",
       "jis": {
@@ -67,12 +82,16 @@
         "kuten": "16-10"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 癸",
+        "en": "Grass + 癸 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Also associated with the aoi mon crest and the Tokugawa shogunate symbol.",
+      "tags": [
+        "plant",
+        "flower",
+        "crest"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "茜",
@@ -109,11 +128,19 @@
     },
     {
       "char": "葦",
-      "name": "",
-      "meaning": "",
+      "name": "Common Reed",
+      "meaning": "Common reed, especially Phragmites australis.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "あし",
+          "よし",
+          "イ"
+        ],
+        "romaji": [
+          "ashi",
+          "yoshi",
+          "i"
+        ]
       },
       "unicode": "U+8466",
       "jis": {
@@ -121,12 +148,16 @@
         "kuten": "16-17"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 韋",
+        "en": "Grass + 韋 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Also written 芦, 蘆, or 葭; よし is an alternate Japanese reading for the same plant.",
+      "tags": [
+        "plant",
+        "grass",
+        "reed"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "芦",
@@ -164,11 +195,21 @@
     },
     {
       "char": "萎",
-      "name": "",
-      "meaning": "",
+      "name": "Wilt",
+      "meaning": "To wither, wilt, droop, weaken, or decline.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "なえる",
+          "しぼむ",
+          "しおれる",
+          "イ"
+        ],
+        "romaji": [
+          "naeru",
+          "shibomu",
+          "shioreru",
+          "i"
+        ]
       },
       "unicode": "U+840E",
       "jis": {
@@ -176,20 +217,32 @@
         "kuten": "16-64"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 委",
+        "en": "Grass + 委 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Often appears in compounds such as 萎縮, withering or atrophy, and 萎靡, decline or decay.",
+      "tags": [
+        "plant",
+        "state",
+        "verb"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "茨",
-      "name": "",
-      "meaning": "",
+      "name": "Briar",
+      "meaning": "Briar, bramble, thorny bush, or wild rose.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "いばら",
+          "シ",
+          "ジ"
+        ],
+        "romaji": [
+          "ibara",
+          "shi",
+          "ji"
+        ]
       },
       "unicode": "U+8328",
       "jis": {
@@ -197,12 +250,16 @@
         "kuten": "16-81"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 次",
+        "en": "Grass + 次 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Also used figuratively for suffering, hardship, or distress.",
+      "tags": [
+        "plant",
+        "thorn",
+        "rose"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "芋",
@@ -373,11 +430,19 @@
     },
     {
       "char": "荻",
-      "name": "",
-      "meaning": "",
+      "name": "Amur Silvergrass",
+      "meaning": "Amur silvergrass; also reed or cane.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "おぎ",
+          "テキ",
+          "ジャク"
+        ],
+        "romaji": [
+          "ogi",
+          "teki",
+          "jaku"
+        ]
       },
       "unicode": "U+837B",
       "jis": {
@@ -385,12 +450,16 @@
         "kuten": "18-14"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 狄",
+        "en": "Grass + 狄 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Not to be confused with 萩 (hagi, bush clover).",
+      "tags": [
+        "plant",
+        "grass",
+        "reed"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "花",
@@ -660,11 +729,23 @@
     },
     {
       "char": "葛",
-      "name": "",
-      "meaning": "",
+      "name": "Kudzu",
+      "meaning": "Kudzu or Japanese arrowroot; also creepers, wickerwork, kudzu starch, or cloth made from kudzu fiber.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "くず",
+          "かずら",
+          "つづら",
+          "カツ",
+          "カチ"
+        ],
+        "romaji": [
+          "kuzu",
+          "kazura",
+          "tsuzura",
+          "katsu",
+          "kachi"
+        ]
       },
       "unicode": "U+845B",
       "jis": {
@@ -672,12 +753,17 @@
         "kuten": "19-75"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 曷",
+        "en": "Grass + 曷 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The word kudzu is borrowed into English from Japanese.",
+      "tags": [
+        "plant",
+        "vine",
+        "food",
+        "fiber"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "蒲",
