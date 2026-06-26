@@ -838,5 +838,125 @@
     "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8B%85",
     "sourceCheckedAt": "2026-06-26",
     "reviewNote": "Checked karu, kari, gai, and ge readings, cut, reap, mow, sickle, and variant-of-刈 notes, and 艹 + 刈 composition against the Japanese and translingual entries."
+  },
+  "莞": {
+    "name": "Softstem Rush",
+    "meaning": "A long-stem watergrass, possibly softstem rush or shichito matgrass; also a mat woven from this grass.",
+    "readings": {
+      "ja": ["い", "むしろ", "わらう", "カン", "ゲン"],
+      "romaji": ["i", "mushiro", "warau", "kan", "gen"]
+    },
+    "parts": {
+      "ja": "艹 + 完",
+      "en": "Grass + 完 component"
+    },
+    "note": "Also appears in compounds such as 莞然 and 莞爾 for smiling or laughing.",
+    "tags": ["plant", "grass", "mat"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8E%9E",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked i, mushiro, warau, kan, and gen readings, long-stem watergrass, softstem rush, shichito matgrass, woven mat, smiling compound notes, and 艹 + 完 composition against the Japanese and translingual entries."
+  },
+  "蕎": {
+    "name": "Buckwheat",
+    "meaning": "Buckwheat, especially in compounds such as 蕎麦.",
+    "readings": {
+      "ja": ["そば", "キョウ", "ギョウ"],
+      "romaji": ["soba", "kyo", "gyo"]
+    },
+    "parts": {
+      "ja": "艹 + 喬",
+      "en": "Grass + 喬 component"
+    },
+    "note": "Commonly encountered in 蕎麦, the kanji spelling for soba or buckwheat.",
+    "tags": ["plant", "food", "grain"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%95%8E",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked soba, kyo, and gyo readings, buckwheat and 蕎麦 glosses, and 艹 + 喬 composition against the Japanese and translingual entries."
+  },
+  "荊": {
+    "name": "Chaste Tree",
+    "meaning": "Thorns, brambles, chaste tree, or whip; in Japanese also an alternate spelling of 茨.",
+    "readings": {
+      "ja": ["いばら", "むち", "ケイ", "キョウ"],
+      "romaji": ["ibara", "muchi", "kei", "kyo"]
+    },
+    "parts": {
+      "ja": "艹 + 刑",
+      "en": "Grass + 刑 component"
+    },
+    "note": "The Japanese noun 荊 is an alternate spelling of 茨.",
+    "tags": ["plant", "thorn", "whip"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8D%8A",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked ibara, muchi, kei, and kyo readings, thorn, bramble, chaste tree, whip, alternate spelling of 茨, and 艹 + 刑 composition against the Japanese and translingual entries."
+  },
+  "菰": {
+    "name": "Manchurian Wild Rice",
+    "meaning": "Manchurian wild rice, especially Zizania latifolia.",
+    "readings": {
+      "ja": ["こも", "まこも", "コ"],
+      "romaji": ["komo", "makomo", "ko"]
+    },
+    "parts": {
+      "ja": "艹 + 孤",
+      "en": "Grass + 孤 component"
+    },
+    "note": "In Chinese, 菰 can also be treated as a variant of 菇 for mushroom.",
+    "tags": ["plant", "grass", "rice"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8F%B0",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked komo, makomo, and ko readings, Manchurian wild rice and Zizania latifolia glosses, variant-of-菇 note, and 艹 + 孤 composition against the Japanese and translingual entries."
+  },
+  "蕉": {
+    "name": "Banana",
+    "meaning": "Banana or plantain; also abaca in older usage.",
+    "readings": {
+      "ja": ["きあさ", "こげる", "ショウ"],
+      "romaji": ["kiasa", "kogeru", "sho"]
+    },
+    "parts": {
+      "ja": "艹 + 焦",
+      "en": "Grass + 焦 component"
+    },
+    "note": "Appears in compounds such as 芭蕉 and 甘蕉.",
+    "tags": ["plant", "fruit", "banana"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%95%89",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked kiasa, kogeru, and sho readings, banana, plantain, abaca, 芭蕉, and 甘蕉 glosses, and 艹 + 焦 composition against the Japanese and translingual entries."
+  },
+  "薪": {
+    "name": "Firewood",
+    "meaning": "Firewood, kindling, fuelwood, or brushwood; also salary or wage in Chinese compounds.",
+    "readings": {
+      "ja": ["たきぎ", "まき", "シン"],
+      "romaji": ["takigi", "maki", "shin"]
+    },
+    "parts": {
+      "ja": "艹 + 新",
+      "en": "Grass + 新 component"
+    },
+    "note": "薪 is also used in compounds for salary, such as 月薪 and 年薪.",
+    "tags": ["wood", "fuel", "work"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%96%AA",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked takigi, maki, and shin readings, firewood, kindling, fuelwood, brushwood, salary and wage glosses, and 艹 + 新 composition against the Japanese and translingual entries."
   }
 }
