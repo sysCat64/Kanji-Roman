@@ -45,18 +45,26 @@
     "thatch",
     "cutting",
     "tool",
+    "mat",
+    "grain",
     "spring",
     "taste",
     "feeling",
+    "whip",
     "art",
     "performance",
+    "rice",
     "greens",
     "sowing",
     "lawn",
     "youth",
     "iris",
+    "banana",
     "core",
     "object",
+    "wood",
+    "fuel",
+    "work",
     "sedge",
     "surname",
     "moss",
@@ -950,11 +958,23 @@
     },
     {
       "char": "莞",
-      "name": "",
-      "meaning": "",
+      "name": "Softstem Rush",
+      "meaning": "A long-stem watergrass, possibly softstem rush or shichito matgrass; also a mat woven from this grass.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "い",
+          "むしろ",
+          "わらう",
+          "カン",
+          "ゲン"
+        ],
+        "romaji": [
+          "i",
+          "mushiro",
+          "warau",
+          "kan",
+          "gen"
+        ]
       },
       "unicode": "U+839E",
       "jis": {
@@ -962,12 +982,16 @@
         "kuten": "20-48"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 完",
+        "en": "Grass + 完 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Also appears in compounds such as 莞然 and 莞爾 for smiling or laughing.",
+      "tags": [
+        "plant",
+        "grass",
+        "mat"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "菊",
@@ -992,11 +1016,19 @@
     },
     {
       "char": "蕎",
-      "name": "",
-      "meaning": "",
+      "name": "Buckwheat",
+      "meaning": "Buckwheat, especially in compounds such as 蕎麦.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "そば",
+          "キョウ",
+          "ギョウ"
+        ],
+        "romaji": [
+          "soba",
+          "kyo",
+          "gyo"
+        ]
       },
       "unicode": "U+854E",
       "jis": {
@@ -1004,12 +1036,16 @@
         "kuten": "22-30"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 喬",
+        "en": "Grass + 喬 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Commonly encountered in 蕎麦, the kanji spelling for soba or buckwheat.",
+      "tags": [
+        "plant",
+        "food",
+        "grain"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "芹",
@@ -1141,11 +1177,21 @@
     },
     {
       "char": "荊",
-      "name": "",
-      "meaning": "",
+      "name": "Chaste Tree",
+      "meaning": "Thorns, brambles, chaste tree, or whip; in Japanese also an alternate spelling of 茨.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "いばら",
+          "むち",
+          "ケイ",
+          "キョウ"
+        ],
+        "romaji": [
+          "ibara",
+          "muchi",
+          "kei",
+          "kyo"
+        ]
       },
       "unicode": "U+834A",
       "jis": {
@@ -1153,12 +1199,16 @@
         "kuten": "23-53"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 刑",
+        "en": "Grass + 刑 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The Japanese noun 荊 is an alternate spelling of 茨.",
+      "tags": [
+        "plant",
+        "thorn",
+        "whip"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "芸",
@@ -1193,11 +1243,19 @@
     },
     {
       "char": "菰",
-      "name": "",
-      "meaning": "",
+      "name": "Manchurian Wild Rice",
+      "meaning": "Manchurian wild rice, especially Zizania latifolia.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "こも",
+          "まこも",
+          "コ"
+        ],
+        "romaji": [
+          "komo",
+          "makomo",
+          "ko"
+        ]
       },
       "unicode": "U+83F0",
       "jis": {
@@ -1205,12 +1263,16 @@
         "kuten": "24-54"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 孤",
+        "en": "Grass + 孤 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "In Chinese, 菰 can also be treated as a variant of 菇 for mushroom.",
+      "tags": [
+        "plant",
+        "grass",
+        "rice"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "荒",
@@ -1537,11 +1599,19 @@
     },
     {
       "char": "蕉",
-      "name": "",
-      "meaning": "",
+      "name": "Banana",
+      "meaning": "Banana or plantain; also abaca in older usage.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "きあさ",
+          "こげる",
+          "ショウ"
+        ],
+        "romaji": [
+          "kiasa",
+          "kogeru",
+          "sho"
+        ]
       },
       "unicode": "U+8549",
       "jis": {
@@ -1549,12 +1619,16 @@
         "kuten": "30-54"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 焦",
+        "en": "Grass + 焦 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Appears in compounds such as 芭蕉 and 甘蕉.",
+      "tags": [
+        "plant",
+        "fruit",
+        "banana"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "蒸",
@@ -1611,11 +1685,19 @@
     },
     {
       "char": "薪",
-      "name": "",
-      "meaning": "",
+      "name": "Firewood",
+      "meaning": "Firewood, kindling, fuelwood, or brushwood; also salary or wage in Chinese compounds.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "たきぎ",
+          "まき",
+          "シン"
+        ],
+        "romaji": [
+          "takigi",
+          "maki",
+          "shin"
+        ]
       },
       "unicode": "U+85AA",
       "jis": {
@@ -1623,12 +1705,16 @@
         "kuten": "31-37"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 新",
+        "en": "Grass + 新 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "薪 is also used in compounds for salary, such as 月薪 and 年薪.",
+      "tags": [
+        "wood",
+        "fuel",
+        "work"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "菅",
