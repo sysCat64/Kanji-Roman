@@ -68,13 +68,17 @@
     "sedge",
     "surname",
     "moss",
+    "fungus",
+    "mushroom",
     "writing",
     "publication",
+    "rush",
     "autumn",
     "hanafuda",
     "seedling",
+    "lotus",
     "fragrance",
-    "lotus"
+    "jasmine"
   ],
   "items": [
     {
@@ -1963,11 +1967,29 @@
     },
     {
       "char": "茸",
-      "name": "",
-      "meaning": "",
+      "name": "Mushroom",
+      "meaning": "Mushroom; also soft downy vegetation, buds, fine hair, or young stag antler in Chinese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "きのこ",
+          "たけ",
+          "くさびら",
+          "くさひら",
+          "なば",
+          "しげる",
+          "ジョウ",
+          "ニョウ"
+        ],
+        "romaji": [
+          "kinoko",
+          "take",
+          "kusabira",
+          "kusahira",
+          "naba",
+          "shigeru",
+          "jo",
+          "nyo"
+        ]
       },
       "unicode": "U+8338",
       "jis": {
@@ -1975,12 +1997,16 @@
         "kuten": "34-91"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 耳",
+        "en": "Grass + 耳 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "In Japanese, 茸 is used for mushrooms and appears as たけ in many mushroom compounds.",
+      "tags": [
+        "fungus",
+        "mushroom",
+        "sprout"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "蓄",
@@ -2210,11 +2236,17 @@
     },
     {
       "char": "苫",
-      "name": "",
-      "meaning": "",
+      "name": "Rush Mat",
+      "meaning": "A woven rush or straw mat; also thatch.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "とま",
+          "セン"
+        ],
+        "romaji": [
+          "toma",
+          "sen"
+        ]
       },
       "unicode": "U+82EB",
       "jis": {
@@ -2222,12 +2254,16 @@
         "kuten": "38-49"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 占",
+        "en": "Grass + 占 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The reading とま appears in classical poetry and place names such as 苫小牧.",
+      "tags": [
+        "mat",
+        "thatch",
+        "rush"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "薙",
@@ -2294,11 +2330,21 @@
     },
     {
       "char": "芭",
-      "name": "",
-      "meaning": "",
+      "name": "Banana Plant",
+      "meaning": "Banana or basho plant; also a fragrant grass in Chinese.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "はな",
+          "バ",
+          "ハ",
+          "ヘ"
+        ],
+        "romaji": [
+          "hana",
+          "ba",
+          "ha",
+          "he"
+        ]
       },
       "unicode": "U+82AD",
       "jis": {
@@ -2306,12 +2352,16 @@
         "kuten": "39-46"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 巴",
+        "en": "Grass + 巴 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Appears in 芭蕉, the compound for basho or Japanese banana.",
+      "tags": [
+        "plant",
+        "banana",
+        "grass"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "萩",
@@ -2507,11 +2557,19 @@
     },
     {
       "char": "芙",
-      "name": "",
-      "meaning": "",
+      "name": "Lotus",
+      "meaning": "Lotus; used in compounds such as 芙蓉 and 芙蕖.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "はす",
+          "フ",
+          "ブ"
+        ],
+        "romaji": [
+          "hasu",
+          "fu",
+          "bu"
+        ]
       },
       "unicode": "U+8299",
       "jis": {
@@ -2519,12 +2577,16 @@
         "kuten": "41-71"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 夫",
+        "en": "Grass + 夫 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "In Japanese, 芙 can also refer to Mount Fuji.",
+      "tags": [
+        "plant",
+        "flower",
+        "lotus"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "葡",
@@ -2914,11 +2976,21 @@
     },
     {
       "char": "蓉",
-      "name": "",
-      "meaning": "",
+      "name": "Lotus",
+      "meaning": "Lotus; used in 芙蓉 and in food-paste compounds such as 蓮蓉.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "よ",
+          "はす",
+          "ヨウ",
+          "ユウ"
+        ],
+        "romaji": [
+          "yo",
+          "hasu",
+          "yo",
+          "yu"
+        ]
       },
       "unicode": "U+84C9",
       "jis": {
@@ -2926,12 +2998,16 @@
         "kuten": "45-54"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 容",
+        "en": "Grass + 容 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "In Chinese compounds, 蓉 can refer to minced or ground paste used for fillings or sauces.",
+      "tags": [
+        "plant",
+        "lotus",
+        "food"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "莱",
@@ -3661,11 +3737,21 @@
     },
     {
       "char": "茉",
-      "name": "",
-      "meaning": "",
+      "name": "White Jasmine",
+      "meaning": "White jasmine, especially in the compound 茉莉.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "み",
+          "まち",
+          "まつ",
+          "バツ"
+        ],
+        "romaji": [
+          "mi",
+          "machi",
+          "matsu",
+          "batsu"
+        ]
       },
       "unicode": "U+8309",
       "jis": {
@@ -3673,12 +3759,16 @@
         "kuten": "71-93"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 末",
+        "en": "Grass + 末 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "茉 is most commonly encountered as the first character of 茉莉, jasmine.",
+      "tags": [
+        "plant",
+        "flower",
+        "jasmine"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "苙",
