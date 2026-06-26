@@ -718,5 +718,125 @@
     "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8C%A8",
     "sourceCheckedAt": "2026-06-26",
     "reviewNote": "Checked ibara, shi, and ji readings, briar, bramble, thorny bush, wild rose, and figurative hardship glosses, and 艹 + 次 composition against the Japanese and translingual entries."
+  },
+  "蔭": {
+    "name": "Shade",
+    "meaning": "Shade, shelter, or protection.",
+    "readings": {
+      "ja": ["かげ", "イン", "オン"],
+      "romaji": ["kage", "in", "on"]
+    },
+    "parts": {
+      "ja": "艹 + 陰",
+      "en": "Grass + 陰 component"
+    },
+    "note": "Closely related to 陰, another character for shade or shadow.",
+    "tags": ["shade", "shelter", "protection"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%94%AD",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked kage, in, and on readings, shade, shelter, and protection glosses, relationship to 陰, and 艹 + 陰 composition against the Japanese and translingual entries."
+  },
+  "蔚": {
+    "name": "Artemisia",
+    "meaning": "Artemisia japonica; also lush or luxuriant vegetation in literary usage.",
+    "readings": {
+      "ja": ["おとこよもぎ", "ウツ", "イ"],
+      "romaji": ["otokoyomogi", "utsu", "i"]
+    },
+    "parts": {
+      "ja": "艹 + 尉",
+      "en": "Grass + 尉 component"
+    },
+    "note": "The Japanese kun reading points to a mugwort-like Artemisia species; Chinese senses also include lush or magnificent growth.",
+    "tags": ["plant", "herb", "literary"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%94%9A",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked otokoyomogi, utsu, and i readings, Artemisia japonica, lush and magnificent glosses, and 艹 + 尉 composition against the Japanese and translingual entries."
+  },
+  "荏": {
+    "name": "Perilla",
+    "meaning": "Perilla, especially Perilla frutescens; also soft or weak in older Chinese senses.",
+    "readings": {
+      "ja": ["え", "ジン", "ニン"],
+      "romaji": ["e", "jin", "nin"]
+    },
+    "parts": {
+      "ja": "艹 + 任",
+      "en": "Grass + 任 component"
+    },
+    "note": "Associated with perilla oil in the etymology discussion.",
+    "tags": ["plant", "herb", "oil"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8D%8F",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked e, jin, and nin readings, perilla and Perilla frutescens glosses, soft and weak senses, perilla oil note, and 艹 + 任 composition against the Japanese and translingual entries."
+  },
+  "蒲": {
+    "name": "Cattail",
+    "meaning": "Cattail, bulrush, or reed; also short for calamus in compounds such as 菖蒲.",
+    "readings": {
+      "ja": ["がま", "かま", "かば", "ブ", "ホ"],
+      "romaji": ["gama", "kama", "kaba", "bu", "ho"]
+    },
+    "parts": {
+      "ja": "艹 + 浦",
+      "en": "Grass + 浦 component"
+    },
+    "note": "The plant name is often written in katakana as ガマ in biological contexts.",
+    "tags": ["plant", "reed", "cattail"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%92%B2",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked gama, kama, kaba, bu, and ho readings, cattail, bulrush, reed, Typha latifolia, and 菖蒲 compound glosses, katakana usage note, and 艹 + 浦 composition against the Japanese and translingual entries."
+  },
+  "萱": {
+    "name": "Daylily",
+    "meaning": "Daylily, especially Hemerocallis flava; in Japanese also thatching grass as an alternate spelling of 茅.",
+    "readings": {
+      "ja": ["かや", "ケン"],
+      "romaji": ["kaya", "ken"]
+    },
+    "parts": {
+      "ja": "艹 + 宣",
+      "en": "Grass + 宣 component"
+    },
+    "note": "Also appears in personal names; 萱草 is read kanzo in Japanese compounds.",
+    "tags": ["plant", "flower", "grass"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%90%B1",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked kaya and ken readings, daylily and Hemerocallis flava glosses, alternate spelling of 茅, name usage note, 萱草 compound note, and 艹 + 宣 component against the Japanese and translingual entries."
+  },
+  "苅": {
+    "name": "Mow",
+    "meaning": "To cut, reap, or mow; also a sickle.",
+    "readings": {
+      "ja": ["かる", "かり", "ガイ", "ゲ"],
+      "romaji": ["karu", "kari", "gai", "ge"]
+    },
+    "parts": {
+      "ja": "艹 + 刈",
+      "en": "Grass + 刈 component"
+    },
+    "note": "A variant form of 刈.",
+    "tags": ["plant", "cutting", "tool"],
+    "curationStatus": "reviewed",
+    "needsReview": false,
+    "sourceLabel": "English Wiktionary",
+    "sourceUrl": "https://en.wiktionary.org/wiki/%E8%8B%85",
+    "sourceCheckedAt": "2026-06-26",
+    "reviewNote": "Checked karu, kari, gai, and ge readings, cut, reap, mow, sickle, and variant-of-刈 notes, and 艹 + 刈 composition against the Japanese and translingual entries."
   }
 }
