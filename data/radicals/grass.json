@@ -20,6 +20,12 @@
     "food",
     "vegetable",
     "tuber",
+    "shade",
+    "shelter",
+    "protection",
+    "herb",
+    "literary",
+    "oil",
     "language",
     "country",
     "quality",
@@ -35,7 +41,10 @@
     "waste",
     "vine",
     "fiber",
+    "cattail",
     "thatch",
+    "cutting",
+    "tool",
     "spring",
     "taste",
     "feeling",
@@ -294,11 +303,19 @@
     },
     {
       "char": "蔭",
-      "name": "",
-      "meaning": "",
+      "name": "Shade",
+      "meaning": "Shade, shelter, or protection.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "かげ",
+          "イン",
+          "オン"
+        ],
+        "romaji": [
+          "kage",
+          "in",
+          "on"
+        ]
       },
       "unicode": "U+852D",
       "jis": {
@@ -306,20 +323,32 @@
         "kuten": "16-94"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 陰",
+        "en": "Grass + 陰 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Closely related to 陰, another character for shade or shadow.",
+      "tags": [
+        "shade",
+        "shelter",
+        "protection"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "蔚",
-      "name": "",
-      "meaning": "",
+      "name": "Artemisia",
+      "meaning": "Artemisia japonica; also lush or luxuriant vegetation in literary usage.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "おとこよもぎ",
+          "ウツ",
+          "イ"
+        ],
+        "romaji": [
+          "otokoyomogi",
+          "utsu",
+          "i"
+        ]
       },
       "unicode": "U+851A",
       "jis": {
@@ -327,20 +356,32 @@
         "kuten": "17-22"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 尉",
+        "en": "Grass + 尉 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The Japanese kun reading points to a mugwort-like Artemisia species; Chinese senses also include lush or magnificent growth.",
+      "tags": [
+        "plant",
+        "herb",
+        "literary"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "荏",
-      "name": "",
-      "meaning": "",
+      "name": "Perilla",
+      "meaning": "Perilla, especially Perilla frutescens; also soft or weak in older Chinese senses.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "え",
+          "ジン",
+          "ニン"
+        ],
+        "romaji": [
+          "e",
+          "jin",
+          "nin"
+        ]
       },
       "unicode": "U+834F",
       "jis": {
@@ -348,12 +389,16 @@
         "kuten": "17-33"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 任",
+        "en": "Grass + 任 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Associated with perilla oil in the etymology discussion.",
+      "tags": [
+        "plant",
+        "herb",
+        "oil"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "英",
@@ -767,11 +812,23 @@
     },
     {
       "char": "蒲",
-      "name": "",
-      "meaning": "",
+      "name": "Cattail",
+      "meaning": "Cattail, bulrush, or reed; also short for calamus in compounds such as 菖蒲.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "がま",
+          "かま",
+          "かば",
+          "ブ",
+          "ホ"
+        ],
+        "romaji": [
+          "gama",
+          "kama",
+          "kaba",
+          "bu",
+          "ho"
+        ]
       },
       "unicode": "U+84B2",
       "jis": {
@@ -779,12 +836,16 @@
         "kuten": "19-87"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 浦",
+        "en": "Grass + 浦 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "The plant name is often written in katakana as ガマ in biological contexts.",
+      "tags": [
+        "plant",
+        "reed",
+        "cattail"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "茅",
@@ -823,11 +884,17 @@
     },
     {
       "char": "萱",
-      "name": "",
-      "meaning": "",
+      "name": "Daylily",
+      "meaning": "Daylily, especially Hemerocallis flava; in Japanese also thatching grass as an alternate spelling of 茅.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "かや",
+          "ケン"
+        ],
+        "romaji": [
+          "kaya",
+          "ken"
+        ]
       },
       "unicode": "U+8431",
       "jis": {
@@ -835,20 +902,34 @@
         "kuten": "19-94"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 宣",
+        "en": "Grass + 宣 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "Also appears in personal names; 萱草 is read kanzo in Japanese compounds.",
+      "tags": [
+        "plant",
+        "flower",
+        "grass"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "苅",
-      "name": "",
-      "meaning": "",
+      "name": "Mow",
+      "meaning": "To cut, reap, or mow; also a sickle.",
       "readings": {
-        "ja": [],
-        "romaji": []
+        "ja": [
+          "かる",
+          "かり",
+          "ガイ",
+          "ゲ"
+        ],
+        "romaji": [
+          "karu",
+          "kari",
+          "gai",
+          "ge"
+        ]
       },
       "unicode": "U+82C5",
       "jis": {
@@ -856,12 +937,16 @@
         "kuten": "20-03"
       },
       "parts": {
-        "ja": "",
-        "en": ""
+        "ja": "艹 + 刈",
+        "en": "Grass + 刈 component"
       },
-      "note": "",
-      "tags": [],
-      "curationStatus": "unreviewed"
+      "note": "A variant form of 刈.",
+      "tags": [
+        "plant",
+        "cutting",
+        "tool"
+      ],
+      "curationStatus": "reviewed"
     },
     {
       "char": "莞",
